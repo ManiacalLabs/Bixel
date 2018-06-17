@@ -23,6 +23,8 @@
 #define BTN_ROW_14 37
 #define BTN_ROW_15 38
 
+#define BZR_PIN 30
+
 
 #define ROW_COUNT 16
 
@@ -129,6 +131,8 @@ void setup() {
     pinMode(BTN_ROW_14, INPUT_PULLUP);
     pinMode(BTN_ROW_15, INPUT_PULLUP);
 
+    pinMode(BZR_PIN, OUTPUT);
+
     if(!btn_timer.begin(check_btns, 100)) {
         Serial.println("Failed timer init!");
     }
@@ -141,8 +145,10 @@ void loop() {
         if(btns[i][j] > 0){
           Serial.print("ROW: ");Serial.print(i);
           Serial.print(" COL: ");Serial.println(j);
+          tone(BZR_PIN, 100 + (30*i + 10*j));
         }
       }
     }
-    delay(250);
+    delay(50);
+    noTone(BZR_PIN);
 }
