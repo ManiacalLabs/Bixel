@@ -103,12 +103,7 @@ void check_btns(){
     btns[15][col] = !digitalRead(BTN_ROW_15);  //(╯°□°)╯︵ ┻━┻
   
     col++;
-    if(col >= 16){
-      col = 0;
-      endTime = micros();
-      Serial.println(endTime - startTime);
-      startTime = micros();
-    }
+    if(col >= 16){ col = 0;}
     
 }
 
@@ -144,8 +139,8 @@ void loop() {
     for(int i = 0; i < ROW_COUNT; i++){
       for(int j = 0; j < 16; j++){
         if(btns[i][j] > 0){
-          //Serial.print("ROW: ");Serial.print(i);
-          //Serial.print(" COL: ");Serial.println(j);
+          Serial.print("ROW: ");Serial.print(i);
+          Serial.print(" COL: ");Serial.println(j);
         }
       }
     }
