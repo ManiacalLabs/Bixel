@@ -16,12 +16,12 @@
 #define BTN_ROW_7 21
 #define BTN_ROW_8 22
 #define BTN_ROW_9 23
-#define BTN_ROW_10 33
-#define BTN_ROW_11 34
-#define BTN_ROW_12 35
-#define BTN_ROW_13 36
-#define BTN_ROW_14 37
-#define BTN_ROW_15 38
+#define BTN_ROW_10 24
+#define BTN_ROW_11 25
+#define BTN_ROW_12 26
+#define BTN_ROW_13 27
+#define BTN_ROW_14 28
+#define BTN_ROW_15 29
 
 #define BZR_PIN 30
 
@@ -86,7 +86,7 @@ void check_btns(){
     // set_col(col);
     sr.setAllHigh();
     sr.set(col, LOW);
-    
+
     btns[0][col] = !digitalRead(BTN_ROW_0);
     btns[1][col] = !digitalRead(BTN_ROW_1);
     btns[2][col] = !digitalRead(BTN_ROW_2);
@@ -103,10 +103,10 @@ void check_btns(){
     btns[13][col] = !digitalRead(BTN_ROW_13);
     btns[14][col] = !digitalRead(BTN_ROW_14);
     btns[15][col] = !digitalRead(BTN_ROW_15);  //(╯°□°)╯︵ ┻━┻
-  
+
     col++;
     if(col >= 16){ col = 0;}
-    
+
 }
 
 void setup() {
