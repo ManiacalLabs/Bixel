@@ -37,7 +37,7 @@ volatile uint16_t btns[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 #define COLOR_ORDER BGR
 #define NUM_LEDS    64 * 4
 
-#define BRIGHTNESS  32
+#define BRIGHTNESS  255
 
 #define LED_WIDTH   16
 #define LED_HEIGHT  16

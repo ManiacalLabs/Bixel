@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 82.924999 82.924999 145.075001 145.075001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 1)
     (tracks 76)
     (zones 0)
     (modules 14)
@@ -641,9 +641,6 @@
     (pad "" thru_hole rect (at -7.5 7.6 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 83 83) (end 145 83) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 83 146) (end 83 83) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 145 146) (end 145 83) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 83 146) (end 145 146) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 99.18 88.6) (end 104.85 88.6) (width 0.25) (layer B.Cu) (net 1))

@@ -47,45 +47,45 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bixel_down B?
+L bixel_down B1
 U 1 1 5B36BF26
 P 2600 3400
-F 0 "B?" V 2850 3200 60  0000 C CNN
+F 0 "B1" V 2850 3200 60  0000 C CNN
 F 1 "bixel_down" V 2350 3200 39  0000 C CNN
-F 2 "" H 2600 3400 60  0001 C CNN
+F 2 "custom:bixel" H 2600 3400 60  0001 C CNN
 F 3 "" H 2600 3400 60  0001 C CNN
 	1    2600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L bixel_up B?
+L bixel_up B4
 U 1 1 5B36BF6D
 P 3500 3400
-F 0 "B?" V 3750 3200 60  0000 C CNN
+F 0 "B4" V 3750 3200 60  0000 C CNN
 F 1 "bixel_up" V 3250 3250 39  0000 C CNN
-F 2 "" H 3500 3400 60  0001 C CNN
+F 2 "custom:bixel" H 3500 3400 60  0001 C CNN
 F 3 "" H 3500 3400 60  0001 C CNN
 	1    3500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L bixel_down B?
+L bixel_down B2
 U 1 1 5B36BFAC
 P 2600 4450
-F 0 "B?" V 2850 4250 60  0000 C CNN
+F 0 "B2" V 2850 4250 60  0000 C CNN
 F 1 "bixel_down" V 2350 4250 39  0000 C CNN
-F 2 "" H 2600 4450 60  0001 C CNN
+F 2 "custom:bixel" H 2600 4450 60  0001 C CNN
 F 3 "" H 2600 4450 60  0001 C CNN
 	1    2600 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L bixel_up B?
+L bixel_up B3
 U 1 1 5B36BFD9
 P 3500 4450
-F 0 "B?" V 3750 4250 60  0000 C CNN
+F 0 "B3" V 3750 4250 60  0000 C CNN
 F 1 "bixel_up" V 3250 4300 39  0000 C CNN
-F 2 "" H 3500 4450 60  0001 C CNN
+F 2 "custom:bixel" H 3500 4450 60  0001 C CNN
 F 3 "" H 3500 4450 60  0001 C CNN
 	1    3500 4450
 	1    0    0    -1  
@@ -149,12 +149,12 @@ NoConn ~ 3450 2900
 NoConn ~ 3550 2900
 NoConn ~ 3650 2900
 $Comp
-L Conn_01x08 J?
+L Conn_01x08 J1
 U 1 1 5B36C3AB
 P 2350 2500
-F 0 "J?" H 2350 2900 50  0000 C CNN
+F 0 "J1" H 2350 2900 50  0000 C CNN
 F 1 "Conn_01x08" H 2350 2000 50  0000 C CNN
-F 2 "" H 2350 2500 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2350 2500 50  0001 C CNN
 F 3 "" H 2350 2500 50  0001 C CNN
 	1    2350 2500
 	0    -1   -1   0   

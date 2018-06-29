@@ -1,9 +1,9 @@
-(module bixel (layer F.Cu) (tedit 5B35AC3D)
+(module bixel (layer F.Cu) (tedit 5B36C38B)
   (tags bixel)
-  (fp_text reference REF** (at 0 -5) (layer F.SilkS)
+  (fp_text reference B4 (at 0 -5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value BixelMod (at 0 5.25) (layer F.Fab) hide
+  (fp_text value bixel_up (at 0 5.25) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 10.5 -3.25) (end 13 -3.25) (layer F.Cu) (width 0.3))
@@ -47,7 +47,7 @@
   (fp_line (start 6 -8.5) (end 6 8.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 6 8.5) (end -6 8.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -6 8.6) (end -6 0.1) (layer F.SilkS) (width 0.15))
-  (pad 10 smd circle (at 13 -3.25) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 10 thru_hole circle (at 13 -3.25) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 10.5 -3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 10.5 3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -10.5 3.25) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
