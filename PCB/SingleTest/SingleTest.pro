@@ -1,4 +1,4 @@
-update=6/29/2018 7:03:46 PM
+update=7/11/2018 5:11:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=C:/dev/Bixel/PCB/lib/bixel
+LibName34=C:/Users/cavep/Documents/MLGITHUB/Bixel/PCB/lib/bixel
+LibName35=C:/Users/cavep/Documents/MLGITHUB/Bixel/PCB/lib/bixel_down
+LibName36=C:/Users/cavep/Documents/MLGITHUB/Bixel/PCB/lib/bixel_up

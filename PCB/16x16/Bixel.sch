@@ -1,0 +1,2930 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bixel
+LIBS:Bixel-cache
+EELAYER 25 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L bixel_down B1
+U 1 1 5B46753C
+P 7950 2950
+F 0 "B1" V 8200 2750 60  0000 C CNN
+F 1 "bixel_down" V 7700 2750 39  0000 C CNN
+F 2 "custom:bixel" H 7950 2950 60  0001 C CNN
+F 3 "" H 7950 2950 60  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B2
+U 1 1 5B4675C4
+P 7950 4100
+F 0 "B2" V 8200 3900 60  0000 C CNN
+F 1 "bixel_down" V 7700 3900 39  0000 C CNN
+F 2 "custom:bixel" H 7950 4100 60  0001 C CNN
+F 3 "" H 7950 4100 60  0001 C CNN
+	1    7950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B3
+U 1 1 5B467876
+P 7950 5250
+F 0 "B3" V 8200 5050 60  0000 C CNN
+F 1 "bixel_down" V 7700 5050 39  0000 C CNN
+F 2 "custom:bixel" H 7950 5250 60  0001 C CNN
+F 3 "" H 7950 5250 60  0001 C CNN
+	1    7950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B4
+U 1 1 5B46787C
+P 7950 6400
+F 0 "B4" V 8200 6200 60  0000 C CNN
+F 1 "bixel_down" V 7700 6200 39  0000 C CNN
+F 2 "custom:bixel" H 7950 6400 60  0001 C CNN
+F 3 "" H 7950 6400 60  0001 C CNN
+	1    7950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B5
+U 1 1 5B467B12
+P 7950 7550
+F 0 "B5" V 8200 7350 60  0000 C CNN
+F 1 "bixel_down" V 7700 7350 39  0000 C CNN
+F 2 "custom:bixel" H 7950 7550 60  0001 C CNN
+F 3 "" H 7950 7550 60  0001 C CNN
+	1    7950 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B6
+U 1 1 5B467B18
+P 7950 8700
+F 0 "B6" V 8200 8500 60  0000 C CNN
+F 1 "bixel_down" V 7700 8500 39  0000 C CNN
+F 2 "custom:bixel" H 7950 8700 60  0001 C CNN
+F 3 "" H 7950 8700 60  0001 C CNN
+	1    7950 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B7
+U 1 1 5B467B1E
+P 7950 9850
+F 0 "B7" V 8200 9650 60  0000 C CNN
+F 1 "bixel_down" V 7700 9650 39  0000 C CNN
+F 2 "custom:bixel" H 7950 9850 60  0001 C CNN
+F 3 "" H 7950 9850 60  0001 C CNN
+	1    7950 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B8
+U 1 1 5B467B24
+P 7950 11000
+F 0 "B8" V 8200 10800 60  0000 C CNN
+F 1 "bixel_down" V 7700 10800 39  0000 C CNN
+F 2 "custom:bixel" H 7950 11000 60  0001 C CNN
+F 3 "" H 7950 11000 60  0001 C CNN
+	1    7950 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B9
+U 1 1 5B467F2A
+P 7950 12150
+F 0 "B9" V 8200 11950 60  0000 C CNN
+F 1 "bixel_down" V 7700 11950 39  0000 C CNN
+F 2 "custom:bixel" H 7950 12150 60  0001 C CNN
+F 3 "" H 7950 12150 60  0001 C CNN
+	1    7950 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B10
+U 1 1 5B467F30
+P 7950 13300
+F 0 "B10" V 8200 13100 60  0000 C CNN
+F 1 "bixel_down" V 7700 13100 39  0000 C CNN
+F 2 "custom:bixel" H 7950 13300 60  0001 C CNN
+F 3 "" H 7950 13300 60  0001 C CNN
+	1    7950 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B11
+U 1 1 5B467F36
+P 7950 14450
+F 0 "B11" V 8200 14250 60  0000 C CNN
+F 1 "bixel_down" V 7700 14250 39  0000 C CNN
+F 2 "custom:bixel" H 7950 14450 60  0001 C CNN
+F 3 "" H 7950 14450 60  0001 C CNN
+	1    7950 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B12
+U 1 1 5B467F3C
+P 7950 15600
+F 0 "B12" V 8200 15400 60  0000 C CNN
+F 1 "bixel_down" V 7700 15400 39  0000 C CNN
+F 2 "custom:bixel" H 7950 15600 60  0001 C CNN
+F 3 "" H 7950 15600 60  0001 C CNN
+	1    7950 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B13
+U 1 1 5B467F42
+P 7950 16750
+F 0 "B13" V 8200 16550 60  0000 C CNN
+F 1 "bixel_down" V 7700 16550 39  0000 C CNN
+F 2 "custom:bixel" H 7950 16750 60  0001 C CNN
+F 3 "" H 7950 16750 60  0001 C CNN
+	1    7950 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B14
+U 1 1 5B467F48
+P 7950 17900
+F 0 "B14" V 8200 17700 60  0000 C CNN
+F 1 "bixel_down" V 7700 17700 39  0000 C CNN
+F 2 "custom:bixel" H 7950 17900 60  0001 C CNN
+F 3 "" H 7950 17900 60  0001 C CNN
+	1    7950 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B15
+U 1 1 5B467F4E
+P 7950 19050
+F 0 "B15" V 8200 18850 60  0000 C CNN
+F 1 "bixel_down" V 7700 18850 39  0000 C CNN
+F 2 "custom:bixel" H 7950 19050 60  0001 C CNN
+F 3 "" H 7950 19050 60  0001 C CNN
+	1    7950 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B16
+U 1 1 5B467F54
+P 7950 20200
+F 0 "B16" V 8200 20000 60  0000 C CNN
+F 1 "bixel_down" V 7700 20000 39  0000 C CNN
+F 2 "custom:bixel" H 7950 20200 60  0001 C CNN
+F 3 "" H 7950 20200 60  0001 C CNN
+	1    7950 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B17
+U 1 1 5B468202
+P 8900 2950
+F 0 "B17" V 9150 2750 60  0000 C CNN
+F 1 "bixel_up" V 8650 2800 39  0000 C CNN
+F 2 "custom:bixel" H 8900 2950 60  0001 C CNN
+F 3 "" H 8900 2950 60  0001 C CNN
+	1    8900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B18
+U 1 1 5B4683A2
+P 8900 4100
+F 0 "B18" V 9150 3900 60  0000 C CNN
+F 1 "bixel_up" V 8650 3950 39  0000 C CNN
+F 2 "custom:bixel" H 8900 4100 60  0001 C CNN
+F 3 "" H 8900 4100 60  0001 C CNN
+	1    8900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B19
+U 1 1 5B468564
+P 8900 5250
+F 0 "B19" V 9150 5050 60  0000 C CNN
+F 1 "bixel_up" V 8650 5100 39  0000 C CNN
+F 2 "custom:bixel" H 8900 5250 60  0001 C CNN
+F 3 "" H 8900 5250 60  0001 C CNN
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B20
+U 1 1 5B46856A
+P 8900 6400
+F 0 "B20" V 9150 6200 60  0000 C CNN
+F 1 "bixel_up" V 8650 6250 39  0000 C CNN
+F 2 "custom:bixel" H 8900 6400 60  0001 C CNN
+F 3 "" H 8900 6400 60  0001 C CNN
+	1    8900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B21
+U 1 1 5B46862E
+P 8900 7550
+F 0 "B21" V 9150 7350 60  0000 C CNN
+F 1 "bixel_up" V 8650 7400 39  0000 C CNN
+F 2 "custom:bixel" H 8900 7550 60  0001 C CNN
+F 3 "" H 8900 7550 60  0001 C CNN
+	1    8900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B22
+U 1 1 5B468634
+P 8900 8700
+F 0 "B22" V 9150 8500 60  0000 C CNN
+F 1 "bixel_up" V 8650 8550 39  0000 C CNN
+F 2 "custom:bixel" H 8900 8700 60  0001 C CNN
+F 3 "" H 8900 8700 60  0001 C CNN
+	1    8900 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B23
+U 1 1 5B4689BE
+P 8900 9850
+F 0 "B23" V 9150 9650 60  0000 C CNN
+F 1 "bixel_up" V 8650 9700 39  0000 C CNN
+F 2 "custom:bixel" H 8900 9850 60  0001 C CNN
+F 3 "" H 8900 9850 60  0001 C CNN
+	1    8900 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B24
+U 1 1 5B4689C4
+P 8900 11000
+F 0 "B24" V 9150 10800 60  0000 C CNN
+F 1 "bixel_up" V 8650 10850 39  0000 C CNN
+F 2 "custom:bixel" H 8900 11000 60  0001 C CNN
+F 3 "" H 8900 11000 60  0001 C CNN
+	1    8900 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B25
+U 1 1 5B468E4A
+P 8900 12150
+F 0 "B25" V 9150 11950 60  0000 C CNN
+F 1 "bixel_up" V 8650 12000 39  0000 C CNN
+F 2 "custom:bixel" H 8900 12150 60  0001 C CNN
+F 3 "" H 8900 12150 60  0001 C CNN
+	1    8900 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B26
+U 1 1 5B468E50
+P 8900 13300
+F 0 "B26" V 9150 13100 60  0000 C CNN
+F 1 "bixel_up" V 8650 13150 39  0000 C CNN
+F 2 "custom:bixel" H 8900 13300 60  0001 C CNN
+F 3 "" H 8900 13300 60  0001 C CNN
+	1    8900 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B27
+U 1 1 5B468E56
+P 8900 14450
+F 0 "B27" V 9150 14250 60  0000 C CNN
+F 1 "bixel_up" V 8650 14300 39  0000 C CNN
+F 2 "custom:bixel" H 8900 14450 60  0001 C CNN
+F 3 "" H 8900 14450 60  0001 C CNN
+	1    8900 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B28
+U 1 1 5B468E5C
+P 8900 15600
+F 0 "B28" V 9150 15400 60  0000 C CNN
+F 1 "bixel_up" V 8650 15450 39  0000 C CNN
+F 2 "custom:bixel" H 8900 15600 60  0001 C CNN
+F 3 "" H 8900 15600 60  0001 C CNN
+	1    8900 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B29
+U 1 1 5B468E62
+P 8900 16750
+F 0 "B29" V 9150 16550 60  0000 C CNN
+F 1 "bixel_up" V 8650 16600 39  0000 C CNN
+F 2 "custom:bixel" H 8900 16750 60  0001 C CNN
+F 3 "" H 8900 16750 60  0001 C CNN
+	1    8900 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B30
+U 1 1 5B468E68
+P 8900 17900
+F 0 "B30" V 9150 17700 60  0000 C CNN
+F 1 "bixel_up" V 8650 17750 39  0000 C CNN
+F 2 "custom:bixel" H 8900 17900 60  0001 C CNN
+F 3 "" H 8900 17900 60  0001 C CNN
+	1    8900 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B31
+U 1 1 5B468E6E
+P 8900 19050
+F 0 "B31" V 9150 18850 60  0000 C CNN
+F 1 "bixel_up" V 8650 18900 39  0000 C CNN
+F 2 "custom:bixel" H 8900 19050 60  0001 C CNN
+F 3 "" H 8900 19050 60  0001 C CNN
+	1    8900 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B32
+U 1 1 5B468E74
+P 8900 20200
+F 0 "B32" V 9150 20000 60  0000 C CNN
+F 1 "bixel_up" V 8650 20050 39  0000 C CNN
+F 2 "custom:bixel" H 8900 20200 60  0001 C CNN
+F 3 "" H 8900 20200 60  0001 C CNN
+	1    8900 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B33
+U 1 1 5B4697C5
+P 9850 2950
+F 0 "B33" V 10100 2750 60  0000 C CNN
+F 1 "bixel_down" V 9600 2750 39  0000 C CNN
+F 2 "custom:bixel" H 9850 2950 60  0001 C CNN
+F 3 "" H 9850 2950 60  0001 C CNN
+	1    9850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B34
+U 1 1 5B4697CB
+P 9850 4100
+F 0 "B34" V 10100 3900 60  0000 C CNN
+F 1 "bixel_down" V 9600 3900 39  0000 C CNN
+F 2 "custom:bixel" H 9850 4100 60  0001 C CNN
+F 3 "" H 9850 4100 60  0001 C CNN
+	1    9850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B35
+U 1 1 5B4697D1
+P 9850 5250
+F 0 "B35" V 10100 5050 60  0000 C CNN
+F 1 "bixel_down" V 9600 5050 39  0000 C CNN
+F 2 "custom:bixel" H 9850 5250 60  0001 C CNN
+F 3 "" H 9850 5250 60  0001 C CNN
+	1    9850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B36
+U 1 1 5B4697D7
+P 9850 6400
+F 0 "B36" V 10100 6200 60  0000 C CNN
+F 1 "bixel_down" V 9600 6200 39  0000 C CNN
+F 2 "custom:bixel" H 9850 6400 60  0001 C CNN
+F 3 "" H 9850 6400 60  0001 C CNN
+	1    9850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B37
+U 1 1 5B4697DD
+P 9850 7550
+F 0 "B37" V 10100 7350 60  0000 C CNN
+F 1 "bixel_down" V 9600 7350 39  0000 C CNN
+F 2 "custom:bixel" H 9850 7550 60  0001 C CNN
+F 3 "" H 9850 7550 60  0001 C CNN
+	1    9850 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B38
+U 1 1 5B4697E3
+P 9850 8700
+F 0 "B38" V 10100 8500 60  0000 C CNN
+F 1 "bixel_down" V 9600 8500 39  0000 C CNN
+F 2 "custom:bixel" H 9850 8700 60  0001 C CNN
+F 3 "" H 9850 8700 60  0001 C CNN
+	1    9850 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B39
+U 1 1 5B4697E9
+P 9850 9850
+F 0 "B39" V 10100 9650 60  0000 C CNN
+F 1 "bixel_down" V 9600 9650 39  0000 C CNN
+F 2 "custom:bixel" H 9850 9850 60  0001 C CNN
+F 3 "" H 9850 9850 60  0001 C CNN
+	1    9850 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B40
+U 1 1 5B4697EF
+P 9850 11000
+F 0 "B40" V 10100 10800 60  0000 C CNN
+F 1 "bixel_down" V 9600 10800 39  0000 C CNN
+F 2 "custom:bixel" H 9850 11000 60  0001 C CNN
+F 3 "" H 9850 11000 60  0001 C CNN
+	1    9850 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B41
+U 1 1 5B4697F5
+P 9850 12150
+F 0 "B41" V 10100 11950 60  0000 C CNN
+F 1 "bixel_down" V 9600 11950 39  0000 C CNN
+F 2 "custom:bixel" H 9850 12150 60  0001 C CNN
+F 3 "" H 9850 12150 60  0001 C CNN
+	1    9850 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B42
+U 1 1 5B4697FB
+P 9850 13300
+F 0 "B42" V 10100 13100 60  0000 C CNN
+F 1 "bixel_down" V 9600 13100 39  0000 C CNN
+F 2 "custom:bixel" H 9850 13300 60  0001 C CNN
+F 3 "" H 9850 13300 60  0001 C CNN
+	1    9850 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B43
+U 1 1 5B469801
+P 9850 14450
+F 0 "B43" V 10100 14250 60  0000 C CNN
+F 1 "bixel_down" V 9600 14250 39  0000 C CNN
+F 2 "custom:bixel" H 9850 14450 60  0001 C CNN
+F 3 "" H 9850 14450 60  0001 C CNN
+	1    9850 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B44
+U 1 1 5B469807
+P 9850 15600
+F 0 "B44" V 10100 15400 60  0000 C CNN
+F 1 "bixel_down" V 9600 15400 39  0000 C CNN
+F 2 "custom:bixel" H 9850 15600 60  0001 C CNN
+F 3 "" H 9850 15600 60  0001 C CNN
+	1    9850 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B45
+U 1 1 5B46980D
+P 9850 16750
+F 0 "B45" V 10100 16550 60  0000 C CNN
+F 1 "bixel_down" V 9600 16550 39  0000 C CNN
+F 2 "custom:bixel" H 9850 16750 60  0001 C CNN
+F 3 "" H 9850 16750 60  0001 C CNN
+	1    9850 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B46
+U 1 1 5B469813
+P 9850 17900
+F 0 "B46" V 10100 17700 60  0000 C CNN
+F 1 "bixel_down" V 9600 17700 39  0000 C CNN
+F 2 "custom:bixel" H 9850 17900 60  0001 C CNN
+F 3 "" H 9850 17900 60  0001 C CNN
+	1    9850 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B47
+U 1 1 5B469819
+P 9850 19050
+F 0 "B47" V 10100 18850 60  0000 C CNN
+F 1 "bixel_down" V 9600 18850 39  0000 C CNN
+F 2 "custom:bixel" H 9850 19050 60  0001 C CNN
+F 3 "" H 9850 19050 60  0001 C CNN
+	1    9850 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B48
+U 1 1 5B46981F
+P 9850 20200
+F 0 "B48" V 10100 20000 60  0000 C CNN
+F 1 "bixel_down" V 9600 20000 39  0000 C CNN
+F 2 "custom:bixel" H 9850 20200 60  0001 C CNN
+F 3 "" H 9850 20200 60  0001 C CNN
+	1    9850 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B49
+U 1 1 5B469825
+P 10800 2950
+F 0 "B49" V 11050 2750 60  0000 C CNN
+F 1 "bixel_up" V 10550 2800 39  0000 C CNN
+F 2 "custom:bixel" H 10800 2950 60  0001 C CNN
+F 3 "" H 10800 2950 60  0001 C CNN
+	1    10800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B50
+U 1 1 5B46982B
+P 10800 4100
+F 0 "B50" V 11050 3900 60  0000 C CNN
+F 1 "bixel_up" V 10550 3950 39  0000 C CNN
+F 2 "custom:bixel" H 10800 4100 60  0001 C CNN
+F 3 "" H 10800 4100 60  0001 C CNN
+	1    10800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B51
+U 1 1 5B469831
+P 10800 5250
+F 0 "B51" V 11050 5050 60  0000 C CNN
+F 1 "bixel_up" V 10550 5100 39  0000 C CNN
+F 2 "custom:bixel" H 10800 5250 60  0001 C CNN
+F 3 "" H 10800 5250 60  0001 C CNN
+	1    10800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B52
+U 1 1 5B469837
+P 10800 6400
+F 0 "B52" V 11050 6200 60  0000 C CNN
+F 1 "bixel_up" V 10550 6250 39  0000 C CNN
+F 2 "custom:bixel" H 10800 6400 60  0001 C CNN
+F 3 "" H 10800 6400 60  0001 C CNN
+	1    10800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B53
+U 1 1 5B46983D
+P 10800 7550
+F 0 "B53" V 11050 7350 60  0000 C CNN
+F 1 "bixel_up" V 10550 7400 39  0000 C CNN
+F 2 "custom:bixel" H 10800 7550 60  0001 C CNN
+F 3 "" H 10800 7550 60  0001 C CNN
+	1    10800 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B54
+U 1 1 5B469843
+P 10800 8700
+F 0 "B54" V 11050 8500 60  0000 C CNN
+F 1 "bixel_up" V 10550 8550 39  0000 C CNN
+F 2 "custom:bixel" H 10800 8700 60  0001 C CNN
+F 3 "" H 10800 8700 60  0001 C CNN
+	1    10800 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B55
+U 1 1 5B469849
+P 10800 9850
+F 0 "B55" V 11050 9650 60  0000 C CNN
+F 1 "bixel_up" V 10550 9700 39  0000 C CNN
+F 2 "custom:bixel" H 10800 9850 60  0001 C CNN
+F 3 "" H 10800 9850 60  0001 C CNN
+	1    10800 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B56
+U 1 1 5B46984F
+P 10800 11000
+F 0 "B56" V 11050 10800 60  0000 C CNN
+F 1 "bixel_up" V 10550 10850 39  0000 C CNN
+F 2 "custom:bixel" H 10800 11000 60  0001 C CNN
+F 3 "" H 10800 11000 60  0001 C CNN
+	1    10800 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B57
+U 1 1 5B469855
+P 10800 12150
+F 0 "B57" V 11050 11950 60  0000 C CNN
+F 1 "bixel_up" V 10550 12000 39  0000 C CNN
+F 2 "custom:bixel" H 10800 12150 60  0001 C CNN
+F 3 "" H 10800 12150 60  0001 C CNN
+	1    10800 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B58
+U 1 1 5B46985B
+P 10800 13300
+F 0 "B58" V 11050 13100 60  0000 C CNN
+F 1 "bixel_up" V 10550 13150 39  0000 C CNN
+F 2 "custom:bixel" H 10800 13300 60  0001 C CNN
+F 3 "" H 10800 13300 60  0001 C CNN
+	1    10800 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B59
+U 1 1 5B469861
+P 10800 14450
+F 0 "B59" V 11050 14250 60  0000 C CNN
+F 1 "bixel_up" V 10550 14300 39  0000 C CNN
+F 2 "custom:bixel" H 10800 14450 60  0001 C CNN
+F 3 "" H 10800 14450 60  0001 C CNN
+	1    10800 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B60
+U 1 1 5B469867
+P 10800 15600
+F 0 "B60" V 11050 15400 60  0000 C CNN
+F 1 "bixel_up" V 10550 15450 39  0000 C CNN
+F 2 "custom:bixel" H 10800 15600 60  0001 C CNN
+F 3 "" H 10800 15600 60  0001 C CNN
+	1    10800 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B61
+U 1 1 5B46986D
+P 10800 16750
+F 0 "B61" V 11050 16550 60  0000 C CNN
+F 1 "bixel_up" V 10550 16600 39  0000 C CNN
+F 2 "custom:bixel" H 10800 16750 60  0001 C CNN
+F 3 "" H 10800 16750 60  0001 C CNN
+	1    10800 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B62
+U 1 1 5B469873
+P 10800 17900
+F 0 "B62" V 11050 17700 60  0000 C CNN
+F 1 "bixel_up" V 10550 17750 39  0000 C CNN
+F 2 "custom:bixel" H 10800 17900 60  0001 C CNN
+F 3 "" H 10800 17900 60  0001 C CNN
+	1    10800 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B63
+U 1 1 5B469879
+P 10800 19050
+F 0 "B63" V 11050 18850 60  0000 C CNN
+F 1 "bixel_up" V 10550 18900 39  0000 C CNN
+F 2 "custom:bixel" H 10800 19050 60  0001 C CNN
+F 3 "" H 10800 19050 60  0001 C CNN
+	1    10800 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B64
+U 1 1 5B46987F
+P 10800 20200
+F 0 "B64" V 11050 20000 60  0000 C CNN
+F 1 "bixel_up" V 10550 20050 39  0000 C CNN
+F 2 "custom:bixel" H 10800 20200 60  0001 C CNN
+F 3 "" H 10800 20200 60  0001 C CNN
+	1    10800 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B65
+U 1 1 5B46E4C5
+P 11750 2950
+F 0 "B65" V 12000 2750 60  0000 C CNN
+F 1 "bixel_down" V 11500 2750 39  0000 C CNN
+F 2 "custom:bixel" H 11750 2950 60  0001 C CNN
+F 3 "" H 11750 2950 60  0001 C CNN
+	1    11750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B66
+U 1 1 5B46E4CB
+P 11750 4100
+F 0 "B66" V 12000 3900 60  0000 C CNN
+F 1 "bixel_down" V 11500 3900 39  0000 C CNN
+F 2 "custom:bixel" H 11750 4100 60  0001 C CNN
+F 3 "" H 11750 4100 60  0001 C CNN
+	1    11750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B67
+U 1 1 5B46E4D1
+P 11750 5250
+F 0 "B67" V 12000 5050 60  0000 C CNN
+F 1 "bixel_down" V 11500 5050 39  0000 C CNN
+F 2 "custom:bixel" H 11750 5250 60  0001 C CNN
+F 3 "" H 11750 5250 60  0001 C CNN
+	1    11750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B68
+U 1 1 5B46E4D7
+P 11750 6400
+F 0 "B68" V 12000 6200 60  0000 C CNN
+F 1 "bixel_down" V 11500 6200 39  0000 C CNN
+F 2 "custom:bixel" H 11750 6400 60  0001 C CNN
+F 3 "" H 11750 6400 60  0001 C CNN
+	1    11750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B69
+U 1 1 5B46E4DD
+P 11750 7550
+F 0 "B69" V 12000 7350 60  0000 C CNN
+F 1 "bixel_down" V 11500 7350 39  0000 C CNN
+F 2 "custom:bixel" H 11750 7550 60  0001 C CNN
+F 3 "" H 11750 7550 60  0001 C CNN
+	1    11750 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B70
+U 1 1 5B46E4E3
+P 11750 8700
+F 0 "B70" V 12000 8500 60  0000 C CNN
+F 1 "bixel_down" V 11500 8500 39  0000 C CNN
+F 2 "custom:bixel" H 11750 8700 60  0001 C CNN
+F 3 "" H 11750 8700 60  0001 C CNN
+	1    11750 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B71
+U 1 1 5B46E4E9
+P 11750 9850
+F 0 "B71" V 12000 9650 60  0000 C CNN
+F 1 "bixel_down" V 11500 9650 39  0000 C CNN
+F 2 "custom:bixel" H 11750 9850 60  0001 C CNN
+F 3 "" H 11750 9850 60  0001 C CNN
+	1    11750 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B72
+U 1 1 5B46E4EF
+P 11750 11000
+F 0 "B72" V 12000 10800 60  0000 C CNN
+F 1 "bixel_down" V 11500 10800 39  0000 C CNN
+F 2 "custom:bixel" H 11750 11000 60  0001 C CNN
+F 3 "" H 11750 11000 60  0001 C CNN
+	1    11750 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B73
+U 1 1 5B46E4F5
+P 11750 12150
+F 0 "B73" V 12000 11950 60  0000 C CNN
+F 1 "bixel_down" V 11500 11950 39  0000 C CNN
+F 2 "custom:bixel" H 11750 12150 60  0001 C CNN
+F 3 "" H 11750 12150 60  0001 C CNN
+	1    11750 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B74
+U 1 1 5B46E4FB
+P 11750 13300
+F 0 "B74" V 12000 13100 60  0000 C CNN
+F 1 "bixel_down" V 11500 13100 39  0000 C CNN
+F 2 "custom:bixel" H 11750 13300 60  0001 C CNN
+F 3 "" H 11750 13300 60  0001 C CNN
+	1    11750 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B75
+U 1 1 5B46E501
+P 11750 14450
+F 0 "B75" V 12000 14250 60  0000 C CNN
+F 1 "bixel_down" V 11500 14250 39  0000 C CNN
+F 2 "custom:bixel" H 11750 14450 60  0001 C CNN
+F 3 "" H 11750 14450 60  0001 C CNN
+	1    11750 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B76
+U 1 1 5B46E507
+P 11750 15600
+F 0 "B76" V 12000 15400 60  0000 C CNN
+F 1 "bixel_down" V 11500 15400 39  0000 C CNN
+F 2 "custom:bixel" H 11750 15600 60  0001 C CNN
+F 3 "" H 11750 15600 60  0001 C CNN
+	1    11750 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B77
+U 1 1 5B46E50D
+P 11750 16750
+F 0 "B77" V 12000 16550 60  0000 C CNN
+F 1 "bixel_down" V 11500 16550 39  0000 C CNN
+F 2 "custom:bixel" H 11750 16750 60  0001 C CNN
+F 3 "" H 11750 16750 60  0001 C CNN
+	1    11750 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B78
+U 1 1 5B46E513
+P 11750 17900
+F 0 "B78" V 12000 17700 60  0000 C CNN
+F 1 "bixel_down" V 11500 17700 39  0000 C CNN
+F 2 "custom:bixel" H 11750 17900 60  0001 C CNN
+F 3 "" H 11750 17900 60  0001 C CNN
+	1    11750 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B79
+U 1 1 5B46E519
+P 11750 19050
+F 0 "B79" V 12000 18850 60  0000 C CNN
+F 1 "bixel_down" V 11500 18850 39  0000 C CNN
+F 2 "custom:bixel" H 11750 19050 60  0001 C CNN
+F 3 "" H 11750 19050 60  0001 C CNN
+	1    11750 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B80
+U 1 1 5B46E51F
+P 11750 20200
+F 0 "B80" V 12000 20000 60  0000 C CNN
+F 1 "bixel_down" V 11500 20000 39  0000 C CNN
+F 2 "custom:bixel" H 11750 20200 60  0001 C CNN
+F 3 "" H 11750 20200 60  0001 C CNN
+	1    11750 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B81
+U 1 1 5B46E525
+P 12700 2950
+F 0 "B81" V 12950 2750 60  0000 C CNN
+F 1 "bixel_up" V 12450 2800 39  0000 C CNN
+F 2 "custom:bixel" H 12700 2950 60  0001 C CNN
+F 3 "" H 12700 2950 60  0001 C CNN
+	1    12700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B82
+U 1 1 5B46E52B
+P 12700 4100
+F 0 "B82" V 12950 3900 60  0000 C CNN
+F 1 "bixel_up" V 12450 3950 39  0000 C CNN
+F 2 "custom:bixel" H 12700 4100 60  0001 C CNN
+F 3 "" H 12700 4100 60  0001 C CNN
+	1    12700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B83
+U 1 1 5B46E531
+P 12700 5250
+F 0 "B83" V 12950 5050 60  0000 C CNN
+F 1 "bixel_up" V 12450 5100 39  0000 C CNN
+F 2 "custom:bixel" H 12700 5250 60  0001 C CNN
+F 3 "" H 12700 5250 60  0001 C CNN
+	1    12700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B84
+U 1 1 5B46E537
+P 12700 6400
+F 0 "B84" V 12950 6200 60  0000 C CNN
+F 1 "bixel_up" V 12450 6250 39  0000 C CNN
+F 2 "custom:bixel" H 12700 6400 60  0001 C CNN
+F 3 "" H 12700 6400 60  0001 C CNN
+	1    12700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B85
+U 1 1 5B46E53D
+P 12700 7550
+F 0 "B85" V 12950 7350 60  0000 C CNN
+F 1 "bixel_up" V 12450 7400 39  0000 C CNN
+F 2 "custom:bixel" H 12700 7550 60  0001 C CNN
+F 3 "" H 12700 7550 60  0001 C CNN
+	1    12700 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B86
+U 1 1 5B46E543
+P 12700 8700
+F 0 "B86" V 12950 8500 60  0000 C CNN
+F 1 "bixel_up" V 12450 8550 39  0000 C CNN
+F 2 "custom:bixel" H 12700 8700 60  0001 C CNN
+F 3 "" H 12700 8700 60  0001 C CNN
+	1    12700 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B87
+U 1 1 5B46E549
+P 12700 9850
+F 0 "B87" V 12950 9650 60  0000 C CNN
+F 1 "bixel_up" V 12450 9700 39  0000 C CNN
+F 2 "custom:bixel" H 12700 9850 60  0001 C CNN
+F 3 "" H 12700 9850 60  0001 C CNN
+	1    12700 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B88
+U 1 1 5B46E54F
+P 12700 11000
+F 0 "B88" V 12950 10800 60  0000 C CNN
+F 1 "bixel_up" V 12450 10850 39  0000 C CNN
+F 2 "custom:bixel" H 12700 11000 60  0001 C CNN
+F 3 "" H 12700 11000 60  0001 C CNN
+	1    12700 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B89
+U 1 1 5B46E555
+P 12700 12150
+F 0 "B89" V 12950 11950 60  0000 C CNN
+F 1 "bixel_up" V 12450 12000 39  0000 C CNN
+F 2 "custom:bixel" H 12700 12150 60  0001 C CNN
+F 3 "" H 12700 12150 60  0001 C CNN
+	1    12700 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B90
+U 1 1 5B46E55B
+P 12700 13300
+F 0 "B90" V 12950 13100 60  0000 C CNN
+F 1 "bixel_up" V 12450 13150 39  0000 C CNN
+F 2 "custom:bixel" H 12700 13300 60  0001 C CNN
+F 3 "" H 12700 13300 60  0001 C CNN
+	1    12700 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B91
+U 1 1 5B46E561
+P 12700 14450
+F 0 "B91" V 12950 14250 60  0000 C CNN
+F 1 "bixel_up" V 12450 14300 39  0000 C CNN
+F 2 "custom:bixel" H 12700 14450 60  0001 C CNN
+F 3 "" H 12700 14450 60  0001 C CNN
+	1    12700 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B92
+U 1 1 5B46E567
+P 12700 15600
+F 0 "B92" V 12950 15400 60  0000 C CNN
+F 1 "bixel_up" V 12450 15450 39  0000 C CNN
+F 2 "custom:bixel" H 12700 15600 60  0001 C CNN
+F 3 "" H 12700 15600 60  0001 C CNN
+	1    12700 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B93
+U 1 1 5B46E56D
+P 12700 16750
+F 0 "B93" V 12950 16550 60  0000 C CNN
+F 1 "bixel_up" V 12450 16600 39  0000 C CNN
+F 2 "custom:bixel" H 12700 16750 60  0001 C CNN
+F 3 "" H 12700 16750 60  0001 C CNN
+	1    12700 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B94
+U 1 1 5B46E573
+P 12700 17900
+F 0 "B94" V 12950 17700 60  0000 C CNN
+F 1 "bixel_up" V 12450 17750 39  0000 C CNN
+F 2 "custom:bixel" H 12700 17900 60  0001 C CNN
+F 3 "" H 12700 17900 60  0001 C CNN
+	1    12700 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B95
+U 1 1 5B46E579
+P 12700 19050
+F 0 "B95" V 12950 18850 60  0000 C CNN
+F 1 "bixel_up" V 12450 18900 39  0000 C CNN
+F 2 "custom:bixel" H 12700 19050 60  0001 C CNN
+F 3 "" H 12700 19050 60  0001 C CNN
+	1    12700 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B96
+U 1 1 5B46E57F
+P 12700 20200
+F 0 "B96" V 12950 20000 60  0000 C CNN
+F 1 "bixel_up" V 12450 20050 39  0000 C CNN
+F 2 "custom:bixel" H 12700 20200 60  0001 C CNN
+F 3 "" H 12700 20200 60  0001 C CNN
+	1    12700 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B97
+U 1 1 5B46E585
+P 13650 2950
+F 0 "B97" V 13900 2750 60  0000 C CNN
+F 1 "bixel_down" V 13400 2750 39  0000 C CNN
+F 2 "custom:bixel" H 13650 2950 60  0001 C CNN
+F 3 "" H 13650 2950 60  0001 C CNN
+	1    13650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B98
+U 1 1 5B46E58B
+P 13650 4100
+F 0 "B98" V 13900 3900 60  0000 C CNN
+F 1 "bixel_down" V 13400 3900 39  0000 C CNN
+F 2 "custom:bixel" H 13650 4100 60  0001 C CNN
+F 3 "" H 13650 4100 60  0001 C CNN
+	1    13650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B99
+U 1 1 5B46E591
+P 13650 5250
+F 0 "B99" V 13900 5050 60  0000 C CNN
+F 1 "bixel_down" V 13400 5050 39  0000 C CNN
+F 2 "custom:bixel" H 13650 5250 60  0001 C CNN
+F 3 "" H 13650 5250 60  0001 C CNN
+	1    13650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B100
+U 1 1 5B46E597
+P 13650 6400
+F 0 "B100" V 13900 6200 60  0000 C CNN
+F 1 "bixel_down" V 13400 6200 39  0000 C CNN
+F 2 "custom:bixel" H 13650 6400 60  0001 C CNN
+F 3 "" H 13650 6400 60  0001 C CNN
+	1    13650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B101
+U 1 1 5B46E59D
+P 13650 7550
+F 0 "B101" V 13900 7350 60  0000 C CNN
+F 1 "bixel_down" V 13400 7350 39  0000 C CNN
+F 2 "custom:bixel" H 13650 7550 60  0001 C CNN
+F 3 "" H 13650 7550 60  0001 C CNN
+	1    13650 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B102
+U 1 1 5B46E5A3
+P 13650 8700
+F 0 "B102" V 13900 8500 60  0000 C CNN
+F 1 "bixel_down" V 13400 8500 39  0000 C CNN
+F 2 "custom:bixel" H 13650 8700 60  0001 C CNN
+F 3 "" H 13650 8700 60  0001 C CNN
+	1    13650 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B103
+U 1 1 5B46E5A9
+P 13650 9850
+F 0 "B103" V 13900 9650 60  0000 C CNN
+F 1 "bixel_down" V 13400 9650 39  0000 C CNN
+F 2 "custom:bixel" H 13650 9850 60  0001 C CNN
+F 3 "" H 13650 9850 60  0001 C CNN
+	1    13650 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B104
+U 1 1 5B46E5AF
+P 13650 11000
+F 0 "B104" V 13900 10800 60  0000 C CNN
+F 1 "bixel_down" V 13400 10800 39  0000 C CNN
+F 2 "custom:bixel" H 13650 11000 60  0001 C CNN
+F 3 "" H 13650 11000 60  0001 C CNN
+	1    13650 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B105
+U 1 1 5B46E5B5
+P 13650 12150
+F 0 "B105" V 13900 11950 60  0000 C CNN
+F 1 "bixel_down" V 13400 11950 39  0000 C CNN
+F 2 "custom:bixel" H 13650 12150 60  0001 C CNN
+F 3 "" H 13650 12150 60  0001 C CNN
+	1    13650 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B106
+U 1 1 5B46E5BB
+P 13650 13300
+F 0 "B106" V 13900 13100 60  0000 C CNN
+F 1 "bixel_down" V 13400 13100 39  0000 C CNN
+F 2 "custom:bixel" H 13650 13300 60  0001 C CNN
+F 3 "" H 13650 13300 60  0001 C CNN
+	1    13650 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B107
+U 1 1 5B46E5C1
+P 13650 14450
+F 0 "B107" V 13900 14250 60  0000 C CNN
+F 1 "bixel_down" V 13400 14250 39  0000 C CNN
+F 2 "custom:bixel" H 13650 14450 60  0001 C CNN
+F 3 "" H 13650 14450 60  0001 C CNN
+	1    13650 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B108
+U 1 1 5B46E5C7
+P 13650 15600
+F 0 "B108" V 13900 15400 60  0000 C CNN
+F 1 "bixel_down" V 13400 15400 39  0000 C CNN
+F 2 "custom:bixel" H 13650 15600 60  0001 C CNN
+F 3 "" H 13650 15600 60  0001 C CNN
+	1    13650 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B109
+U 1 1 5B46E5CD
+P 13650 16750
+F 0 "B109" V 13900 16550 60  0000 C CNN
+F 1 "bixel_down" V 13400 16550 39  0000 C CNN
+F 2 "custom:bixel" H 13650 16750 60  0001 C CNN
+F 3 "" H 13650 16750 60  0001 C CNN
+	1    13650 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B110
+U 1 1 5B46E5D3
+P 13650 17900
+F 0 "B110" V 13900 17700 60  0000 C CNN
+F 1 "bixel_down" V 13400 17700 39  0000 C CNN
+F 2 "custom:bixel" H 13650 17900 60  0001 C CNN
+F 3 "" H 13650 17900 60  0001 C CNN
+	1    13650 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B111
+U 1 1 5B46E5D9
+P 13650 19050
+F 0 "B111" V 13900 18850 60  0000 C CNN
+F 1 "bixel_down" V 13400 18850 39  0000 C CNN
+F 2 "custom:bixel" H 13650 19050 60  0001 C CNN
+F 3 "" H 13650 19050 60  0001 C CNN
+	1    13650 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B112
+U 1 1 5B46E5DF
+P 13650 20200
+F 0 "B112" V 13900 20000 60  0000 C CNN
+F 1 "bixel_down" V 13400 20000 39  0000 C CNN
+F 2 "custom:bixel" H 13650 20200 60  0001 C CNN
+F 3 "" H 13650 20200 60  0001 C CNN
+	1    13650 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B113
+U 1 1 5B46E5E5
+P 14600 2950
+F 0 "B113" V 14850 2750 60  0000 C CNN
+F 1 "bixel_up" V 14350 2800 39  0000 C CNN
+F 2 "custom:bixel" H 14600 2950 60  0001 C CNN
+F 3 "" H 14600 2950 60  0001 C CNN
+	1    14600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B114
+U 1 1 5B46E5EB
+P 14600 4100
+F 0 "B114" V 14850 3900 60  0000 C CNN
+F 1 "bixel_up" V 14350 3950 39  0000 C CNN
+F 2 "custom:bixel" H 14600 4100 60  0001 C CNN
+F 3 "" H 14600 4100 60  0001 C CNN
+	1    14600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B115
+U 1 1 5B46E5F1
+P 14600 5250
+F 0 "B115" V 14850 5050 60  0000 C CNN
+F 1 "bixel_up" V 14350 5100 39  0000 C CNN
+F 2 "custom:bixel" H 14600 5250 60  0001 C CNN
+F 3 "" H 14600 5250 60  0001 C CNN
+	1    14600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B116
+U 1 1 5B46E5F7
+P 14600 6400
+F 0 "B116" V 14850 6200 60  0000 C CNN
+F 1 "bixel_up" V 14350 6250 39  0000 C CNN
+F 2 "custom:bixel" H 14600 6400 60  0001 C CNN
+F 3 "" H 14600 6400 60  0001 C CNN
+	1    14600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B117
+U 1 1 5B46E5FD
+P 14600 7550
+F 0 "B117" V 14850 7350 60  0000 C CNN
+F 1 "bixel_up" V 14350 7400 39  0000 C CNN
+F 2 "custom:bixel" H 14600 7550 60  0001 C CNN
+F 3 "" H 14600 7550 60  0001 C CNN
+	1    14600 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B118
+U 1 1 5B46E603
+P 14600 8700
+F 0 "B118" V 14850 8500 60  0000 C CNN
+F 1 "bixel_up" V 14350 8550 39  0000 C CNN
+F 2 "custom:bixel" H 14600 8700 60  0001 C CNN
+F 3 "" H 14600 8700 60  0001 C CNN
+	1    14600 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B119
+U 1 1 5B46E609
+P 14600 9850
+F 0 "B119" V 14850 9650 60  0000 C CNN
+F 1 "bixel_up" V 14350 9700 39  0000 C CNN
+F 2 "custom:bixel" H 14600 9850 60  0001 C CNN
+F 3 "" H 14600 9850 60  0001 C CNN
+	1    14600 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B120
+U 1 1 5B46E60F
+P 14600 11000
+F 0 "B120" V 14850 10800 60  0000 C CNN
+F 1 "bixel_up" V 14350 10850 39  0000 C CNN
+F 2 "custom:bixel" H 14600 11000 60  0001 C CNN
+F 3 "" H 14600 11000 60  0001 C CNN
+	1    14600 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B121
+U 1 1 5B46E615
+P 14600 12150
+F 0 "B121" V 14850 11950 60  0000 C CNN
+F 1 "bixel_up" V 14350 12000 39  0000 C CNN
+F 2 "custom:bixel" H 14600 12150 60  0001 C CNN
+F 3 "" H 14600 12150 60  0001 C CNN
+	1    14600 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B122
+U 1 1 5B46E61B
+P 14600 13300
+F 0 "B122" V 14850 13100 60  0000 C CNN
+F 1 "bixel_up" V 14350 13150 39  0000 C CNN
+F 2 "custom:bixel" H 14600 13300 60  0001 C CNN
+F 3 "" H 14600 13300 60  0001 C CNN
+	1    14600 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B123
+U 1 1 5B46E621
+P 14600 14450
+F 0 "B123" V 14850 14250 60  0000 C CNN
+F 1 "bixel_up" V 14350 14300 39  0000 C CNN
+F 2 "custom:bixel" H 14600 14450 60  0001 C CNN
+F 3 "" H 14600 14450 60  0001 C CNN
+	1    14600 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B124
+U 1 1 5B46E627
+P 14600 15600
+F 0 "B124" V 14850 15400 60  0000 C CNN
+F 1 "bixel_up" V 14350 15450 39  0000 C CNN
+F 2 "custom:bixel" H 14600 15600 60  0001 C CNN
+F 3 "" H 14600 15600 60  0001 C CNN
+	1    14600 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B125
+U 1 1 5B46E62D
+P 14600 16750
+F 0 "B125" V 14850 16550 60  0000 C CNN
+F 1 "bixel_up" V 14350 16600 39  0000 C CNN
+F 2 "custom:bixel" H 14600 16750 60  0001 C CNN
+F 3 "" H 14600 16750 60  0001 C CNN
+	1    14600 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B126
+U 1 1 5B46E633
+P 14600 17900
+F 0 "B126" V 14850 17700 60  0000 C CNN
+F 1 "bixel_up" V 14350 17750 39  0000 C CNN
+F 2 "custom:bixel" H 14600 17900 60  0001 C CNN
+F 3 "" H 14600 17900 60  0001 C CNN
+	1    14600 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B127
+U 1 1 5B46E639
+P 14600 19050
+F 0 "B127" V 14850 18850 60  0000 C CNN
+F 1 "bixel_up" V 14350 18900 39  0000 C CNN
+F 2 "custom:bixel" H 14600 19050 60  0001 C CNN
+F 3 "" H 14600 19050 60  0001 C CNN
+	1    14600 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B128
+U 1 1 5B46E63F
+P 14600 20200
+F 0 "B128" V 14850 20000 60  0000 C CNN
+F 1 "bixel_up" V 14350 20050 39  0000 C CNN
+F 2 "custom:bixel" H 14600 20200 60  0001 C CNN
+F 3 "" H 14600 20200 60  0001 C CNN
+	1    14600 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B129
+U 1 1 5B4709C5
+P 15550 2950
+F 0 "B129" V 15800 2750 60  0000 C CNN
+F 1 "bixel_down" V 15300 2750 39  0000 C CNN
+F 2 "custom:bixel" H 15550 2950 60  0001 C CNN
+F 3 "" H 15550 2950 60  0001 C CNN
+	1    15550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B130
+U 1 1 5B4709CB
+P 15550 4100
+F 0 "B130" V 15800 3900 60  0000 C CNN
+F 1 "bixel_down" V 15300 3900 39  0000 C CNN
+F 2 "custom:bixel" H 15550 4100 60  0001 C CNN
+F 3 "" H 15550 4100 60  0001 C CNN
+	1    15550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B131
+U 1 1 5B4709D1
+P 15550 5250
+F 0 "B131" V 15800 5050 60  0000 C CNN
+F 1 "bixel_down" V 15300 5050 39  0000 C CNN
+F 2 "custom:bixel" H 15550 5250 60  0001 C CNN
+F 3 "" H 15550 5250 60  0001 C CNN
+	1    15550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B132
+U 1 1 5B4709D7
+P 15550 6400
+F 0 "B132" V 15800 6200 60  0000 C CNN
+F 1 "bixel_down" V 15300 6200 39  0000 C CNN
+F 2 "custom:bixel" H 15550 6400 60  0001 C CNN
+F 3 "" H 15550 6400 60  0001 C CNN
+	1    15550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B133
+U 1 1 5B4709DD
+P 15550 7550
+F 0 "B133" V 15800 7350 60  0000 C CNN
+F 1 "bixel_down" V 15300 7350 39  0000 C CNN
+F 2 "custom:bixel" H 15550 7550 60  0001 C CNN
+F 3 "" H 15550 7550 60  0001 C CNN
+	1    15550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B134
+U 1 1 5B4709E3
+P 15550 8700
+F 0 "B134" V 15800 8500 60  0000 C CNN
+F 1 "bixel_down" V 15300 8500 39  0000 C CNN
+F 2 "custom:bixel" H 15550 8700 60  0001 C CNN
+F 3 "" H 15550 8700 60  0001 C CNN
+	1    15550 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B135
+U 1 1 5B4709E9
+P 15550 9850
+F 0 "B135" V 15800 9650 60  0000 C CNN
+F 1 "bixel_down" V 15300 9650 39  0000 C CNN
+F 2 "custom:bixel" H 15550 9850 60  0001 C CNN
+F 3 "" H 15550 9850 60  0001 C CNN
+	1    15550 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B136
+U 1 1 5B4709EF
+P 15550 11000
+F 0 "B136" V 15800 10800 60  0000 C CNN
+F 1 "bixel_down" V 15300 10800 39  0000 C CNN
+F 2 "custom:bixel" H 15550 11000 60  0001 C CNN
+F 3 "" H 15550 11000 60  0001 C CNN
+	1    15550 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B137
+U 1 1 5B4709F5
+P 15550 12150
+F 0 "B137" V 15800 11950 60  0000 C CNN
+F 1 "bixel_down" V 15300 11950 39  0000 C CNN
+F 2 "custom:bixel" H 15550 12150 60  0001 C CNN
+F 3 "" H 15550 12150 60  0001 C CNN
+	1    15550 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B138
+U 1 1 5B4709FB
+P 15550 13300
+F 0 "B138" V 15800 13100 60  0000 C CNN
+F 1 "bixel_down" V 15300 13100 39  0000 C CNN
+F 2 "custom:bixel" H 15550 13300 60  0001 C CNN
+F 3 "" H 15550 13300 60  0001 C CNN
+	1    15550 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B139
+U 1 1 5B470A01
+P 15550 14450
+F 0 "B139" V 15800 14250 60  0000 C CNN
+F 1 "bixel_down" V 15300 14250 39  0000 C CNN
+F 2 "custom:bixel" H 15550 14450 60  0001 C CNN
+F 3 "" H 15550 14450 60  0001 C CNN
+	1    15550 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B140
+U 1 1 5B470A07
+P 15550 15600
+F 0 "B140" V 15800 15400 60  0000 C CNN
+F 1 "bixel_down" V 15300 15400 39  0000 C CNN
+F 2 "custom:bixel" H 15550 15600 60  0001 C CNN
+F 3 "" H 15550 15600 60  0001 C CNN
+	1    15550 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B141
+U 1 1 5B470A0D
+P 15550 16750
+F 0 "B141" V 15800 16550 60  0000 C CNN
+F 1 "bixel_down" V 15300 16550 39  0000 C CNN
+F 2 "custom:bixel" H 15550 16750 60  0001 C CNN
+F 3 "" H 15550 16750 60  0001 C CNN
+	1    15550 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B142
+U 1 1 5B470A13
+P 15550 17900
+F 0 "B142" V 15800 17700 60  0000 C CNN
+F 1 "bixel_down" V 15300 17700 39  0000 C CNN
+F 2 "custom:bixel" H 15550 17900 60  0001 C CNN
+F 3 "" H 15550 17900 60  0001 C CNN
+	1    15550 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B143
+U 1 1 5B470A19
+P 15550 19050
+F 0 "B143" V 15800 18850 60  0000 C CNN
+F 1 "bixel_down" V 15300 18850 39  0000 C CNN
+F 2 "custom:bixel" H 15550 19050 60  0001 C CNN
+F 3 "" H 15550 19050 60  0001 C CNN
+	1    15550 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B144
+U 1 1 5B470A1F
+P 15550 20200
+F 0 "B144" V 15800 20000 60  0000 C CNN
+F 1 "bixel_down" V 15300 20000 39  0000 C CNN
+F 2 "custom:bixel" H 15550 20200 60  0001 C CNN
+F 3 "" H 15550 20200 60  0001 C CNN
+	1    15550 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B145
+U 1 1 5B470A25
+P 16500 2950
+F 0 "B145" V 16750 2750 60  0000 C CNN
+F 1 "bixel_up" V 16250 2800 39  0000 C CNN
+F 2 "custom:bixel" H 16500 2950 60  0001 C CNN
+F 3 "" H 16500 2950 60  0001 C CNN
+	1    16500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B146
+U 1 1 5B470A2B
+P 16500 4100
+F 0 "B146" V 16750 3900 60  0000 C CNN
+F 1 "bixel_up" V 16250 3950 39  0000 C CNN
+F 2 "custom:bixel" H 16500 4100 60  0001 C CNN
+F 3 "" H 16500 4100 60  0001 C CNN
+	1    16500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B147
+U 1 1 5B470A31
+P 16500 5250
+F 0 "B147" V 16750 5050 60  0000 C CNN
+F 1 "bixel_up" V 16250 5100 39  0000 C CNN
+F 2 "custom:bixel" H 16500 5250 60  0001 C CNN
+F 3 "" H 16500 5250 60  0001 C CNN
+	1    16500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B148
+U 1 1 5B470A37
+P 16500 6400
+F 0 "B148" V 16750 6200 60  0000 C CNN
+F 1 "bixel_up" V 16250 6250 39  0000 C CNN
+F 2 "custom:bixel" H 16500 6400 60  0001 C CNN
+F 3 "" H 16500 6400 60  0001 C CNN
+	1    16500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B149
+U 1 1 5B470A3D
+P 16500 7550
+F 0 "B149" V 16750 7350 60  0000 C CNN
+F 1 "bixel_up" V 16250 7400 39  0000 C CNN
+F 2 "custom:bixel" H 16500 7550 60  0001 C CNN
+F 3 "" H 16500 7550 60  0001 C CNN
+	1    16500 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B150
+U 1 1 5B470A43
+P 16500 8700
+F 0 "B150" V 16750 8500 60  0000 C CNN
+F 1 "bixel_up" V 16250 8550 39  0000 C CNN
+F 2 "custom:bixel" H 16500 8700 60  0001 C CNN
+F 3 "" H 16500 8700 60  0001 C CNN
+	1    16500 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B151
+U 1 1 5B470A49
+P 16500 9850
+F 0 "B151" V 16750 9650 60  0000 C CNN
+F 1 "bixel_up" V 16250 9700 39  0000 C CNN
+F 2 "custom:bixel" H 16500 9850 60  0001 C CNN
+F 3 "" H 16500 9850 60  0001 C CNN
+	1    16500 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B152
+U 1 1 5B470A4F
+P 16500 11000
+F 0 "B152" V 16750 10800 60  0000 C CNN
+F 1 "bixel_up" V 16250 10850 39  0000 C CNN
+F 2 "custom:bixel" H 16500 11000 60  0001 C CNN
+F 3 "" H 16500 11000 60  0001 C CNN
+	1    16500 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B153
+U 1 1 5B470A55
+P 16500 12150
+F 0 "B153" V 16750 11950 60  0000 C CNN
+F 1 "bixel_up" V 16250 12000 39  0000 C CNN
+F 2 "custom:bixel" H 16500 12150 60  0001 C CNN
+F 3 "" H 16500 12150 60  0001 C CNN
+	1    16500 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B154
+U 1 1 5B470A5B
+P 16500 13300
+F 0 "B154" V 16750 13100 60  0000 C CNN
+F 1 "bixel_up" V 16250 13150 39  0000 C CNN
+F 2 "custom:bixel" H 16500 13300 60  0001 C CNN
+F 3 "" H 16500 13300 60  0001 C CNN
+	1    16500 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B155
+U 1 1 5B470A61
+P 16500 14450
+F 0 "B155" V 16750 14250 60  0000 C CNN
+F 1 "bixel_up" V 16250 14300 39  0000 C CNN
+F 2 "custom:bixel" H 16500 14450 60  0001 C CNN
+F 3 "" H 16500 14450 60  0001 C CNN
+	1    16500 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B156
+U 1 1 5B470A67
+P 16500 15600
+F 0 "B156" V 16750 15400 60  0000 C CNN
+F 1 "bixel_up" V 16250 15450 39  0000 C CNN
+F 2 "custom:bixel" H 16500 15600 60  0001 C CNN
+F 3 "" H 16500 15600 60  0001 C CNN
+	1    16500 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B157
+U 1 1 5B470A6D
+P 16500 16750
+F 0 "B157" V 16750 16550 60  0000 C CNN
+F 1 "bixel_up" V 16250 16600 39  0000 C CNN
+F 2 "custom:bixel" H 16500 16750 60  0001 C CNN
+F 3 "" H 16500 16750 60  0001 C CNN
+	1    16500 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B158
+U 1 1 5B470A73
+P 16500 17900
+F 0 "B158" V 16750 17700 60  0000 C CNN
+F 1 "bixel_up" V 16250 17750 39  0000 C CNN
+F 2 "custom:bixel" H 16500 17900 60  0001 C CNN
+F 3 "" H 16500 17900 60  0001 C CNN
+	1    16500 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B159
+U 1 1 5B470A79
+P 16500 19050
+F 0 "B159" V 16750 18850 60  0000 C CNN
+F 1 "bixel_up" V 16250 18900 39  0000 C CNN
+F 2 "custom:bixel" H 16500 19050 60  0001 C CNN
+F 3 "" H 16500 19050 60  0001 C CNN
+	1    16500 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B160
+U 1 1 5B470A7F
+P 16500 20200
+F 0 "B160" V 16750 20000 60  0000 C CNN
+F 1 "bixel_up" V 16250 20050 39  0000 C CNN
+F 2 "custom:bixel" H 16500 20200 60  0001 C CNN
+F 3 "" H 16500 20200 60  0001 C CNN
+	1    16500 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B161
+U 1 1 5B470A85
+P 17450 2950
+F 0 "B161" V 17700 2750 60  0000 C CNN
+F 1 "bixel_down" V 17200 2750 39  0000 C CNN
+F 2 "custom:bixel" H 17450 2950 60  0001 C CNN
+F 3 "" H 17450 2950 60  0001 C CNN
+	1    17450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B162
+U 1 1 5B470A8B
+P 17450 4100
+F 0 "B162" V 17700 3900 60  0000 C CNN
+F 1 "bixel_down" V 17200 3900 39  0000 C CNN
+F 2 "custom:bixel" H 17450 4100 60  0001 C CNN
+F 3 "" H 17450 4100 60  0001 C CNN
+	1    17450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B163
+U 1 1 5B470A91
+P 17450 5250
+F 0 "B163" V 17700 5050 60  0000 C CNN
+F 1 "bixel_down" V 17200 5050 39  0000 C CNN
+F 2 "custom:bixel" H 17450 5250 60  0001 C CNN
+F 3 "" H 17450 5250 60  0001 C CNN
+	1    17450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B164
+U 1 1 5B470A97
+P 17450 6400
+F 0 "B164" V 17700 6200 60  0000 C CNN
+F 1 "bixel_down" V 17200 6200 39  0000 C CNN
+F 2 "custom:bixel" H 17450 6400 60  0001 C CNN
+F 3 "" H 17450 6400 60  0001 C CNN
+	1    17450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B165
+U 1 1 5B470A9D
+P 17450 7550
+F 0 "B165" V 17700 7350 60  0000 C CNN
+F 1 "bixel_down" V 17200 7350 39  0000 C CNN
+F 2 "custom:bixel" H 17450 7550 60  0001 C CNN
+F 3 "" H 17450 7550 60  0001 C CNN
+	1    17450 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B166
+U 1 1 5B470AA3
+P 17450 8700
+F 0 "B166" V 17700 8500 60  0000 C CNN
+F 1 "bixel_down" V 17200 8500 39  0000 C CNN
+F 2 "custom:bixel" H 17450 8700 60  0001 C CNN
+F 3 "" H 17450 8700 60  0001 C CNN
+	1    17450 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B167
+U 1 1 5B470AA9
+P 17450 9850
+F 0 "B167" V 17700 9650 60  0000 C CNN
+F 1 "bixel_down" V 17200 9650 39  0000 C CNN
+F 2 "custom:bixel" H 17450 9850 60  0001 C CNN
+F 3 "" H 17450 9850 60  0001 C CNN
+	1    17450 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B168
+U 1 1 5B470AAF
+P 17450 11000
+F 0 "B168" V 17700 10800 60  0000 C CNN
+F 1 "bixel_down" V 17200 10800 39  0000 C CNN
+F 2 "custom:bixel" H 17450 11000 60  0001 C CNN
+F 3 "" H 17450 11000 60  0001 C CNN
+	1    17450 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B169
+U 1 1 5B470AB5
+P 17450 12150
+F 0 "B169" V 17700 11950 60  0000 C CNN
+F 1 "bixel_down" V 17200 11950 39  0000 C CNN
+F 2 "custom:bixel" H 17450 12150 60  0001 C CNN
+F 3 "" H 17450 12150 60  0001 C CNN
+	1    17450 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B170
+U 1 1 5B470ABB
+P 17450 13300
+F 0 "B170" V 17700 13100 60  0000 C CNN
+F 1 "bixel_down" V 17200 13100 39  0000 C CNN
+F 2 "custom:bixel" H 17450 13300 60  0001 C CNN
+F 3 "" H 17450 13300 60  0001 C CNN
+	1    17450 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B171
+U 1 1 5B470AC1
+P 17450 14450
+F 0 "B171" V 17700 14250 60  0000 C CNN
+F 1 "bixel_down" V 17200 14250 39  0000 C CNN
+F 2 "custom:bixel" H 17450 14450 60  0001 C CNN
+F 3 "" H 17450 14450 60  0001 C CNN
+	1    17450 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B172
+U 1 1 5B470AC7
+P 17450 15600
+F 0 "B172" V 17700 15400 60  0000 C CNN
+F 1 "bixel_down" V 17200 15400 39  0000 C CNN
+F 2 "custom:bixel" H 17450 15600 60  0001 C CNN
+F 3 "" H 17450 15600 60  0001 C CNN
+	1    17450 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B173
+U 1 1 5B470ACD
+P 17450 16750
+F 0 "B173" V 17700 16550 60  0000 C CNN
+F 1 "bixel_down" V 17200 16550 39  0000 C CNN
+F 2 "custom:bixel" H 17450 16750 60  0001 C CNN
+F 3 "" H 17450 16750 60  0001 C CNN
+	1    17450 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B174
+U 1 1 5B470AD3
+P 17450 17900
+F 0 "B174" V 17700 17700 60  0000 C CNN
+F 1 "bixel_down" V 17200 17700 39  0000 C CNN
+F 2 "custom:bixel" H 17450 17900 60  0001 C CNN
+F 3 "" H 17450 17900 60  0001 C CNN
+	1    17450 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B175
+U 1 1 5B470AD9
+P 17450 19050
+F 0 "B175" V 17700 18850 60  0000 C CNN
+F 1 "bixel_down" V 17200 18850 39  0000 C CNN
+F 2 "custom:bixel" H 17450 19050 60  0001 C CNN
+F 3 "" H 17450 19050 60  0001 C CNN
+	1    17450 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B176
+U 1 1 5B470ADF
+P 17450 20200
+F 0 "B176" V 17700 20000 60  0000 C CNN
+F 1 "bixel_down" V 17200 20000 39  0000 C CNN
+F 2 "custom:bixel" H 17450 20200 60  0001 C CNN
+F 3 "" H 17450 20200 60  0001 C CNN
+	1    17450 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B177
+U 1 1 5B470AE5
+P 18400 2950
+F 0 "B177" V 18650 2750 60  0000 C CNN
+F 1 "bixel_up" V 18150 2800 39  0000 C CNN
+F 2 "custom:bixel" H 18400 2950 60  0001 C CNN
+F 3 "" H 18400 2950 60  0001 C CNN
+	1    18400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B178
+U 1 1 5B470AEB
+P 18400 4100
+F 0 "B178" V 18650 3900 60  0000 C CNN
+F 1 "bixel_up" V 18150 3950 39  0000 C CNN
+F 2 "custom:bixel" H 18400 4100 60  0001 C CNN
+F 3 "" H 18400 4100 60  0001 C CNN
+	1    18400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B179
+U 1 1 5B470AF1
+P 18400 5250
+F 0 "B179" V 18650 5050 60  0000 C CNN
+F 1 "bixel_up" V 18150 5100 39  0000 C CNN
+F 2 "custom:bixel" H 18400 5250 60  0001 C CNN
+F 3 "" H 18400 5250 60  0001 C CNN
+	1    18400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B180
+U 1 1 5B470AF7
+P 18400 6400
+F 0 "B180" V 18650 6200 60  0000 C CNN
+F 1 "bixel_up" V 18150 6250 39  0000 C CNN
+F 2 "custom:bixel" H 18400 6400 60  0001 C CNN
+F 3 "" H 18400 6400 60  0001 C CNN
+	1    18400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B181
+U 1 1 5B470AFD
+P 18400 7550
+F 0 "B181" V 18650 7350 60  0000 C CNN
+F 1 "bixel_up" V 18150 7400 39  0000 C CNN
+F 2 "custom:bixel" H 18400 7550 60  0001 C CNN
+F 3 "" H 18400 7550 60  0001 C CNN
+	1    18400 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B182
+U 1 1 5B470B03
+P 18400 8700
+F 0 "B182" V 18650 8500 60  0000 C CNN
+F 1 "bixel_up" V 18150 8550 39  0000 C CNN
+F 2 "custom:bixel" H 18400 8700 60  0001 C CNN
+F 3 "" H 18400 8700 60  0001 C CNN
+	1    18400 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B183
+U 1 1 5B470B09
+P 18400 9850
+F 0 "B183" V 18650 9650 60  0000 C CNN
+F 1 "bixel_up" V 18150 9700 39  0000 C CNN
+F 2 "custom:bixel" H 18400 9850 60  0001 C CNN
+F 3 "" H 18400 9850 60  0001 C CNN
+	1    18400 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B184
+U 1 1 5B470B0F
+P 18400 11000
+F 0 "B184" V 18650 10800 60  0000 C CNN
+F 1 "bixel_up" V 18150 10850 39  0000 C CNN
+F 2 "custom:bixel" H 18400 11000 60  0001 C CNN
+F 3 "" H 18400 11000 60  0001 C CNN
+	1    18400 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B185
+U 1 1 5B470B15
+P 18400 12150
+F 0 "B185" V 18650 11950 60  0000 C CNN
+F 1 "bixel_up" V 18150 12000 39  0000 C CNN
+F 2 "custom:bixel" H 18400 12150 60  0001 C CNN
+F 3 "" H 18400 12150 60  0001 C CNN
+	1    18400 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B186
+U 1 1 5B470B1B
+P 18400 13300
+F 0 "B186" V 18650 13100 60  0000 C CNN
+F 1 "bixel_up" V 18150 13150 39  0000 C CNN
+F 2 "custom:bixel" H 18400 13300 60  0001 C CNN
+F 3 "" H 18400 13300 60  0001 C CNN
+	1    18400 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B187
+U 1 1 5B470B21
+P 18400 14450
+F 0 "B187" V 18650 14250 60  0000 C CNN
+F 1 "bixel_up" V 18150 14300 39  0000 C CNN
+F 2 "custom:bixel" H 18400 14450 60  0001 C CNN
+F 3 "" H 18400 14450 60  0001 C CNN
+	1    18400 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B188
+U 1 1 5B470B27
+P 18400 15600
+F 0 "B188" V 18650 15400 60  0000 C CNN
+F 1 "bixel_up" V 18150 15450 39  0000 C CNN
+F 2 "custom:bixel" H 18400 15600 60  0001 C CNN
+F 3 "" H 18400 15600 60  0001 C CNN
+	1    18400 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B189
+U 1 1 5B470B2D
+P 18400 16750
+F 0 "B189" V 18650 16550 60  0000 C CNN
+F 1 "bixel_up" V 18150 16600 39  0000 C CNN
+F 2 "custom:bixel" H 18400 16750 60  0001 C CNN
+F 3 "" H 18400 16750 60  0001 C CNN
+	1    18400 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B190
+U 1 1 5B470B33
+P 18400 17900
+F 0 "B190" V 18650 17700 60  0000 C CNN
+F 1 "bixel_up" V 18150 17750 39  0000 C CNN
+F 2 "custom:bixel" H 18400 17900 60  0001 C CNN
+F 3 "" H 18400 17900 60  0001 C CNN
+	1    18400 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B191
+U 1 1 5B470B39
+P 18400 19050
+F 0 "B191" V 18650 18850 60  0000 C CNN
+F 1 "bixel_up" V 18150 18900 39  0000 C CNN
+F 2 "custom:bixel" H 18400 19050 60  0001 C CNN
+F 3 "" H 18400 19050 60  0001 C CNN
+	1    18400 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B192
+U 1 1 5B470B3F
+P 18400 20200
+F 0 "B192" V 18650 20000 60  0000 C CNN
+F 1 "bixel_up" V 18150 20050 39  0000 C CNN
+F 2 "custom:bixel" H 18400 20200 60  0001 C CNN
+F 3 "" H 18400 20200 60  0001 C CNN
+	1    18400 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B193
+U 1 1 5B470B45
+P 19350 2950
+F 0 "B193" V 19600 2750 60  0000 C CNN
+F 1 "bixel_down" V 19100 2750 39  0000 C CNN
+F 2 "custom:bixel" H 19350 2950 60  0001 C CNN
+F 3 "" H 19350 2950 60  0001 C CNN
+	1    19350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B194
+U 1 1 5B470B4B
+P 19350 4100
+F 0 "B194" V 19600 3900 60  0000 C CNN
+F 1 "bixel_down" V 19100 3900 39  0000 C CNN
+F 2 "custom:bixel" H 19350 4100 60  0001 C CNN
+F 3 "" H 19350 4100 60  0001 C CNN
+	1    19350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B195
+U 1 1 5B470B51
+P 19350 5250
+F 0 "B195" V 19600 5050 60  0000 C CNN
+F 1 "bixel_down" V 19100 5050 39  0000 C CNN
+F 2 "custom:bixel" H 19350 5250 60  0001 C CNN
+F 3 "" H 19350 5250 60  0001 C CNN
+	1    19350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B196
+U 1 1 5B470B57
+P 19350 6400
+F 0 "B196" V 19600 6200 60  0000 C CNN
+F 1 "bixel_down" V 19100 6200 39  0000 C CNN
+F 2 "custom:bixel" H 19350 6400 60  0001 C CNN
+F 3 "" H 19350 6400 60  0001 C CNN
+	1    19350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B197
+U 1 1 5B470B5D
+P 19350 7550
+F 0 "B197" V 19600 7350 60  0000 C CNN
+F 1 "bixel_down" V 19100 7350 39  0000 C CNN
+F 2 "custom:bixel" H 19350 7550 60  0001 C CNN
+F 3 "" H 19350 7550 60  0001 C CNN
+	1    19350 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B198
+U 1 1 5B470B63
+P 19350 8700
+F 0 "B198" V 19600 8500 60  0000 C CNN
+F 1 "bixel_down" V 19100 8500 39  0000 C CNN
+F 2 "custom:bixel" H 19350 8700 60  0001 C CNN
+F 3 "" H 19350 8700 60  0001 C CNN
+	1    19350 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B199
+U 1 1 5B470B69
+P 19350 9850
+F 0 "B199" V 19600 9650 60  0000 C CNN
+F 1 "bixel_down" V 19100 9650 39  0000 C CNN
+F 2 "custom:bixel" H 19350 9850 60  0001 C CNN
+F 3 "" H 19350 9850 60  0001 C CNN
+	1    19350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B200
+U 1 1 5B470B6F
+P 19350 11000
+F 0 "B200" V 19600 10800 60  0000 C CNN
+F 1 "bixel_down" V 19100 10800 39  0000 C CNN
+F 2 "custom:bixel" H 19350 11000 60  0001 C CNN
+F 3 "" H 19350 11000 60  0001 C CNN
+	1    19350 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B201
+U 1 1 5B470B75
+P 19350 12150
+F 0 "B201" V 19600 11950 60  0000 C CNN
+F 1 "bixel_down" V 19100 11950 39  0000 C CNN
+F 2 "custom:bixel" H 19350 12150 60  0001 C CNN
+F 3 "" H 19350 12150 60  0001 C CNN
+	1    19350 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B202
+U 1 1 5B470B7B
+P 19350 13300
+F 0 "B202" V 19600 13100 60  0000 C CNN
+F 1 "bixel_down" V 19100 13100 39  0000 C CNN
+F 2 "custom:bixel" H 19350 13300 60  0001 C CNN
+F 3 "" H 19350 13300 60  0001 C CNN
+	1    19350 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B203
+U 1 1 5B470B81
+P 19350 14450
+F 0 "B203" V 19600 14250 60  0000 C CNN
+F 1 "bixel_down" V 19100 14250 39  0000 C CNN
+F 2 "custom:bixel" H 19350 14450 60  0001 C CNN
+F 3 "" H 19350 14450 60  0001 C CNN
+	1    19350 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B204
+U 1 1 5B470B87
+P 19350 15600
+F 0 "B204" V 19600 15400 60  0000 C CNN
+F 1 "bixel_down" V 19100 15400 39  0000 C CNN
+F 2 "custom:bixel" H 19350 15600 60  0001 C CNN
+F 3 "" H 19350 15600 60  0001 C CNN
+	1    19350 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B205
+U 1 1 5B470B8D
+P 19350 16750
+F 0 "B205" V 19600 16550 60  0000 C CNN
+F 1 "bixel_down" V 19100 16550 39  0000 C CNN
+F 2 "custom:bixel" H 19350 16750 60  0001 C CNN
+F 3 "" H 19350 16750 60  0001 C CNN
+	1    19350 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B206
+U 1 1 5B470B93
+P 19350 17900
+F 0 "B206" V 19600 17700 60  0000 C CNN
+F 1 "bixel_down" V 19100 17700 39  0000 C CNN
+F 2 "custom:bixel" H 19350 17900 60  0001 C CNN
+F 3 "" H 19350 17900 60  0001 C CNN
+	1    19350 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B207
+U 1 1 5B470B99
+P 19350 19050
+F 0 "B207" V 19600 18850 60  0000 C CNN
+F 1 "bixel_down" V 19100 18850 39  0000 C CNN
+F 2 "custom:bixel" H 19350 19050 60  0001 C CNN
+F 3 "" H 19350 19050 60  0001 C CNN
+	1    19350 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B208
+U 1 1 5B470B9F
+P 19350 20200
+F 0 "B208" V 19600 20000 60  0000 C CNN
+F 1 "bixel_down" V 19100 20000 39  0000 C CNN
+F 2 "custom:bixel" H 19350 20200 60  0001 C CNN
+F 3 "" H 19350 20200 60  0001 C CNN
+	1    19350 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B209
+U 1 1 5B470BA5
+P 20300 2950
+F 0 "B209" V 20550 2750 60  0000 C CNN
+F 1 "bixel_up" V 20050 2800 39  0000 C CNN
+F 2 "custom:bixel" H 20300 2950 60  0001 C CNN
+F 3 "" H 20300 2950 60  0001 C CNN
+	1    20300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B210
+U 1 1 5B470BAB
+P 20300 4100
+F 0 "B210" V 20550 3900 60  0000 C CNN
+F 1 "bixel_up" V 20050 3950 39  0000 C CNN
+F 2 "custom:bixel" H 20300 4100 60  0001 C CNN
+F 3 "" H 20300 4100 60  0001 C CNN
+	1    20300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B211
+U 1 1 5B470BB1
+P 20300 5250
+F 0 "B211" V 20550 5050 60  0000 C CNN
+F 1 "bixel_up" V 20050 5100 39  0000 C CNN
+F 2 "custom:bixel" H 20300 5250 60  0001 C CNN
+F 3 "" H 20300 5250 60  0001 C CNN
+	1    20300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B212
+U 1 1 5B470BB7
+P 20300 6400
+F 0 "B212" V 20550 6200 60  0000 C CNN
+F 1 "bixel_up" V 20050 6250 39  0000 C CNN
+F 2 "custom:bixel" H 20300 6400 60  0001 C CNN
+F 3 "" H 20300 6400 60  0001 C CNN
+	1    20300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B213
+U 1 1 5B470BBD
+P 20300 7550
+F 0 "B213" V 20550 7350 60  0000 C CNN
+F 1 "bixel_up" V 20050 7400 39  0000 C CNN
+F 2 "custom:bixel" H 20300 7550 60  0001 C CNN
+F 3 "" H 20300 7550 60  0001 C CNN
+	1    20300 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B214
+U 1 1 5B470BC3
+P 20300 8700
+F 0 "B214" V 20550 8500 60  0000 C CNN
+F 1 "bixel_up" V 20050 8550 39  0000 C CNN
+F 2 "custom:bixel" H 20300 8700 60  0001 C CNN
+F 3 "" H 20300 8700 60  0001 C CNN
+	1    20300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B215
+U 1 1 5B470BC9
+P 20300 9850
+F 0 "B215" V 20550 9650 60  0000 C CNN
+F 1 "bixel_up" V 20050 9700 39  0000 C CNN
+F 2 "custom:bixel" H 20300 9850 60  0001 C CNN
+F 3 "" H 20300 9850 60  0001 C CNN
+	1    20300 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B216
+U 1 1 5B470BCF
+P 20300 11000
+F 0 "B216" V 20550 10800 60  0000 C CNN
+F 1 "bixel_up" V 20050 10850 39  0000 C CNN
+F 2 "custom:bixel" H 20300 11000 60  0001 C CNN
+F 3 "" H 20300 11000 60  0001 C CNN
+	1    20300 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B217
+U 1 1 5B470BD5
+P 20300 12150
+F 0 "B217" V 20550 11950 60  0000 C CNN
+F 1 "bixel_up" V 20050 12000 39  0000 C CNN
+F 2 "custom:bixel" H 20300 12150 60  0001 C CNN
+F 3 "" H 20300 12150 60  0001 C CNN
+	1    20300 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B218
+U 1 1 5B470BDB
+P 20300 13300
+F 0 "B218" V 20550 13100 60  0000 C CNN
+F 1 "bixel_up" V 20050 13150 39  0000 C CNN
+F 2 "custom:bixel" H 20300 13300 60  0001 C CNN
+F 3 "" H 20300 13300 60  0001 C CNN
+	1    20300 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B219
+U 1 1 5B470BE1
+P 20300 14450
+F 0 "B219" V 20550 14250 60  0000 C CNN
+F 1 "bixel_up" V 20050 14300 39  0000 C CNN
+F 2 "custom:bixel" H 20300 14450 60  0001 C CNN
+F 3 "" H 20300 14450 60  0001 C CNN
+	1    20300 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B220
+U 1 1 5B470BE7
+P 20300 15600
+F 0 "B220" V 20550 15400 60  0000 C CNN
+F 1 "bixel_up" V 20050 15450 39  0000 C CNN
+F 2 "custom:bixel" H 20300 15600 60  0001 C CNN
+F 3 "" H 20300 15600 60  0001 C CNN
+	1    20300 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B221
+U 1 1 5B470BED
+P 20300 16750
+F 0 "B221" V 20550 16550 60  0000 C CNN
+F 1 "bixel_up" V 20050 16600 39  0000 C CNN
+F 2 "custom:bixel" H 20300 16750 60  0001 C CNN
+F 3 "" H 20300 16750 60  0001 C CNN
+	1    20300 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B222
+U 1 1 5B470BF3
+P 20300 17900
+F 0 "B222" V 20550 17700 60  0000 C CNN
+F 1 "bixel_up" V 20050 17750 39  0000 C CNN
+F 2 "custom:bixel" H 20300 17900 60  0001 C CNN
+F 3 "" H 20300 17900 60  0001 C CNN
+	1    20300 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B223
+U 1 1 5B470BF9
+P 20300 19050
+F 0 "B223" V 20550 18850 60  0000 C CNN
+F 1 "bixel_up" V 20050 18900 39  0000 C CNN
+F 2 "custom:bixel" H 20300 19050 60  0001 C CNN
+F 3 "" H 20300 19050 60  0001 C CNN
+	1    20300 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B224
+U 1 1 5B470BFF
+P 20300 20200
+F 0 "B224" V 20550 20000 60  0000 C CNN
+F 1 "bixel_up" V 20050 20050 39  0000 C CNN
+F 2 "custom:bixel" H 20300 20200 60  0001 C CNN
+F 3 "" H 20300 20200 60  0001 C CNN
+	1    20300 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B225
+U 1 1 5B470C05
+P 21250 2950
+F 0 "B225" V 21500 2750 60  0000 C CNN
+F 1 "bixel_down" V 21000 2750 39  0000 C CNN
+F 2 "custom:bixel" H 21250 2950 60  0001 C CNN
+F 3 "" H 21250 2950 60  0001 C CNN
+	1    21250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B226
+U 1 1 5B470C0B
+P 21250 4100
+F 0 "B226" V 21500 3900 60  0000 C CNN
+F 1 "bixel_down" V 21000 3900 39  0000 C CNN
+F 2 "custom:bixel" H 21250 4100 60  0001 C CNN
+F 3 "" H 21250 4100 60  0001 C CNN
+	1    21250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B227
+U 1 1 5B470C11
+P 21250 5250
+F 0 "B227" V 21500 5050 60  0000 C CNN
+F 1 "bixel_down" V 21000 5050 39  0000 C CNN
+F 2 "custom:bixel" H 21250 5250 60  0001 C CNN
+F 3 "" H 21250 5250 60  0001 C CNN
+	1    21250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B228
+U 1 1 5B470C17
+P 21250 6400
+F 0 "B228" V 21500 6200 60  0000 C CNN
+F 1 "bixel_down" V 21000 6200 39  0000 C CNN
+F 2 "custom:bixel" H 21250 6400 60  0001 C CNN
+F 3 "" H 21250 6400 60  0001 C CNN
+	1    21250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B229
+U 1 1 5B470C1D
+P 21250 7550
+F 0 "B229" V 21500 7350 60  0000 C CNN
+F 1 "bixel_down" V 21000 7350 39  0000 C CNN
+F 2 "custom:bixel" H 21250 7550 60  0001 C CNN
+F 3 "" H 21250 7550 60  0001 C CNN
+	1    21250 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B230
+U 1 1 5B470C23
+P 21250 8700
+F 0 "B230" V 21500 8500 60  0000 C CNN
+F 1 "bixel_down" V 21000 8500 39  0000 C CNN
+F 2 "custom:bixel" H 21250 8700 60  0001 C CNN
+F 3 "" H 21250 8700 60  0001 C CNN
+	1    21250 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B231
+U 1 1 5B470C29
+P 21250 9850
+F 0 "B231" V 21500 9650 60  0000 C CNN
+F 1 "bixel_down" V 21000 9650 39  0000 C CNN
+F 2 "custom:bixel" H 21250 9850 60  0001 C CNN
+F 3 "" H 21250 9850 60  0001 C CNN
+	1    21250 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B232
+U 1 1 5B470C2F
+P 21250 11000
+F 0 "B232" V 21500 10800 60  0000 C CNN
+F 1 "bixel_down" V 21000 10800 39  0000 C CNN
+F 2 "custom:bixel" H 21250 11000 60  0001 C CNN
+F 3 "" H 21250 11000 60  0001 C CNN
+	1    21250 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B233
+U 1 1 5B470C35
+P 21250 12150
+F 0 "B233" V 21500 11950 60  0000 C CNN
+F 1 "bixel_down" V 21000 11950 39  0000 C CNN
+F 2 "custom:bixel" H 21250 12150 60  0001 C CNN
+F 3 "" H 21250 12150 60  0001 C CNN
+	1    21250 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B234
+U 1 1 5B470C3B
+P 21250 13300
+F 0 "B234" V 21500 13100 60  0000 C CNN
+F 1 "bixel_down" V 21000 13100 39  0000 C CNN
+F 2 "custom:bixel" H 21250 13300 60  0001 C CNN
+F 3 "" H 21250 13300 60  0001 C CNN
+	1    21250 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B235
+U 1 1 5B470C41
+P 21250 14450
+F 0 "B235" V 21500 14250 60  0000 C CNN
+F 1 "bixel_down" V 21000 14250 39  0000 C CNN
+F 2 "custom:bixel" H 21250 14450 60  0001 C CNN
+F 3 "" H 21250 14450 60  0001 C CNN
+	1    21250 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B236
+U 1 1 5B470C47
+P 21250 15600
+F 0 "B236" V 21500 15400 60  0000 C CNN
+F 1 "bixel_down" V 21000 15400 39  0000 C CNN
+F 2 "custom:bixel" H 21250 15600 60  0001 C CNN
+F 3 "" H 21250 15600 60  0001 C CNN
+	1    21250 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B237
+U 1 1 5B470C4D
+P 21250 16750
+F 0 "B237" V 21500 16550 60  0000 C CNN
+F 1 "bixel_down" V 21000 16550 39  0000 C CNN
+F 2 "custom:bixel" H 21250 16750 60  0001 C CNN
+F 3 "" H 21250 16750 60  0001 C CNN
+	1    21250 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B238
+U 1 1 5B470C53
+P 21250 17900
+F 0 "B238" V 21500 17700 60  0000 C CNN
+F 1 "bixel_down" V 21000 17700 39  0000 C CNN
+F 2 "custom:bixel" H 21250 17900 60  0001 C CNN
+F 3 "" H 21250 17900 60  0001 C CNN
+	1    21250 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B239
+U 1 1 5B470C59
+P 21250 19050
+F 0 "B239" V 21500 18850 60  0000 C CNN
+F 1 "bixel_down" V 21000 18850 39  0000 C CNN
+F 2 "custom:bixel" H 21250 19050 60  0001 C CNN
+F 3 "" H 21250 19050 60  0001 C CNN
+	1    21250 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_down B240
+U 1 1 5B470C5F
+P 21250 20200
+F 0 "B240" V 21500 20000 60  0000 C CNN
+F 1 "bixel_down" V 21000 20000 39  0000 C CNN
+F 2 "custom:bixel" H 21250 20200 60  0001 C CNN
+F 3 "" H 21250 20200 60  0001 C CNN
+	1    21250 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B241
+U 1 1 5B470C65
+P 22200 2950
+F 0 "B241" V 22450 2750 60  0000 C CNN
+F 1 "bixel_up" V 21950 2800 39  0000 C CNN
+F 2 "custom:bixel" H 22200 2950 60  0001 C CNN
+F 3 "" H 22200 2950 60  0001 C CNN
+	1    22200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B242
+U 1 1 5B470C6B
+P 22200 4100
+F 0 "B242" V 22450 3900 60  0000 C CNN
+F 1 "bixel_up" V 21950 3950 39  0000 C CNN
+F 2 "custom:bixel" H 22200 4100 60  0001 C CNN
+F 3 "" H 22200 4100 60  0001 C CNN
+	1    22200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B243
+U 1 1 5B470C71
+P 22200 5250
+F 0 "B243" V 22450 5050 60  0000 C CNN
+F 1 "bixel_up" V 21950 5100 39  0000 C CNN
+F 2 "custom:bixel" H 22200 5250 60  0001 C CNN
+F 3 "" H 22200 5250 60  0001 C CNN
+	1    22200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B244
+U 1 1 5B470C77
+P 22200 6400
+F 0 "B244" V 22450 6200 60  0000 C CNN
+F 1 "bixel_up" V 21950 6250 39  0000 C CNN
+F 2 "custom:bixel" H 22200 6400 60  0001 C CNN
+F 3 "" H 22200 6400 60  0001 C CNN
+	1    22200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B245
+U 1 1 5B470C7D
+P 22200 7550
+F 0 "B245" V 22450 7350 60  0000 C CNN
+F 1 "bixel_up" V 21950 7400 39  0000 C CNN
+F 2 "custom:bixel" H 22200 7550 60  0001 C CNN
+F 3 "" H 22200 7550 60  0001 C CNN
+	1    22200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B246
+U 1 1 5B470C83
+P 22200 8700
+F 0 "B246" V 22450 8500 60  0000 C CNN
+F 1 "bixel_up" V 21950 8550 39  0000 C CNN
+F 2 "custom:bixel" H 22200 8700 60  0001 C CNN
+F 3 "" H 22200 8700 60  0001 C CNN
+	1    22200 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B247
+U 1 1 5B470C89
+P 22200 9850
+F 0 "B247" V 22450 9650 60  0000 C CNN
+F 1 "bixel_up" V 21950 9700 39  0000 C CNN
+F 2 "custom:bixel" H 22200 9850 60  0001 C CNN
+F 3 "" H 22200 9850 60  0001 C CNN
+	1    22200 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B248
+U 1 1 5B470C8F
+P 22200 11000
+F 0 "B248" V 22450 10800 60  0000 C CNN
+F 1 "bixel_up" V 21950 10850 39  0000 C CNN
+F 2 "custom:bixel" H 22200 11000 60  0001 C CNN
+F 3 "" H 22200 11000 60  0001 C CNN
+	1    22200 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B249
+U 1 1 5B470C95
+P 22200 12150
+F 0 "B249" V 22450 11950 60  0000 C CNN
+F 1 "bixel_up" V 21950 12000 39  0000 C CNN
+F 2 "custom:bixel" H 22200 12150 60  0001 C CNN
+F 3 "" H 22200 12150 60  0001 C CNN
+	1    22200 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B250
+U 1 1 5B470C9B
+P 22200 13300
+F 0 "B250" V 22450 13100 60  0000 C CNN
+F 1 "bixel_up" V 21950 13150 39  0000 C CNN
+F 2 "custom:bixel" H 22200 13300 60  0001 C CNN
+F 3 "" H 22200 13300 60  0001 C CNN
+	1    22200 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B251
+U 1 1 5B470CA1
+P 22200 14450
+F 0 "B251" V 22450 14250 60  0000 C CNN
+F 1 "bixel_up" V 21950 14300 39  0000 C CNN
+F 2 "custom:bixel" H 22200 14450 60  0001 C CNN
+F 3 "" H 22200 14450 60  0001 C CNN
+	1    22200 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B252
+U 1 1 5B470CA7
+P 22200 15600
+F 0 "B252" V 22450 15400 60  0000 C CNN
+F 1 "bixel_up" V 21950 15450 39  0000 C CNN
+F 2 "custom:bixel" H 22200 15600 60  0001 C CNN
+F 3 "" H 22200 15600 60  0001 C CNN
+	1    22200 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B253
+U 1 1 5B470CAD
+P 22200 16750
+F 0 "B253" V 22450 16550 60  0000 C CNN
+F 1 "bixel_up" V 21950 16600 39  0000 C CNN
+F 2 "custom:bixel" H 22200 16750 60  0001 C CNN
+F 3 "" H 22200 16750 60  0001 C CNN
+	1    22200 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B254
+U 1 1 5B470CB3
+P 22200 17900
+F 0 "B254" V 22450 17700 60  0000 C CNN
+F 1 "bixel_up" V 21950 17750 39  0000 C CNN
+F 2 "custom:bixel" H 22200 17900 60  0001 C CNN
+F 3 "" H 22200 17900 60  0001 C CNN
+	1    22200 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B255
+U 1 1 5B470CB9
+P 22200 19050
+F 0 "B255" V 22450 18850 60  0000 C CNN
+F 1 "bixel_up" V 21950 18900 39  0000 C CNN
+F 2 "custom:bixel" H 22200 19050 60  0001 C CNN
+F 3 "" H 22200 19050 60  0001 C CNN
+	1    22200 19050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bixel_up B256
+U 1 1 5B470CBF
+P 22200 20200
+F 0 "B256" V 22450 20000 60  0000 C CNN
+F 1 "bixel_up" V 21950 20050 39  0000 C CNN
+F 2 "custom:bixel" H 22200 20200 60  0001 C CNN
+F 3 "" H 22200 20200 60  0001 C CNN
+	1    22200 20200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 2350 1    60   Input ~ 0
+COL_0
+Text GLabel 7300 2950 0    60   Input ~ 0
+ROW_0
+Text GLabel 9300 2350 1    60   Input ~ 0
+COL_1
+Text GLabel 10250 2350 1    60   Input ~ 0
+COL_2
+Text GLabel 11200 2350 1    60   Input ~ 0
+COL_3
+Text GLabel 12150 2350 1    60   Input ~ 0
+COL_4
+Text GLabel 13100 2350 1    60   Input ~ 0
+COL_5
+Text GLabel 14050 2350 1    60   Input ~ 0
+COL_6
+Text GLabel 15000 2350 1    60   Input ~ 0
+COL_7
+Text GLabel 15950 2350 1    60   Input ~ 0
+COL_8
+Text GLabel 16900 2350 1    60   Input ~ 0
+COL_9
+Text GLabel 17850 2350 1    60   Input ~ 0
+COL_10
+Text GLabel 18800 2350 1    60   Input ~ 0
+COL_11
+Text GLabel 19750 2350 1    60   Input ~ 0
+COL_12
+Text GLabel 20700 2350 1    60   Input ~ 0
+COL_13
+Text GLabel 21650 2350 1    60   Input ~ 0
+COL_14
+Text GLabel 22600 2350 1    60   Input ~ 0
+COL_15
+Text GLabel 7300 4100 0    60   Input ~ 0
+ROW_1
+Text GLabel 7300 5250 0    60   Input ~ 0
+ROW_2
+Text GLabel 7300 6400 0    60   Input ~ 0
+ROW_3
+Text GLabel 7300 7550 0    60   Input ~ 0
+ROW_4
+Text GLabel 7300 8700 0    60   Input ~ 0
+ROW_5
+Text GLabel 7300 9850 0    60   Input ~ 0
+ROW_6
+Text GLabel 7300 11000 0    60   Input ~ 0
+ROW_7
+Text GLabel 7300 12150 0    60   Input ~ 0
+ROW_8
+Text GLabel 7300 13300 0    60   Input ~ 0
+ROW_9
+Text GLabel 7300 14450 0    60   Input ~ 0
+ROW_10
+Text GLabel 7300 15600 0    60   Input ~ 0
+ROW_11
+Text GLabel 7300 16750 0    60   Input ~ 0
+ROW_12
+Text GLabel 7300 17900 0    60   Input ~ 0
+ROW_13
+Text GLabel 7300 19050 0    60   Input ~ 0
+ROW_14
+Text GLabel 7300 20200 0    60   Input ~ 0
+ROW_15
+$EndSCHEMATC
