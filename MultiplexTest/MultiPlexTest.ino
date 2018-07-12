@@ -65,7 +65,7 @@ inline void setup_btns() {
     pinMode(BTN_ROW_14, INPUT_PULLUP);
     pinMode(BTN_ROW_15, INPUT_PULLUP);
 
-    if(!btn_timer.begin(check_btns, 100)) {
+    if(!btn_timer.begin(check_btns, 1000)) {
         Serial.println("Failed timer init!");
     }
 }
@@ -84,11 +84,15 @@ void setup() {
 
     setup_leds();
     setup_btns();
+
+    Serial.println("Init Complete");
 }
 
+unsigned long m = 0;
 
 void loop() {
     static uint8_t x, y;
+    m = micros();
     fill_solid(leds, NUM_LEDS, CRGB(0,0,0));
     for(y = 0; y < ROWS; y++){
       for(x = 0; x < COLS; x++){
@@ -99,7 +103,9 @@ void loop() {
       }
     }
 
+
     FastLED.show();
-    FastLED.delay(50);
-    // delay(50);
+    // Serial.println(micros() - m, DEC);
+    // FastLED.delay(100);
+    delay(100);
 }
