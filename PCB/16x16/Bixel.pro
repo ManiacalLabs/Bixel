@@ -1,4 +1,4 @@
-update=7/11/2018 6:13:15 PM
+update=7/11/2018 8:02:06 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,5 +60,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=lib/bixel
+LibName34=lib/74hc595_VisPower
 [general]
 version=1
