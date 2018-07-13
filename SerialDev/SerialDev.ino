@@ -1,6 +1,7 @@
 #include "FastLED.h"
 #include "ShiftRegister74HC595.h" // Docs -> https://shiftregister.simsso.de/
 #include "globals.h"
+#include "serial_led.h"
 
 FASTLED_USING_NAMESPACE
 
@@ -8,8 +9,6 @@ FASTLED_USING_NAMESPACE
 ShiftRegister74HC595 sr(SHIFT_REGS, SHIFT_DATA, SHIFT_CLOCK, SHIFT_LATCH);
 IntervalTimer btn_timer;
 
-// FastLED Stuff
-CRGB leds[NUM_LEDS];
 
 volatile byte col = 0;
 
@@ -66,53 +65,41 @@ inline void setup_btns() {
     pinMode(BTN_ROW_15, INPUT_PULLUP);
 
     if(!btn_timer.begin(check_btns, 1000)) {
-        Serial.println("Failed timer init!");
+        // Serial.println("Failed timer init!");
     }
 }
 
-inline void setup_leds() {
-//   FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-
-    pLed = new APA102Controller<DATA_PIN, CLK_PIN, COLOR_ORDER>();
-    FastLED.addLeds(pLed, leds, NUM_LEDS);
-    pLed->scale(BRIGHTNESS);
-
-  // set master brightness control
-//   FastLED.setBrightness(BRIGHTNESS);
-
-  FastLED.clear();
-  FastLED.show();
-}
-
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(1000000);
 
     while(!Serial){}
 
     setup_leds();
     setup_btns();
 
-    Serial.println("Init Complete 2");
+    // Serial.println("Init Complete 2");
 }
 
 unsigned long m = 0;
 
 void loop() {
-    static uint8_t x, y;
-    fill_solid(leds, NUM_LEDS, CRGB(0,0,0));
-    for(y = 0; y < ROWS; y++){
-      for(x = 0; x < COLS; x++){
-        if(btn_val(x, y)){
-          leds[XY(x,y)] = CRGB(255,0,0);
-          Serial.print(x);Serial.print(",");Serial.println(y);
-        }
-      }
-    }
+    // static uint8_t x, y;
+    // noInterrupts();
+    // FastLED.clear();
+    // for(y = 0; y < ROWS; y++){
+    //   for(x = 0; x < COLS; x++){
+    //     if(btn_val(x, y)){
+    //       leds[XY(x,y)] = CRGB(255,0,0);
+    //     //   Serial.print(x);Serial.print(",");Serial.println(y);
+    //     }
+    //   }
+    // }
 
-    noInterrupts();
-    FastLED.show();
-    interrupts();
-    // FastLED.delay(100);
-    Serial.println(millis(), DEC);
-    delay(100);
+
+    // FastLED.show();
+    // interrupts();
+    // // Serial.println(millis(), DEC);
+    // delay(100);
+
+    getData();
 }

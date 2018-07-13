@@ -1,3 +1,5 @@
+#ifndef __GLOBALS__
+#define __GLOBALS__
 // Button Matrix Setup
 #define SHIFT_REGS 2
 #define SHIFT_DATA 0
@@ -37,12 +39,12 @@ volatile uint16_t btns[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 #define COLOR_ORDER BGR
 #define NUM_LEDS    64 * 4
 
-#define BRIGHTNESS  32
+#define DEFAULT_BRIGHTNESS  32
 
 #define LED_WIDTH   16
 #define LED_HEIGHT  16
 
-CLEDController * pLed = NULL;
+
 
 const uint8_t layout[LED_WIDTH][LED_HEIGHT] = {
     {0, 1, 2, 3, 4, 5, 6, 7, 128, 129, 130, 131, 132, 133, 134, 135},
@@ -64,3 +66,5 @@ const uint8_t layout[LED_WIDTH][LED_HEIGHT] = {
 };
 
 #define XY(x, y) layout[y][x]
+
+#endif

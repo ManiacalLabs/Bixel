@@ -1,0 +1,19 @@
+{
+    "driver": {
+        "num": 256,
+        "typename": "serial",
+        "ledtype": "GENERIC",
+        "hardwareID": "16C0:0483"
+    },
+
+    "layout": {
+        "typename": "strip",
+        "brightness": 8
+    },
+
+    "animation": "BiblioPixelAnimations.strip.Rainbows.RainbowCycle",
+
+    "run": {
+        "fps": 30
+    }
+}
