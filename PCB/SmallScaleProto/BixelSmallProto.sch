@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:74hc595_VisPower
+LIBS:BixelSmallProto-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -71,12 +72,12 @@ $EndComp
 $Comp
 L 74HC595_VisPower U?
 U 1 1 5B11EA08
-P 2200 1550
-F 0 "U?" H 2350 2150 50  0000 C CNN
-F 1 "74HC595_VisPower" H 2200 950 50  0000 C CNN
-F 2 "" H 2200 1550 50  0001 C CNN
-F 3 "" H 2200 1550 50  0001 C CNN
-	1    2200 1550
+P 2200 1700
+F 0 "U?" H 2350 2300 50  0000 C CNN
+F 1 "74HC595_VisPower" H 2200 1100 50  0000 C CNN
+F 2 "" H 2200 1700 50  0001 C CNN
+F 3 "" H 2200 1700 50  0001 C CNN
+	1    2200 1700
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -366,4 +367,80 @@ F 3 "" H 2950 2800 50  0001 C CNN
 	1    2950 2800
 	0    1    1    0   
 $EndComp
+Text GLabel 1450 850  0    31   Input ~ 0
+data
+Text GLabel 1450 650  0    31   Input ~ 0
+latch
+Text GLabel 1450 750  0    31   Input ~ 0
+clock
+Text GLabel 2350 1000 1    31   Input ~ 0
+GND
+Text GLabel 2850 1400 2    31   Input ~ 0
+GND
+Text GLabel 2050 1000 1    31   Input ~ 0
+VCC
+Text GLabel 1550 1700 0    31   Input ~ 0
+VCC
+Text GLabel 1150 1100 1    31   Input ~ 0
+VCC
+Text GLabel 1150 1300 3    31   Input ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 5B490C73
+P 1150 1200
+F 0 "C?" H 1160 1270 50  0000 L CNN
+F 1 "C_Small" H 1160 1120 50  0000 L CNN
+F 2 "" H 1150 1200 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC595_VisPower U?
+U 1 1 5B491397
+P 3950 1700
+F 0 "U?" H 4100 2300 50  0000 C CNN
+F 1 "74HC595_VisPower" H 3950 1100 50  0000 C CNN
+F 2 "" H 3950 1700 50  0001 C CNN
+F 3 "" H 3950 1700 50  0001 C CNN
+	1    3950 1700
+	0    -1   1    0   
+$EndComp
+Text GLabel 4100 1000 1    31   Input ~ 0
+GND
+Text GLabel 4600 1400 2    31   Input ~ 0
+GND
+Text GLabel 3800 1000 1    31   Input ~ 0
+VCC
+Text GLabel 3300 1700 0    31   Input ~ 0
+VCC
+Wire Wire Line
+	2650 2400 2650 2450
+Wire Wire Line
+	2650 2450 3100 2450
+Wire Wire Line
+	3100 2450 3100 900 
+Wire Wire Line
+	3100 900  3500 900 
+Wire Wire Line
+	3500 900  3500 1000
+Wire Wire Line
+	1450 850  1750 850 
+Wire Wire Line
+	1750 850  1750 1000
+Wire Wire Line
+	1450 750  3700 750 
+Wire Wire Line
+	1950 750  1950 1000
+Wire Wire Line
+	1450 650  4000 650 
+Wire Wire Line
+	2250 650  2250 1000
+Wire Wire Line
+	3700 750  3700 1000
+Connection ~ 1950 750 
+Wire Wire Line
+	4000 650  4000 1000
+Connection ~ 2250 650 
 $EndSCHEMATC
