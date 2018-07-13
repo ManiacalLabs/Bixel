@@ -14,7 +14,8 @@ namespace CMDTYPE
         BRIGHTNESS = 3,
         GETID      = 4,
         SETID      = 5,
-        GETVER       = 6
+        GETVER     = 6,
+        GETBTNS    = 8
     };
 }
 
@@ -110,6 +111,11 @@ inline void getData()
                 resp = RETURN_CODES::ERROR_SIZE;
 
             Serial.write(resp);
+        }
+        else if(cmd == CMDTYPE::GETBTNS)
+        {
+            Serial.write(RETURN_CODES::SUCCESS);
+            Serial.write((uint8_t&)btns);
         }
         else if(cmd == CMDTYPE::GETID)
         {

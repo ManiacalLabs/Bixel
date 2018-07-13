@@ -32,7 +32,7 @@ class CMDTYPE:
     GETID = 4
     SETID = 5
     GETVER = 6
-    SYNC = 7
+    GETBTNS = 8
 
 
 class RETURN_CODES:
@@ -333,3 +333,14 @@ class Bixel(DriverBase):
             Bixel._printError(ord(resp))
 
         self._com.flushInput()
+
+    def getButtons(self):
+        packet = Bixel._generateHeader(CMDTYPE.GETBTNS, 0)
+        try:
+            com = serial.Serial(dev, timeout=5)
+            com.write(packet)
+            resp = ord(com.read(1))
+            return resp
+        except serial.SerialException:
+            log.error("Problem connecting to serial device.")
+            return -1
