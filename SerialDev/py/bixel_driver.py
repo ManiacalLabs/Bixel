@@ -91,7 +91,7 @@ class Bixel(DriverBase):
     deviceVers = []
 
     def __init__(self, pixels, type=LEDTYPE.APA102, dev="",
-                 c_order=ChannelOrder.RGB, SPISpeed=2,
+                 c_order=ChannelOrder.RGB, SPISpeed=12,
                  restart_timeout=3, deviceID=None, hardwareID="16C0:0483"):
         super().__init__(pixels, pixels.numLEDs, c_order=c_order)
 
@@ -125,6 +125,8 @@ class Bixel(DriverBase):
 
         if type in SPIChipsets:
             log.info("Using SPI Speed: %sMHz", self._SPISpeed)
+
+        self._clear_btns()
 
     def __exit__(self, type, value, traceback):
         if self._com is not None:
@@ -334,13 +336,25 @@ class Bixel(DriverBase):
 
         self._com.flushInput()
 
+    def _clear_btns(self):
+        self.btns = [0] * 16
+
+    def btn(self, x, y):
+        return bool(((self.btns[x] >> y) & 0x01))
+
     def getButtons(self):
         packet = Bixel._generateHeader(CMDTYPE.GETBTNS, 0)
         try:
-            com = serial.Serial(dev, timeout=5)
-            com.write(packet)
-            resp = ord(com.read(1))
-            return resp
+            self._com.write(packet)
+            resp = ord(self._com.read(1))
+            if resp != RETURN_CODES.SUCCESS:
+                Bixel._printError(resp)
+            btns = self._com.read(32)  # read 16 * uint16_t = 32 bytes
+            result = []
+            for i in range(16):
+                result.append(btns[i*2] + (btns[(i*2)+1] << 8))
+            self.btns = result
+            return self.btns
         except serial.SerialException:
             log.error("Problem connecting to serial device.")
             return -1

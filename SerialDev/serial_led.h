@@ -115,7 +115,9 @@ inline void getData()
         else if(cmd == CMDTYPE::GETBTNS)
         {
             Serial.write(RETURN_CODES::SUCCESS);
-            Serial.write((uint8_t&)btns);
+            noInterrupts();
+            Serial.write((uint8_t*)btns, 32);
+            interrupts();
         }
         else if(cmd == CMDTYPE::GETID)
         {
