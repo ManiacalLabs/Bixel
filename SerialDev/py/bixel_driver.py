@@ -128,7 +128,7 @@ class Bixel(DriverBase):
             log.info("Using SPI Speed: %sMHz", self._SPISpeed)
 
         self._clear_btns()
-        self.btns_pressed = None
+        self._btns_pressed = None
         self.last_btns_pressed = None
         self.btn_int_high = None
         self.btn_int_low = None
@@ -349,12 +349,14 @@ class Bixel(DriverBase):
         if self.last_btns_pressed is None:
             return
 
-        self.btn_int_high = set(self.btns_pressed) - set(self.last_btns_pressed)
-        self.btn_int_low = set(self.last_btns_pressed) - set(self.btns_pressed)
+        self.btn_int_high = set(self._btns_pressed) - set(self.last_btns_pressed)
+        self.btn_int_low = set(self.last_btns_pressed) - set(self._btns_pressed)
 
     def btn_interrupts(self):
         return self.btn_int_high, self.btn_int_low
 
+    def btns_pressed(self):
+        return self._btns_pressed
 
     def btn(self, x, y):
         return self.btns[x][y]
@@ -372,12 +374,12 @@ class Bixel(DriverBase):
                 low = np.unpackbits(np.array(btns[i*2], dtype=np.uint8))
                 high = np.unpackbits(np.array(btns[(i*2)+1], dtype=np.uint8))
                 result[i] = np.concatenate([high, low], axis=0)
-            result = np.flip(result, axis=1)
-            self.btns = result
 
-            self.btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
+            self.btns = np.rot90(result, 1)
+
+            self._btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
             self._gen_btn_interrupts()
-            self.last_btns_pressed = self.btns_pressed
+            self.last_btns_pressed = self._btns_pressed
             return self.btns
         except serial.SerialException:
             log.error("Problem connecting to serial device.")
