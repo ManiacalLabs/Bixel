@@ -1,4 +1,4 @@
-#include <FastLED.h>
+#include "FastLED.h"
 #include "globals.h"
 
 FASTLED_USING_NAMESPACE
@@ -59,7 +59,7 @@ inline void setup_leds() {
 void setup() {
     Serial.begin(115200);
 
-    while(!Serial){}
+    // while(!Serial){}
 
     setup_leds();
     setup_btns();
