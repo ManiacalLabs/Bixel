@@ -6466,10 +6466,6 @@ Wire Wire Line
 	25050 3100 24900 3100
 Text GLabel 24900 4500 0    60   Input ~ 0
 GND
-Wire Wire Line
-	25050 4450 25050 4500
-Wire Wire Line
-	25050 4500 24900 4500
 Text GLabel 24550 4050 0    60   Input ~ 0
 GND
 Wire Wire Line
@@ -6480,10 +6476,6 @@ Wire Wire Line
 	24550 3750 24650 3750
 Text GLabel 25100 3300 2    60   Input ~ 0
 5V
-Wire Wire Line
-	25100 1900 25050 1900
-Wire Wire Line
-	25050 1900 25050 1950
 Wire Wire Line
 	25050 3350 25050 3300
 Wire Wire Line
@@ -6543,10 +6535,6 @@ Wire Wire Line
 	7900 2350 7900 2450
 Wire Wire Line
 	8000 2350 8000 2450
-Wire Wire Line
-	8150 2350 8100 2350
-Wire Wire Line
-	8100 2350 8100 2450
 Wire Wire Line
 	7750 2350 7800 2350
 Wire Wire Line
@@ -6624,4 +6612,16 @@ Wire Wire Line
 Connection ~ 15150 17200
 Wire Wire Line
 	13250 17900 13250 18350
+Wire Wire Line
+	24900 4500 25050 4500
+Wire Wire Line
+	25050 4500 25050 4450
+Wire Wire Line
+	25100 1900 25050 1900
+Wire Wire Line
+	25050 1900 25050 1950
+Wire Wire Line
+	8150 2350 8100 2350
+Wire Wire Line
+	8100 2350 8100 2450
 $EndSCHEMATC
