@@ -4,6 +4,7 @@ import log
 import time
 import os
 import traceback
+import numpy as np
 try:
     import serial
     import serial.tools.list_ports
@@ -127,6 +128,10 @@ class Bixel(DriverBase):
             log.info("Using SPI Speed: %sMHz", self._SPISpeed)
 
         self._clear_btns()
+        self.btns_pressed = None
+        self.last_btns_pressed = None
+        self.btn_int_high = None
+        self.btn_int_low = None
 
     def __exit__(self, type, value, traceback):
         if self._com is not None:
@@ -339,8 +344,20 @@ class Bixel(DriverBase):
     def _clear_btns(self):
         self.btns = [0] * 16
 
+    def _gen_btn_interrupts(self):
+        self.btn_int_high = self.btn_int_low = None
+        if self.last_btns_pressed is None:
+            return
+
+        self.btn_int_high = set(self.btns_pressed) - set(self.last_btns_pressed)
+        self.btn_int_low = set(self.last_btns_pressed) - set(self.btns_pressed)
+
+    def btn_interrupts(self):
+        return self.btn_int_high, self.btn_int_low
+
+
     def btn(self, x, y):
-        return bool(((self.btns[x] >> y) & 0x01))
+        return self.btns[x][y]
 
     def getButtons(self):
         packet = Bixel._generateHeader(CMDTYPE.GETBTNS, 0)
@@ -350,10 +367,17 @@ class Bixel(DriverBase):
             if resp != RETURN_CODES.SUCCESS:
                 Bixel._printError(resp)
             btns = self._com.read(32)  # read 16 * uint16_t = 32 bytes
-            result = []
+            result = np.zeros([16, 16])
             for i in range(16):
-                result.append(btns[i*2] + (btns[(i*2)+1] << 8))
+                low = np.unpackbits(np.array(btns[i*2], dtype=np.uint8))
+                high = np.unpackbits(np.array(btns[(i*2)+1], dtype=np.uint8))
+                result[i] = np.concatenate([high, low], axis=0)
+            result = np.flip(result, axis=1)
             self.btns = result
+
+            self.btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
+            self._gen_btn_interrupts()
+            self.last_btns_pressed = self.btns_pressed
             return self.btns
         except serial.SerialException:
             log.error("Problem connecting to serial device.")
