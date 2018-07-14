@@ -64,7 +64,7 @@ inline void setup_btns() {
     pinMode(BTN_ROW_14, INPUT_PULLUP);
     pinMode(BTN_ROW_15, INPUT_PULLUP);
 
-    if(!btn_timer.begin(check_btns, 1000)) {
+    if(!btn_timer.begin(check_btns, 2000)) {
         // Serial.println("Failed timer init!");
     }
 }

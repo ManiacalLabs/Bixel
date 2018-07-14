@@ -127,11 +127,7 @@ class Bixel(DriverBase):
         if type in SPIChipsets:
             log.info("Using SPI Speed: %sMHz", self._SPISpeed)
 
-        self._clear_btns()
-        self._btns_pressed = None
-        self.last_btns_pressed = None
-        self.btn_int_high = None
-        self.btn_int_low = None
+        self.buttons = BixelButtons()
 
     def __exit__(self, type, value, traceback):
         if self._com is not None:
@@ -341,26 +337,6 @@ class Bixel(DriverBase):
 
         self._com.flushInput()
 
-    def _clear_btns(self):
-        self.btns = [0] * 16
-
-    def _gen_btn_interrupts(self):
-        self.btn_int_high = self.btn_int_low = None
-        if self.last_btns_pressed is None:
-            return
-
-        self.btn_int_high = set(self._btns_pressed) - set(self.last_btns_pressed)
-        self.btn_int_low = set(self.last_btns_pressed) - set(self._btns_pressed)
-
-    def btn_interrupts(self):
-        return self.btn_int_high, self.btn_int_low
-
-    def btns_pressed(self):
-        return self._btns_pressed
-
-    def btn(self, x, y):
-        return self.btns[x][y]
-
     def getButtons(self):
         packet = Bixel._generateHeader(CMDTYPE.GETBTNS, 0)
         try:
@@ -369,18 +345,54 @@ class Bixel(DriverBase):
             if resp != RETURN_CODES.SUCCESS:
                 Bixel._printError(resp)
             btns = self._com.read(32)  # read 16 * uint16_t = 32 bytes
-            result = np.zeros([16, 16])
-            for i in range(16):
-                low = np.unpackbits(np.array(btns[i*2], dtype=np.uint8))
-                high = np.unpackbits(np.array(btns[(i*2)+1], dtype=np.uint8))
-                result[i] = np.concatenate([high, low], axis=0)
-
-            self.btns = np.rot90(result, 1)
-
-            self._btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
-            self._gen_btn_interrupts()
-            self.last_btns_pressed = self._btns_pressed
-            return self.btns
+            return self.buttons.update(btns)
         except serial.SerialException:
             log.error("Problem connecting to serial device.")
             return -1
+
+
+class BixelButtons(object):
+    def __init__(self):
+        self._clear_btns()
+        self._btns_pressed = None
+        self.last_btns_pressed = None
+        self.btn_int_high = None
+        self.btn_int_low = None
+
+    def _clear_btns(self):
+        self.btns = [0] * 16
+
+    def update(self, btns):
+        result = np.zeros([16, 16])
+        for i in range(16):
+            low = np.unpackbits(np.array(btns[i*2], dtype=np.uint8))
+            high = np.unpackbits(np.array(btns[(i*2)+1], dtype=np.uint8))
+            result[i] = np.concatenate([high, low], axis=0)
+
+        self.btns = np.rot90(result, 1)
+
+        self._btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
+        self._gen_btn_interrupts()
+        self.last_btns_pressed = self._btns_pressed
+        return self.btns
+
+
+    def _gen_btn_interrupts(self):
+        self.btn_int_high = self.btn_int_low = tuple()
+        if self.last_btns_pressed is None:
+            return
+
+        self.btn_int_high = set(self._btns_pressed) - set(self.last_btns_pressed)
+        self.btn_int_low = set(self.last_btns_pressed) - set(self._btns_pressed)
+
+    def int_high(self):
+        return self.btn_int_high
+
+    def int_low(self):
+        return self.btn_int_low
+
+    def pressed(self):
+        return self._btns_pressed
+
+    def get(self, x, y):
+        return self.btns[x][y]
