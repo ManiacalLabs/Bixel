@@ -6,9 +6,9 @@
     (area 99.924999 99.924999 600.075001 600.075001)
     (thickness 1.6)
     (drawings 4)
-    (tracks 102)
+    (tracks 117)
     (zones 0)
-    (modules 261)
+    (modules 550)
     (nets 1066)
   )
 
@@ -69,7 +69,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEFFFF)
+    (visible_elements 7FFEF7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -2236,6 +2236,4038 @@
     (add_net ROW_7)
     (add_net ROW_8)
     (add_net ROW_9)
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA317)
+    (at 584 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA312)
+    (at 556 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA30D)
+    (at 528 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA308)
+    (at 500 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA303)
+    (at 472 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2FE)
+    (at 444 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2F9)
+    (at 416 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2F4)
+    (at 388 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2EF)
+    (at 360 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2EA)
+    (at 332 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2E5)
+    (at 304 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2E0)
+    (at 276 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2DB)
+    (at 248 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2D6)
+    (at 220 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2D1)
+    (at 192 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2CC)
+    (at 164 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2C7)
+    (at 136 584)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2C2)
+    (at 584 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2BD)
+    (at 556 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2B8)
+    (at 528 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2B3)
+    (at 500 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2AE)
+    (at 472 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2A9)
+    (at 444 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA2A4)
+    (at 416 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA29F)
+    (at 388 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA29A)
+    (at 360 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA295)
+    (at 332 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA290)
+    (at 304 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA28B)
+    (at 276 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA286)
+    (at 248 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA281)
+    (at 220 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA27C)
+    (at 192 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA277)
+    (at 164 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA272)
+    (at 136 556)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA26D)
+    (at 584 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA268)
+    (at 556 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA263)
+    (at 528 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA25E)
+    (at 500 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA259)
+    (at 472 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA254)
+    (at 444 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA24F)
+    (at 416 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA24A)
+    (at 388 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA245)
+    (at 360 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA240)
+    (at 332 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA23B)
+    (at 304 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA236)
+    (at 276 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA231)
+    (at 248 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA22C)
+    (at 220 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA227)
+    (at 192 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA222)
+    (at 164 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA21D)
+    (at 136 528)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA218)
+    (at 584 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA213)
+    (at 556 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA20E)
+    (at 528 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA209)
+    (at 500 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA204)
+    (at 472 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1FF)
+    (at 444 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1FA)
+    (at 416 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1F5)
+    (at 388 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1F0)
+    (at 360 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1EB)
+    (at 332 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1E6)
+    (at 304 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1E1)
+    (at 276 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1DC)
+    (at 248 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1D7)
+    (at 220 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1D2)
+    (at 192 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1CD)
+    (at 164 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1C8)
+    (at 136 500)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1C3)
+    (at 584 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1BE)
+    (at 556 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1B9)
+    (at 528 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1B4)
+    (at 500 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1AF)
+    (at 472 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1AA)
+    (at 444 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1A5)
+    (at 416 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA1A0)
+    (at 388 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA19B)
+    (at 360 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA196)
+    (at 332 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA191)
+    (at 304 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA18C)
+    (at 276 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA187)
+    (at 248 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA182)
+    (at 220 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA17D)
+    (at 192 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA178)
+    (at 164 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA173)
+    (at 136 472)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA16E)
+    (at 584 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA169)
+    (at 556 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA164)
+    (at 528 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA15F)
+    (at 500 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA15A)
+    (at 472 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA155)
+    (at 444 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA150)
+    (at 416 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA14B)
+    (at 388 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA146)
+    (at 360 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA141)
+    (at 332 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA13C)
+    (at 304 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA137)
+    (at 276 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA132)
+    (at 248 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA12D)
+    (at 220 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA128)
+    (at 192 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA123)
+    (at 164 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA11E)
+    (at 136 444)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA119)
+    (at 584 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA114)
+    (at 556 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA10F)
+    (at 528 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA10A)
+    (at 500 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA105)
+    (at 472 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA100)
+    (at 444 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0FB)
+    (at 416 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0F6)
+    (at 388 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0F1)
+    (at 360 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0EC)
+    (at 332 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0E7)
+    (at 304 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0E2)
+    (at 276 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0DD)
+    (at 248 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0D8)
+    (at 220 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0D3)
+    (at 192 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0CE)
+    (at 164 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0C9)
+    (at 136 416)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0C4)
+    (at 584 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0BF)
+    (at 556 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0BA)
+    (at 528 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0B5)
+    (at 500 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0B0)
+    (at 472 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0AB)
+    (at 444 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0A6)
+    (at 416 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA0A1)
+    (at 388 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA09C)
+    (at 360 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA097)
+    (at 332 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA092)
+    (at 304 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA08D)
+    (at 276 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA088)
+    (at 248 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA083)
+    (at 220 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA07E)
+    (at 192 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA079)
+    (at 164 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA074)
+    (at 136 388)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA06F)
+    (at 584 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA06A)
+    (at 556 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA065)
+    (at 528 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA060)
+    (at 500 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA05B)
+    (at 472 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA056)
+    (at 444 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA051)
+    (at 416 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA04C)
+    (at 388 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA047)
+    (at 360 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA042)
+    (at 332 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA03D)
+    (at 304 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA038)
+    (at 276 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA033)
+    (at 248 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA02E)
+    (at 220 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA029)
+    (at 192 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA024)
+    (at 164 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA01F)
+    (at 136 360)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA01A)
+    (at 584 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA015)
+    (at 556 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA010)
+    (at 528 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA00B)
+    (at 500 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA006)
+    (at 472 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4AA001)
+    (at 444 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FFC)
+    (at 416 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FF7)
+    (at 388 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FF2)
+    (at 360 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FED)
+    (at 332 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FE8)
+    (at 304 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FE3)
+    (at 276 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FDE)
+    (at 248 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FD9)
+    (at 220 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FD4)
+    (at 192 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FCF)
+    (at 164 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FCA)
+    (at 136 332)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FC5)
+    (at 584 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FC0)
+    (at 556 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FBB)
+    (at 528 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FB6)
+    (at 500 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FB1)
+    (at 472 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FAC)
+    (at 444 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FA7)
+    (at 416 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9FA2)
+    (at 388 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F9D)
+    (at 360 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F98)
+    (at 332 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F93)
+    (at 304 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F8E)
+    (at 276 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F89)
+    (at 248 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F84)
+    (at 220 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F7F)
+    (at 192 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F7A)
+    (at 164 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F75)
+    (at 136 304)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F70)
+    (at 584 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F6B)
+    (at 556 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F66)
+    (at 528 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F61)
+    (at 500 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F5C)
+    (at 472 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F57)
+    (at 444 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F52)
+    (at 416 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F4D)
+    (at 388 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F48)
+    (at 360 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F43)
+    (at 332 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F3E)
+    (at 304 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F39)
+    (at 276 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F34)
+    (at 248 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F2F)
+    (at 220 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F2A)
+    (at 192 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F25)
+    (at 164 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F20)
+    (at 136 276)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F1B)
+    (at 584 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F16)
+    (at 556 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F11)
+    (at 528 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F0C)
+    (at 500 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F07)
+    (at 472 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9F02)
+    (at 444 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EFD)
+    (at 416 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EF8)
+    (at 388 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EF3)
+    (at 360 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EEE)
+    (at 332 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EE9)
+    (at 304 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EE4)
+    (at 276 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EDF)
+    (at 248 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EDA)
+    (at 220 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9ED5)
+    (at 192 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9ED0)
+    (at 164 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9ECB)
+    (at 136 248)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EC6)
+    (at 584 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EC1)
+    (at 556 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EBC)
+    (at 528 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EB7)
+    (at 500 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EB2)
+    (at 472 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EAD)
+    (at 444 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EA8)
+    (at 416 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9EA3)
+    (at 388 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E9E)
+    (at 360 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E99)
+    (at 332 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E94)
+    (at 304 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E8F)
+    (at 276 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E8A)
+    (at 248 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E85)
+    (at 220 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E80)
+    (at 192 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E7B)
+    (at 164 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E76)
+    (at 136 220)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E71)
+    (at 584 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E6C)
+    (at 556 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E67)
+    (at 528 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E62)
+    (at 500 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E5D)
+    (at 472 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E58)
+    (at 444 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E53)
+    (at 416 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E4E)
+    (at 388 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E49)
+    (at 360 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E44)
+    (at 332 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E3F)
+    (at 304 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E3A)
+    (at 276 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E35)
+    (at 248 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E30)
+    (at 220 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E2B)
+    (at 192 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E26)
+    (at 164 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E21)
+    (at 136 192)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E1C)
+    (at 584 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E17)
+    (at 556 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E12)
+    (at 528 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E0D)
+    (at 500 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E08)
+    (at 472 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9E03)
+    (at 444 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DFE)
+    (at 416 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DF9)
+    (at 388 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DF4)
+    (at 360 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DEF)
+    (at 332 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DEA)
+    (at 304 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DE5)
+    (at 276 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DE0)
+    (at 248 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DDB)
+    (at 220 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DD6)
+    (at 192 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DD1)
+    (at 164 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DCC)
+    (at 136 164)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DC7)
+    (at 584 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DC2)
+    (at 556 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DBD)
+    (at 528 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DB8)
+    (at 500 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DB3)
+    (at 472 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DAE)
+    (at 444 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DA9)
+    (at 416 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9DA4)
+    (at 388 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D9F)
+    (at 360 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D9A)
+    (at 332 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D95)
+    (at 304 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D90)
+    (at 276 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D8B)
+    (at 248 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D86)
+    (at 220 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D81)
+    (at 192 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9D7C)
+    (at 164 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AC193)
@@ -22514,6 +26546,20 @@
     )
   )
 
+  (module custom:mount (layer F.Cu) (tedit 5B36BFAA) (tstamp 5B4A9CC3)
+    (at 136 136)
+    (descr "3mm mount hole for 5.25mm standoff")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value mount (at 0 3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (pad 0 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
   (gr_line (start 600 100) (end 600 600) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100 100) (end 100 600) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100 600) (end 600 600) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -22538,18 +26584,33 @@
   (segment (start 133.04 144.18) (end 157.22 120) (width 0.25) (layer F.Cu) (net 11) (tstamp 5B4BBC98))
   (segment (start 133.04 177) (end 133.04 144.18) (width 0.25) (layer F.Cu) (net 11) (tstamp 5B4BBC97))
   (segment (start 134.02 177.98) (end 133.04 177) (width 0.25) (layer F.Cu) (net 11) (tstamp 5B4BBC96))
-  (segment (start 142.5 205.98) (end 132.02 205.98) (width 0.25) (layer F.Cu) (net 16))
-  (segment (start 131.04 143.64) (end 154.68 120) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4BBC92))
+  (segment (start 131.04 143.64) (end 131.04 143.46) (width 0.25) (layer F.Cu) (net 16))
+  (segment (start 136 140.5) (end 141 135.5) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4A9CD6))
+  (segment (start 141 135.5) (end 141 133.68) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4A9CD8))
+  (segment (start 154.68 120) (end 141 133.68) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4A9CDA))
+  (segment (start 132.02 205.98) (end 142.5 205.98) (width 0.25) (layer F.Cu) (net 16))
   (segment (start 131.04 205) (end 131.04 143.64) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4BBC91))
   (segment (start 132.02 205.98) (end 131.04 205) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4BBC90))
-  (segment (start 142.5 233.98) (end 130.02 233.98) (width 0.25) (layer F.Cu) (net 21))
-  (segment (start 129.04 143.1) (end 152.14 120) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4BBC8C))
+  (segment (start 134 140.5) (end 136 140.5) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4A9D58))
+  (segment (start 131.04 143.46) (end 134 140.5) (width 0.25) (layer F.Cu) (net 16) (tstamp 5B4A9D52))
+  (segment (start 140.5 135) (end 136.5 139) (width 0.25) (layer F.Cu) (net 21))
+  (segment (start 140.5 135) (end 140.5 131.64) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4A9CF0))
+  (segment (start 152.14 120) (end 140.5 131.64) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4A9CF4))
+  (segment (start 130.02 233.98) (end 142.5 233.98) (width 0.25) (layer F.Cu) (net 21))
   (segment (start 129.04 233) (end 129.04 143.1) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4BBC8B))
   (segment (start 130.02 233.98) (end 129.04 233) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4BBC8A))
-  (segment (start 142.5 261.98) (end 128.02 261.98) (width 0.25) (layer F.Cu) (net 26))
-  (segment (start 127.04 142.56) (end 149.6 120) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4BBC86))
-  (segment (start 127.04 261) (end 127.04 142.56) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4BBC85))
+  (segment (start 129.04 143.1) (end 129.04 142.96) (width 0.25) (layer F.Cu) (net 21))
+  (segment (start 133 139) (end 129.04 142.96) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4A9D33))
+  (segment (start 136.5 139) (end 133 139) (width 0.25) (layer F.Cu) (net 21) (tstamp 5B4A9D2E))
+  (segment (start 127.04 142.56) (end 127.04 142.46) (width 0.25) (layer F.Cu) (net 26))
   (segment (start 128.02 261.98) (end 127.04 261) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4BBC84))
+  (segment (start 127.04 261) (end 127.04 142.56) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4BBC85))
+  (segment (start 142.5 261.98) (end 128.02 261.98) (width 0.25) (layer F.Cu) (net 26))
+  (segment (start 138.1 131.5) (end 149.6 120) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4A9D0E))
+  (segment (start 137 131.5) (end 138.1 131.5) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4A9D09))
+  (segment (start 132.5 136) (end 137 131.5) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4A9D07))
+  (segment (start 132.5 137) (end 132.5 136) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4A9D04))
+  (segment (start 127.04 142.46) (end 132.5 137) (width 0.25) (layer F.Cu) (net 26) (tstamp 5B4A9CFF))
   (segment (start 142.5 289.98) (end 126.02 289.98) (width 0.25) (layer F.Cu) (net 31))
   (segment (start 125.04 142.02) (end 147.06 120) (width 0.25) (layer F.Cu) (net 31) (tstamp 5B4BBC80))
   (segment (start 125.04 289) (end 125.04 142.02) (width 0.25) (layer F.Cu) (net 31) (tstamp 5B4BBC7F))
@@ -22601,21 +26662,21 @@
   (segment (start 107 132) (end 116 123) (width 0.25) (layer F.Cu) (net 76) (tstamp 5B4BBC2F))
   (segment (start 107 541) (end 107 132) (width 0.25) (layer F.Cu) (net 76) (tstamp 5B4BBC2E))
   (segment (start 107.98 541.98) (end 107 541) (width 0.25) (layer F.Cu) (net 76) (tstamp 5B4BBC2C))
-  (segment (start 142.5 569.98) (end 170.5 569.98) (width 0.25) (layer F.Cu) (net 81) (status C00000))
-  (segment (start 170.5 569.98) (end 198.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE23) (status C00000))
-  (segment (start 198.5 569.98) (end 226.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE24) (status C00000))
-  (segment (start 226.5 569.98) (end 254.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE25) (status C00000))
-  (segment (start 254.5 569.98) (end 282.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE26) (status C00000))
-  (segment (start 282.5 569.98) (end 310.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE27) (status C00000))
-  (segment (start 310.5 569.98) (end 338.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE28) (status C00000))
-  (segment (start 338.5 569.98) (end 366.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE29) (status C00000))
-  (segment (start 366.5 569.98) (end 394.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2A) (status C00000))
-  (segment (start 394.5 569.98) (end 422.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2B) (status C00000))
-  (segment (start 422.5 569.98) (end 450.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2C) (status C00000))
-  (segment (start 450.5 569.98) (end 478.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2D) (status C00000))
-  (segment (start 478.5 569.98) (end 506.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2E) (status C00000))
-  (segment (start 506.5 569.98) (end 534.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2F) (status C00000))
-  (segment (start 534.5 569.98) (end 562.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE30) (status C00000))
+  (segment (start 142.5 569.98) (end 170.5 569.98) (width 0.25) (layer F.Cu) (net 81))
+  (segment (start 170.5 569.98) (end 198.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE23))
+  (segment (start 198.5 569.98) (end 226.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE24))
+  (segment (start 226.5 569.98) (end 254.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE25))
+  (segment (start 254.5 569.98) (end 282.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE26))
+  (segment (start 282.5 569.98) (end 310.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE27))
+  (segment (start 310.5 569.98) (end 338.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE28))
+  (segment (start 338.5 569.98) (end 366.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE29))
+  (segment (start 366.5 569.98) (end 394.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2A))
+  (segment (start 394.5 569.98) (end 422.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2B))
+  (segment (start 422.5 569.98) (end 450.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2C))
+  (segment (start 450.5 569.98) (end 478.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2D))
+  (segment (start 478.5 569.98) (end 506.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2E))
+  (segment (start 506.5 569.98) (end 534.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE2F))
+  (segment (start 534.5 569.98) (end 562.5 569.98) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBE30))
   (segment (start 142.5 569.98) (end 106.02 569.98) (width 0.25) (layer F.Cu) (net 81))
   (segment (start 115.08 120) (end 121.66 120) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBC28))
   (segment (start 105.04 130.04) (end 115.08 120) (width 0.25) (layer F.Cu) (net 81) (tstamp 5B4BBC27))
