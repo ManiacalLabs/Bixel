@@ -94,7 +94,8 @@ class Bixel(DriverBase):
     def __init__(self, pixels, type=LEDTYPE.APA102, dev="",
                  c_order=ChannelOrder.RGB, SPISpeed=12,
                  restart_timeout=3, deviceID=None, hardwareID="16C0:0483"):
-        super().__init__(pixels, pixels.numLEDs, c_order=c_order)
+        super().__init__(pixels, pixels.numLEDs, c_order=c_order,
+                         gamma=[int(pow(float(i) / 255.0, 2.5) * 255.0 + 0.5) for i in range(256)])
 
         if SPISpeed < 1 or SPISpeed > 24 or not (type in SPIChipsets):
             SPISpeed = 1
@@ -360,7 +361,7 @@ class BixelButtons(object):
         self.btn_int_low = None
 
     def _clear_btns(self):
-        self.btns = [0] * 16
+        self.btns =  [[0 for y in range(16)] for x in range(16)]
 
     def update(self, btns):
         result = np.zeros([16, 16])
