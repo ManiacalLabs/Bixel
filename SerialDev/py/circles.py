@@ -21,8 +21,8 @@ def circles(matrix, buttons, data):
         color = c['color']
 
         if (x + size < 24 or x - size >= -8) or (y + size < 24 or y - size >= -8):
-            matrix.drawCircle(x, y, size, color_map[x][y])
-            c['size'] += 1
+            matrix.drawCircle(x, y, int(size), color_map[x][y])
+            c['size'] += 0.5
             new_list.append(c)
 
     data['circles'] = new_list
