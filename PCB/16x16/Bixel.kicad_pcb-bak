@@ -2,7 +2,7 @@
 
   (general
     (links 1553)
-    (no_connects 1203)
+    (no_connects 1552)
     (area 99.924999 99.924999 600.075001 666.745)
     (thickness 1.6)
     (drawings 6)
@@ -10975,7 +10975,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADBD3)
-    (at 350 610.075001)
+    (at 346 150)
     (tags bixel)
     (path /5B48501A)
     (fp_text reference B113 (at 0 -5) (layer F.SilkS)
@@ -11053,7 +11053,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADC0F)
-    (at 350 610.075001)
+    (at 346 178)
     (tags bixel)
     (path /5B485020)
     (fp_text reference B114 (at 0 -5) (layer F.SilkS)
@@ -11131,7 +11131,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADC4B)
-    (at 350 610.075001)
+    (at 346 206)
     (tags bixel)
     (path /5B485026)
     (fp_text reference B115 (at 0 -5) (layer F.SilkS)
@@ -11209,7 +11209,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADC87)
-    (at 350 610.075001)
+    (at 346 234)
     (tags bixel)
     (path /5B48502C)
     (fp_text reference B116 (at 0 -5) (layer F.SilkS)
@@ -11287,7 +11287,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADCC3)
-    (at 350 610.075001)
+    (at 346 262)
     (tags bixel)
     (path /5B485032)
     (fp_text reference B117 (at 0 -5) (layer F.SilkS)
@@ -11365,7 +11365,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADCFF)
-    (at 350 610.075001)
+    (at 346 290)
     (tags bixel)
     (path /5B485038)
     (fp_text reference B118 (at 0 -5) (layer F.SilkS)
@@ -11443,7 +11443,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADD3B)
-    (at 350 610.075001)
+    (at 346 318)
     (tags bixel)
     (path /5B48503E)
     (fp_text reference B119 (at 0 -5) (layer F.SilkS)
@@ -11521,7 +11521,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADD77)
-    (at 350 610.075001)
+    (at 346 346)
     (tags bixel)
     (path /5B485044)
     (fp_text reference B120 (at 0 -5) (layer F.SilkS)
@@ -11599,7 +11599,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADDB3)
-    (at 350 610.075001)
+    (at 346 374)
     (tags bixel)
     (path /5B48504A)
     (fp_text reference B121 (at 0 -5) (layer F.SilkS)
@@ -11677,7 +11677,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADDEF)
-    (at 350 610.075001)
+    (at 346 402)
     (tags bixel)
     (path /5B485050)
     (fp_text reference B122 (at 0 -5) (layer F.SilkS)
@@ -11755,7 +11755,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADE2B)
-    (at 350 610.075001)
+    (at 346 430)
     (tags bixel)
     (path /5B485056)
     (fp_text reference B123 (at 0 -5) (layer F.SilkS)
@@ -11833,7 +11833,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADE67)
-    (at 350 610.075001)
+    (at 346 458)
     (tags bixel)
     (path /5B48505C)
     (fp_text reference B124 (at 0 -5) (layer F.SilkS)
@@ -11911,7 +11911,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADEA3)
-    (at 350 610.075001)
+    (at 346 486)
     (tags bixel)
     (path /5B485062)
     (fp_text reference B125 (at 0 -5) (layer F.SilkS)
@@ -11989,7 +11989,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADEDF)
-    (at 350 610.075001)
+    (at 346 514)
     (tags bixel)
     (path /5B485068)
     (fp_text reference B126 (at 0 -5) (layer F.SilkS)
@@ -12067,7 +12067,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADF1B)
-    (at 350 610.075001)
+    (at 346 542)
     (tags bixel)
     (path /5B48506E)
     (fp_text reference B127 (at 0 -5) (layer F.SilkS)
@@ -12145,7 +12145,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADF57)
-    (at 350 610.075001)
+    (at 346 570)
     (tags bixel)
     (path /5B485074)
     (fp_text reference B128 (at 0 -5) (layer F.SilkS)
@@ -12223,7 +12223,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADF93)
-    (at 350 610.075001)
+    (at 374 150)
     (tags bixel)
     (path /5B48F18A)
     (fp_text reference B129 (at 0 -5) (layer F.SilkS)
@@ -12301,7 +12301,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4ADFCF)
-    (at 350 610.075001)
+    (at 374 178)
     (tags bixel)
     (path /5B48F190)
     (fp_text reference B130 (at 0 -5) (layer F.SilkS)
@@ -12379,7 +12379,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE00B)
-    (at 350 610.075001)
+    (at 374 206)
     (tags bixel)
     (path /5B48F196)
     (fp_text reference B131 (at 0 -5) (layer F.SilkS)
@@ -12457,7 +12457,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE047)
-    (at 350 610.075001)
+    (at 374 234)
     (tags bixel)
     (path /5B48F19C)
     (fp_text reference B132 (at 0 -5) (layer F.SilkS)
@@ -12535,7 +12535,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE083)
-    (at 350 610.075001)
+    (at 374 262)
     (tags bixel)
     (path /5B48F1A2)
     (fp_text reference B133 (at 0 -5) (layer F.SilkS)
@@ -12613,7 +12613,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE0BF)
-    (at 350 610.075001)
+    (at 374 290)
     (tags bixel)
     (path /5B48F1A8)
     (fp_text reference B134 (at 0 -5) (layer F.SilkS)
@@ -12691,7 +12691,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE0FB)
-    (at 350 610.075001)
+    (at 374 318)
     (tags bixel)
     (path /5B48F1AE)
     (fp_text reference B135 (at 0 -5) (layer F.SilkS)
@@ -12769,7 +12769,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE137)
-    (at 350 610.075001)
+    (at 374 346)
     (tags bixel)
     (path /5B48F1B4)
     (fp_text reference B136 (at 0 -5) (layer F.SilkS)
@@ -12847,7 +12847,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE173)
-    (at 350 610.075001)
+    (at 374 374)
     (tags bixel)
     (path /5B48F1BA)
     (fp_text reference B137 (at 0 -5) (layer F.SilkS)
@@ -12925,7 +12925,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE1AF)
-    (at 350 610.075001)
+    (at 374 402)
     (tags bixel)
     (path /5B48F1C0)
     (fp_text reference B138 (at 0 -5) (layer F.SilkS)
@@ -13003,7 +13003,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE1EB)
-    (at 350 610.075001)
+    (at 374 430)
     (tags bixel)
     (path /5B48F1C6)
     (fp_text reference B139 (at 0 -5) (layer F.SilkS)
@@ -13081,7 +13081,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE227)
-    (at 350 610.075001)
+    (at 374 458)
     (tags bixel)
     (path /5B48F1CC)
     (fp_text reference B140 (at 0 -5) (layer F.SilkS)
@@ -13159,7 +13159,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE263)
-    (at 350 610.075001)
+    (at 374 486)
     (tags bixel)
     (path /5B48F1D2)
     (fp_text reference B141 (at 0 -5) (layer F.SilkS)
@@ -13237,7 +13237,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE29F)
-    (at 350 610.075001)
+    (at 374 514)
     (tags bixel)
     (path /5B48F1D8)
     (fp_text reference B142 (at 0 -5) (layer F.SilkS)
@@ -13315,7 +13315,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE2DB)
-    (at 350 610.075001)
+    (at 374 542)
     (tags bixel)
     (path /5B48F1DE)
     (fp_text reference B143 (at 0 -5) (layer F.SilkS)
@@ -13393,7 +13393,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE317)
-    (at 350 610.075001)
+    (at 374 570)
     (tags bixel)
     (path /5B48F1E4)
     (fp_text reference B144 (at 0 -5) (layer F.SilkS)
@@ -13471,7 +13471,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE353)
-    (at 350 610.075001)
+    (at 402 150)
     (tags bixel)
     (path /5B48F1EA)
     (fp_text reference B145 (at 0 -5) (layer F.SilkS)
@@ -13549,7 +13549,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE38F)
-    (at 350 610.075001)
+    (at 402 178)
     (tags bixel)
     (path /5B48F1F0)
     (fp_text reference B146 (at 0 -5) (layer F.SilkS)
@@ -13627,7 +13627,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE3CB)
-    (at 350 610.075001)
+    (at 402 206)
     (tags bixel)
     (path /5B48F1F6)
     (fp_text reference B147 (at 0 -5) (layer F.SilkS)
@@ -13705,7 +13705,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE407)
-    (at 350 610.075001)
+    (at 402 234)
     (tags bixel)
     (path /5B48F1FC)
     (fp_text reference B148 (at 0 -5) (layer F.SilkS)
@@ -13783,7 +13783,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE443)
-    (at 350 610.075001)
+    (at 402 262)
     (tags bixel)
     (path /5B48F202)
     (fp_text reference B149 (at 0 -5) (layer F.SilkS)
@@ -13861,7 +13861,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE47F)
-    (at 350 610.075001)
+    (at 402 290)
     (tags bixel)
     (path /5B48F208)
     (fp_text reference B150 (at 0 -5) (layer F.SilkS)
@@ -13939,7 +13939,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE4BB)
-    (at 350 610.075001)
+    (at 402 318)
     (tags bixel)
     (path /5B48F20E)
     (fp_text reference B151 (at 0 -5) (layer F.SilkS)
@@ -14017,7 +14017,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE4F7)
-    (at 350 610.075001)
+    (at 402 346)
     (tags bixel)
     (path /5B48F214)
     (fp_text reference B152 (at 0 -5) (layer F.SilkS)
@@ -14095,7 +14095,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE533)
-    (at 350 610.075001)
+    (at 402 374)
     (tags bixel)
     (path /5B48F21A)
     (fp_text reference B153 (at 0 -5) (layer F.SilkS)
@@ -14173,7 +14173,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE56F)
-    (at 350 610.075001)
+    (at 402 402)
     (tags bixel)
     (path /5B48F220)
     (fp_text reference B154 (at 0 -5) (layer F.SilkS)
@@ -14251,7 +14251,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE5AB)
-    (at 350 610.075001)
+    (at 402 430)
     (tags bixel)
     (path /5B48F226)
     (fp_text reference B155 (at 0 -5) (layer F.SilkS)
@@ -14329,7 +14329,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE5E7)
-    (at 350 610.075001)
+    (at 402 458)
     (tags bixel)
     (path /5B48F22C)
     (fp_text reference B156 (at 0 -5) (layer F.SilkS)
@@ -14407,7 +14407,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE623)
-    (at 350 610.075001)
+    (at 402 486)
     (tags bixel)
     (path /5B48F232)
     (fp_text reference B157 (at 0 -5) (layer F.SilkS)
@@ -14485,7 +14485,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE65F)
-    (at 350 610.075001)
+    (at 402 514)
     (tags bixel)
     (path /5B48F238)
     (fp_text reference B158 (at 0 -5) (layer F.SilkS)
@@ -14563,7 +14563,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE69B)
-    (at 350 610.075001)
+    (at 402 542)
     (tags bixel)
     (path /5B48F23E)
     (fp_text reference B159 (at 0 -5) (layer F.SilkS)
@@ -14641,7 +14641,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE6D7)
-    (at 350 610.075001)
+    (at 402 570)
     (tags bixel)
     (path /5B48F244)
     (fp_text reference B160 (at 0 -5) (layer F.SilkS)
@@ -14719,7 +14719,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE713)
-    (at 350 610.075001)
+    (at 430 150)
     (tags bixel)
     (path /5B48F312)
     (fp_text reference B161 (at 0 -5) (layer F.SilkS)
@@ -14797,7 +14797,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE74F)
-    (at 350 610.075001)
+    (at 430 178)
     (tags bixel)
     (path /5B48F318)
     (fp_text reference B162 (at 0 -5) (layer F.SilkS)
@@ -14875,7 +14875,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE78B)
-    (at 350 610.075001)
+    (at 430 206)
     (tags bixel)
     (path /5B48F31E)
     (fp_text reference B163 (at 0 -5) (layer F.SilkS)
@@ -14953,7 +14953,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE7C7)
-    (at 350 610.075001)
+    (at 430 234)
     (tags bixel)
     (path /5B48F324)
     (fp_text reference B164 (at 0 -5) (layer F.SilkS)
@@ -15031,7 +15031,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE803)
-    (at 350 610.075001)
+    (at 430 262)
     (tags bixel)
     (path /5B48F32A)
     (fp_text reference B165 (at 0 -5) (layer F.SilkS)
@@ -15109,7 +15109,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE83F)
-    (at 350 610.075001)
+    (at 430 290)
     (tags bixel)
     (path /5B48F330)
     (fp_text reference B166 (at 0 -5) (layer F.SilkS)
@@ -15187,7 +15187,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE87B)
-    (at 350 610.075001)
+    (at 430 318)
     (tags bixel)
     (path /5B48F336)
     (fp_text reference B167 (at 0 -5) (layer F.SilkS)
@@ -15265,7 +15265,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE8B7)
-    (at 350 610.075001)
+    (at 430 346)
     (tags bixel)
     (path /5B48F33C)
     (fp_text reference B168 (at 0 -5) (layer F.SilkS)
@@ -15343,7 +15343,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE8F3)
-    (at 350 610.075001)
+    (at 430 374)
     (tags bixel)
     (path /5B48F342)
     (fp_text reference B169 (at 0 -5) (layer F.SilkS)
@@ -15421,7 +15421,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE92F)
-    (at 350 610.075001)
+    (at 430 402)
     (tags bixel)
     (path /5B48F348)
     (fp_text reference B170 (at 0 -5) (layer F.SilkS)
@@ -15499,7 +15499,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE96B)
-    (at 350 610.075001)
+    (at 430 430)
     (tags bixel)
     (path /5B48F34E)
     (fp_text reference B171 (at 0 -5) (layer F.SilkS)
@@ -15577,7 +15577,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE9A7)
-    (at 350 610.075001)
+    (at 430 458)
     (tags bixel)
     (path /5B48F354)
     (fp_text reference B172 (at 0 -5) (layer F.SilkS)
@@ -15655,7 +15655,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AE9E3)
-    (at 350 610.075001)
+    (at 430 486)
     (tags bixel)
     (path /5B48F35A)
     (fp_text reference B173 (at 0 -5) (layer F.SilkS)
@@ -15733,7 +15733,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEA1F)
-    (at 350 610.075001)
+    (at 430 514)
     (tags bixel)
     (path /5B48F360)
     (fp_text reference B174 (at 0 -5) (layer F.SilkS)
@@ -15811,7 +15811,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEA5B)
-    (at 350 610.075001)
+    (at 430 542)
     (tags bixel)
     (path /5B48F366)
     (fp_text reference B175 (at 0 -5) (layer F.SilkS)
@@ -15889,7 +15889,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEA97)
-    (at 350 610.075001)
+    (at 430 570)
     (tags bixel)
     (path /5B48F36C)
     (fp_text reference B176 (at 0 -5) (layer F.SilkS)
@@ -15967,7 +15967,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEAD3)
-    (at 350 610.075001)
+    (at 458 150)
     (tags bixel)
     (path /5B48F372)
     (fp_text reference B177 (at 0 -5) (layer F.SilkS)
@@ -16045,7 +16045,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEB0F)
-    (at 350 610.075001)
+    (at 458 178)
     (tags bixel)
     (path /5B48F378)
     (fp_text reference B178 (at 0 -5) (layer F.SilkS)
@@ -16123,7 +16123,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEB4B)
-    (at 350 610.075001)
+    (at 458 206)
     (tags bixel)
     (path /5B48F37E)
     (fp_text reference B179 (at 0 -5) (layer F.SilkS)
@@ -16201,7 +16201,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEB87)
-    (at 350 610.075001)
+    (at 458 234)
     (tags bixel)
     (path /5B48F384)
     (fp_text reference B180 (at 0 -5) (layer F.SilkS)
@@ -16279,7 +16279,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEBC3)
-    (at 350 610.075001)
+    (at 458 262)
     (tags bixel)
     (path /5B48F38A)
     (fp_text reference B181 (at 0 -5) (layer F.SilkS)
@@ -16357,7 +16357,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEBFF)
-    (at 350 610.075001)
+    (at 458 290)
     (tags bixel)
     (path /5B48F390)
     (fp_text reference B182 (at 0 -5) (layer F.SilkS)
@@ -16435,7 +16435,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEC3B)
-    (at 350 610.075001)
+    (at 458 318)
     (tags bixel)
     (path /5B48F396)
     (fp_text reference B183 (at 0 -5) (layer F.SilkS)
@@ -16513,7 +16513,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEC77)
-    (at 350 610.075001)
+    (at 458 346)
     (tags bixel)
     (path /5B48F39C)
     (fp_text reference B184 (at 0 -5) (layer F.SilkS)
@@ -16591,7 +16591,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AECB3)
-    (at 350 610.075001)
+    (at 458 374)
     (tags bixel)
     (path /5B48F3A2)
     (fp_text reference B185 (at 0 -5) (layer F.SilkS)
@@ -16669,7 +16669,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AECEF)
-    (at 350 610.075001)
+    (at 458 402)
     (tags bixel)
     (path /5B48F3A8)
     (fp_text reference B186 (at 0 -5) (layer F.SilkS)
@@ -16747,7 +16747,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AED2B)
-    (at 350 610.075001)
+    (at 458 430)
     (tags bixel)
     (path /5B48F3AE)
     (fp_text reference B187 (at 0 -5) (layer F.SilkS)
@@ -16825,7 +16825,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AED67)
-    (at 350 610.075001)
+    (at 458 458)
     (tags bixel)
     (path /5B48F3B4)
     (fp_text reference B188 (at 0 -5) (layer F.SilkS)
@@ -16903,7 +16903,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEDA3)
-    (at 350 610.075001)
+    (at 458 486)
     (tags bixel)
     (path /5B48F3BA)
     (fp_text reference B189 (at 0 -5) (layer F.SilkS)
@@ -16981,7 +16981,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEDDF)
-    (at 350 610.075001)
+    (at 458 514)
     (tags bixel)
     (path /5B48F3C0)
     (fp_text reference B190 (at 0 -5) (layer F.SilkS)
@@ -17059,7 +17059,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEE1B)
-    (at 350 610.075001)
+    (at 458 542)
     (tags bixel)
     (path /5B48F3C6)
     (fp_text reference B191 (at 0 -5) (layer F.SilkS)
@@ -17137,7 +17137,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEE57)
-    (at 350 610.075001)
+    (at 458 570)
     (tags bixel)
     (path /5B48F3CC)
     (fp_text reference B192 (at 0 -5) (layer F.SilkS)
@@ -17215,7 +17215,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEE93)
-    (at 350 610.075001)
+    (at 486 150)
     (tags bixel)
     (path /5B48F4AA)
     (fp_text reference B193 (at 0 -5) (layer F.SilkS)
@@ -17293,7 +17293,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEECF)
-    (at 350 610.075001)
+    (at 486 178)
     (tags bixel)
     (path /5B48F4B0)
     (fp_text reference B194 (at 0 -5) (layer F.SilkS)
@@ -17371,7 +17371,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEF0B)
-    (at 350 610.075001)
+    (at 486 206)
     (tags bixel)
     (path /5B48F4B6)
     (fp_text reference B195 (at 0 -5) (layer F.SilkS)
@@ -17449,7 +17449,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEF47)
-    (at 350 610.075001)
+    (at 486 234)
     (tags bixel)
     (path /5B48F4BC)
     (fp_text reference B196 (at 0 -5) (layer F.SilkS)
@@ -17527,7 +17527,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEF83)
-    (at 350 610.075001)
+    (at 486 262)
     (tags bixel)
     (path /5B48F4C2)
     (fp_text reference B197 (at 0 -5) (layer F.SilkS)
@@ -17605,7 +17605,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEFBF)
-    (at 350 610.075001)
+    (at 486 290)
     (tags bixel)
     (path /5B48F4C8)
     (fp_text reference B198 (at 0 -5) (layer F.SilkS)
@@ -17683,7 +17683,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AEFFB)
-    (at 350 610.075001)
+    (at 486 318)
     (tags bixel)
     (path /5B48F4CE)
     (fp_text reference B199 (at 0 -5) (layer F.SilkS)
@@ -17761,7 +17761,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF037)
-    (at 350 610.075001)
+    (at 486 346)
     (tags bixel)
     (path /5B48F4D4)
     (fp_text reference B200 (at 0 -5) (layer F.SilkS)
@@ -17839,7 +17839,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF073)
-    (at 350 610.075001)
+    (at 486 374)
     (tags bixel)
     (path /5B48F4DA)
     (fp_text reference B201 (at 0 -5) (layer F.SilkS)
@@ -17917,7 +17917,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF0AF)
-    (at 350 610.075001)
+    (at 486 402)
     (tags bixel)
     (path /5B48F4E0)
     (fp_text reference B202 (at 0 -5) (layer F.SilkS)
@@ -17995,7 +17995,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF0EB)
-    (at 350 610.075001)
+    (at 486 430)
     (tags bixel)
     (path /5B48F4E6)
     (fp_text reference B203 (at 0 -5) (layer F.SilkS)
@@ -18073,7 +18073,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF127)
-    (at 350 610.075001)
+    (at 486 458)
     (tags bixel)
     (path /5B48F4EC)
     (fp_text reference B204 (at 0 -5) (layer F.SilkS)
@@ -18151,7 +18151,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF163)
-    (at 350 610.075001)
+    (at 486 486)
     (tags bixel)
     (path /5B48F4F2)
     (fp_text reference B205 (at 0 -5) (layer F.SilkS)
@@ -18229,7 +18229,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF19F)
-    (at 350 610.075001)
+    (at 486 514)
     (tags bixel)
     (path /5B48F4F8)
     (fp_text reference B206 (at 0 -5) (layer F.SilkS)
@@ -18307,7 +18307,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF1DB)
-    (at 350 610.075001)
+    (at 486 542)
     (tags bixel)
     (path /5B48F4FE)
     (fp_text reference B207 (at 0 -5) (layer F.SilkS)
@@ -18385,7 +18385,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF217)
-    (at 350 610.075001)
+    (at 486 570)
     (tags bixel)
     (path /5B48F504)
     (fp_text reference B208 (at 0 -5) (layer F.SilkS)
@@ -18463,7 +18463,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF253)
-    (at 350 610.075001)
+    (at 514 150)
     (tags bixel)
     (path /5B48F50A)
     (fp_text reference B209 (at 0 -5) (layer F.SilkS)
@@ -18541,7 +18541,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF28F)
-    (at 350 610.075001)
+    (at 514 178)
     (tags bixel)
     (path /5B48F510)
     (fp_text reference B210 (at 0 -5) (layer F.SilkS)
@@ -18619,7 +18619,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF2CB)
-    (at 350 610.075001)
+    (at 514 206)
     (tags bixel)
     (path /5B48F516)
     (fp_text reference B211 (at 0 -5) (layer F.SilkS)
@@ -18697,7 +18697,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF307)
-    (at 350 610.075001)
+    (at 514 234)
     (tags bixel)
     (path /5B48F51C)
     (fp_text reference B212 (at 0 -5) (layer F.SilkS)
@@ -18775,7 +18775,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF343)
-    (at 350 610.075001)
+    (at 514 262)
     (tags bixel)
     (path /5B48F522)
     (fp_text reference B213 (at 0 -5) (layer F.SilkS)
@@ -18853,7 +18853,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF37F)
-    (at 350 610.075001)
+    (at 514 290)
     (tags bixel)
     (path /5B48F528)
     (fp_text reference B214 (at 0 -5) (layer F.SilkS)
@@ -18931,7 +18931,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF3BB)
-    (at 350 610.075001)
+    (at 514 318)
     (tags bixel)
     (path /5B48F52E)
     (fp_text reference B215 (at 0 -5) (layer F.SilkS)
@@ -19009,7 +19009,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF3F7)
-    (at 350 610.075001)
+    (at 514 346)
     (tags bixel)
     (path /5B48F534)
     (fp_text reference B216 (at 0 -5) (layer F.SilkS)
@@ -19087,7 +19087,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF433)
-    (at 350 610.075001)
+    (at 514 374)
     (tags bixel)
     (path /5B48F53A)
     (fp_text reference B217 (at 0 -5) (layer F.SilkS)
@@ -19165,7 +19165,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF46F)
-    (at 350 610.075001)
+    (at 514 402)
     (tags bixel)
     (path /5B48F540)
     (fp_text reference B218 (at 0 -5) (layer F.SilkS)
@@ -19243,7 +19243,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF4AB)
-    (at 350 610.075001)
+    (at 514 430)
     (tags bixel)
     (path /5B48F546)
     (fp_text reference B219 (at 0 -5) (layer F.SilkS)
@@ -19321,7 +19321,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF4E7)
-    (at 350 610.075001)
+    (at 514 458)
     (tags bixel)
     (path /5B48F54C)
     (fp_text reference B220 (at 0 -5) (layer F.SilkS)
@@ -19399,7 +19399,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF523)
-    (at 350 610.075001)
+    (at 514 486)
     (tags bixel)
     (path /5B48F552)
     (fp_text reference B221 (at 0 -5) (layer F.SilkS)
@@ -19477,7 +19477,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF55F)
-    (at 350 610.075001)
+    (at 514 514)
     (tags bixel)
     (path /5B48F558)
     (fp_text reference B222 (at 0 -5) (layer F.SilkS)
@@ -19555,7 +19555,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF59B)
-    (at 350 610.075001)
+    (at 514 542)
     (tags bixel)
     (path /5B48F55E)
     (fp_text reference B223 (at 0 -5) (layer F.SilkS)
@@ -19633,7 +19633,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF5D7)
-    (at 350 610.075001)
+    (at 514 570)
     (tags bixel)
     (path /5B48F564)
     (fp_text reference B224 (at 0 -5) (layer F.SilkS)
@@ -19711,7 +19711,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF613)
-    (at 350 610.075001)
+    (at 542 150)
     (tags bixel)
     (path /5B48F622)
     (fp_text reference B225 (at 0 -5) (layer F.SilkS)
@@ -19789,7 +19789,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF64F)
-    (at 350 610.075001)
+    (at 542 178)
     (tags bixel)
     (path /5B48F628)
     (fp_text reference B226 (at 0 -5) (layer F.SilkS)
@@ -19867,7 +19867,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF68B)
-    (at 350 610.075001)
+    (at 542 206)
     (tags bixel)
     (path /5B48F62E)
     (fp_text reference B227 (at 0 -5) (layer F.SilkS)
@@ -19945,7 +19945,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF6C7)
-    (at 350 610.075001)
+    (at 542 234)
     (tags bixel)
     (path /5B48F634)
     (fp_text reference B228 (at 0 -5) (layer F.SilkS)
@@ -20023,7 +20023,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF703)
-    (at 350 610.075001)
+    (at 542 262)
     (tags bixel)
     (path /5B48F63A)
     (fp_text reference B229 (at 0 -5) (layer F.SilkS)
@@ -20101,7 +20101,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF73F)
-    (at 350 610.075001)
+    (at 542 290)
     (tags bixel)
     (path /5B48F640)
     (fp_text reference B230 (at 0 -5) (layer F.SilkS)
@@ -20179,7 +20179,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF77B)
-    (at 350 610.075001)
+    (at 542 318)
     (tags bixel)
     (path /5B48F646)
     (fp_text reference B231 (at 0 -5) (layer F.SilkS)
@@ -20257,7 +20257,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF7B7)
-    (at 350 610.075001)
+    (at 542 346)
     (tags bixel)
     (path /5B48F64C)
     (fp_text reference B232 (at 0 -5) (layer F.SilkS)
@@ -20335,7 +20335,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF7F3)
-    (at 350 610.075001)
+    (at 542 374)
     (tags bixel)
     (path /5B48F652)
     (fp_text reference B233 (at 0 -5) (layer F.SilkS)
@@ -20413,7 +20413,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF82F)
-    (at 350 610.075001)
+    (at 542 402)
     (tags bixel)
     (path /5B48F658)
     (fp_text reference B234 (at 0 -5) (layer F.SilkS)
@@ -20491,7 +20491,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF86B)
-    (at 350 610.075001)
+    (at 542 430)
     (tags bixel)
     (path /5B48F65E)
     (fp_text reference B235 (at 0 -5) (layer F.SilkS)
@@ -20569,7 +20569,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF8A7)
-    (at 350 610.075001)
+    (at 542 458)
     (tags bixel)
     (path /5B48F664)
     (fp_text reference B236 (at 0 -5) (layer F.SilkS)
@@ -20647,7 +20647,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF8E3)
-    (at 350 610.075001)
+    (at 542 486)
     (tags bixel)
     (path /5B48F66A)
     (fp_text reference B237 (at 0 -5) (layer F.SilkS)
@@ -20725,7 +20725,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF91F)
-    (at 350 610.075001)
+    (at 542 514)
     (tags bixel)
     (path /5B48F670)
     (fp_text reference B238 (at 0 -5) (layer F.SilkS)
@@ -20803,7 +20803,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF95B)
-    (at 350 610.075001)
+    (at 542 542)
     (tags bixel)
     (path /5B48F676)
     (fp_text reference B239 (at 0 -5) (layer F.SilkS)
@@ -20881,7 +20881,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF997)
-    (at 350 610.075001)
+    (at 542 570)
     (tags bixel)
     (path /5B48F67C)
     (fp_text reference B240 (at 0 -5) (layer F.SilkS)
@@ -20959,7 +20959,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AF9D3)
-    (at 350 610.075001)
+    (at 570 150)
     (tags bixel)
     (path /5B48F682)
     (fp_text reference B241 (at 0 -5) (layer F.SilkS)
@@ -21037,7 +21037,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFA0F)
-    (at 350 610.075001)
+    (at 570 178)
     (tags bixel)
     (path /5B48F688)
     (fp_text reference B242 (at 0 -5) (layer F.SilkS)
@@ -21115,7 +21115,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFA4B)
-    (at 350 610.075001)
+    (at 570 206)
     (tags bixel)
     (path /5B48F68E)
     (fp_text reference B243 (at 0 -5) (layer F.SilkS)
@@ -21193,7 +21193,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFA87)
-    (at 350 610.075001)
+    (at 570 234)
     (tags bixel)
     (path /5B48F694)
     (fp_text reference B244 (at 0 -5) (layer F.SilkS)
@@ -21271,7 +21271,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFAC3)
-    (at 350 610.075001)
+    (at 570 262)
     (tags bixel)
     (path /5B48F69A)
     (fp_text reference B245 (at 0 -5) (layer F.SilkS)
@@ -21349,7 +21349,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFAFF)
-    (at 350 610.075001)
+    (at 570 290)
     (tags bixel)
     (path /5B48F6A0)
     (fp_text reference B246 (at 0 -5) (layer F.SilkS)
@@ -21427,7 +21427,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFB3B)
-    (at 350 610.075001)
+    (at 570 318)
     (tags bixel)
     (path /5B48F6A6)
     (fp_text reference B247 (at 0 -5) (layer F.SilkS)
@@ -21505,7 +21505,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFB77)
-    (at 350 610.075001)
+    (at 570 346)
     (tags bixel)
     (path /5B48F6AC)
     (fp_text reference B248 (at 0 -5) (layer F.SilkS)
@@ -21583,7 +21583,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFBB3)
-    (at 350 610.075001)
+    (at 570 374)
     (tags bixel)
     (path /5B48F6B2)
     (fp_text reference B249 (at 0 -5) (layer F.SilkS)
@@ -21661,7 +21661,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFBEF)
-    (at 350 610.075001)
+    (at 570 402)
     (tags bixel)
     (path /5B48F6B8)
     (fp_text reference B250 (at 0 -5) (layer F.SilkS)
@@ -21739,7 +21739,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFC2B)
-    (at 350 610.075001)
+    (at 570 430)
     (tags bixel)
     (path /5B48F6BE)
     (fp_text reference B251 (at 0 -5) (layer F.SilkS)
@@ -21817,7 +21817,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFC67)
-    (at 350 610.075001)
+    (at 570 458)
     (tags bixel)
     (path /5B48F6C4)
     (fp_text reference B252 (at 0 -5) (layer F.SilkS)
@@ -21895,7 +21895,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFCA3)
-    (at 350 610.075001)
+    (at 570 486)
     (tags bixel)
     (path /5B48F6CA)
     (fp_text reference B253 (at 0 -5) (layer F.SilkS)
@@ -21973,7 +21973,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFCDF)
-    (at 350 610.075001)
+    (at 570 514)
     (tags bixel)
     (path /5B48F6D0)
     (fp_text reference B254 (at 0 -5) (layer F.SilkS)
@@ -22051,7 +22051,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFD1B)
-    (at 350 610.075001)
+    (at 570 542)
     (tags bixel)
     (path /5B48F6D6)
     (fp_text reference B255 (at 0 -5) (layer F.SilkS)
@@ -22129,7 +22129,7 @@
   )
 
   (module custom:bixel (layer F.Cu) (tedit 5B36C38B) (tstamp 5B4AFD57)
-    (at 350 610.075001)
+    (at 570 570)
     (tags bixel)
     (path /5B48F6DC)
     (fp_text reference B256 (at 0 -5) (layer F.SilkS)
