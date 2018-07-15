@@ -6442,8 +6442,6 @@ F 3 "" H 25350 1500 50  0001 C CNN
 $EndComp
 Text GLabel 25350 1700 2    60   Input ~ 0
 GND
-Text GLabel 25350 1300 0    60   Input ~ 0
-5V
 Wire Wire Line
 	25350 1300 25350 1400
 Wire Wire Line
@@ -6640,4 +6638,25 @@ Wire Wire Line
 Wire Wire Line
 	26150 8000 26150 7850
 NoConn ~ 27250 8000
+Text GLabel 25350 1300 0    51   Input ~ 0
+3V3
+$Comp
+L C_Small C2
+U 1 1 5B4CD9BF
+P 25400 4800
+F 0 "C2" H 25410 4870 50  0000 L CNN
+F 1 "C_Small" H 25410 4720 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 25400 4800 50  0001 C CNN
+F 3 "" H 25400 4800 50  0001 C CNN
+	1    25400 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 25400 5000 2    60   Input ~ 0
+GND
+Wire Wire Line
+	25400 4600 25400 4700
+Wire Wire Line
+	25400 5000 25400 4900
+Text GLabel 25400 4600 0    51   Input ~ 0
+3V3
 $EndSCHEMATC
