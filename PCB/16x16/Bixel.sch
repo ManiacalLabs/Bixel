@@ -6391,45 +6391,45 @@ Wire Wire Line
 	26050 4050 26150 4050
 Wire Wire Line
 	26050 4150 26150 4150
-Text GLabel 24400 5400 0    51   Input ~ 0
-ROW_0
-Text GLabel 24400 5500 0    51   Input ~ 0
-ROW_1
-Text GLabel 24400 5600 0    51   Input ~ 0
-ROW_2
-Text GLabel 24400 5700 0    51   Input ~ 0
-ROW_3
-Text GLabel 24400 5800 0    51   Input ~ 0
-ROW_4
-Text GLabel 24400 5900 0    51   Input ~ 0
-ROW_5
 Text GLabel 24400 6000 0    51   Input ~ 0
-ROW_6
+ROW_0
 Text GLabel 24400 6100 0    51   Input ~ 0
-ROW_7
+ROW_1
 Text GLabel 24400 6200 0    51   Input ~ 0
-ROW_8
+ROW_2
 Text GLabel 24400 6300 0    51   Input ~ 0
-ROW_9
+ROW_3
 Text GLabel 24400 6400 0    51   Input ~ 0
-ROW_10
+ROW_4
 Text GLabel 24400 6500 0    51   Input ~ 0
-ROW_11
+ROW_5
 Text GLabel 24400 6600 0    51   Input ~ 0
-ROW_12
+ROW_6
 Text GLabel 24400 6700 0    51   Input ~ 0
-ROW_13
+ROW_7
 Text GLabel 24400 6800 0    51   Input ~ 0
-ROW_14
+ROW_8
 Text GLabel 24400 6900 0    51   Input ~ 0
-ROW_15
+ROW_9
 Text GLabel 24400 7000 0    51   Input ~ 0
-DATA
+ROW_10
 Text GLabel 24400 7100 0    51   Input ~ 0
-CLOCK
+ROW_11
 Text GLabel 24400 7200 0    51   Input ~ 0
-LATCH
+ROW_12
+Text GLabel 24400 7300 0    51   Input ~ 0
+ROW_13
+Text GLabel 24400 7400 0    51   Input ~ 0
+ROW_14
 Text GLabel 24400 7500 0    51   Input ~ 0
+ROW_15
+Text GLabel 24400 5400 0    51   Input ~ 0
+DATA
+Text GLabel 24400 5500 0    51   Input ~ 0
+CLOCK
+Text GLabel 24400 5600 0    51   Input ~ 0
+LATCH
+Text GLabel 24400 5700 0    51   Input ~ 0
 GND
 $Comp
 L C_Small C1
@@ -6519,9 +6519,9 @@ F 3 "" H 24800 6400 50  0001 C CNN
 	1    24800 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 24400 7300 0    51   Input ~ 0
+Text GLabel 24400 5800 0    51   Input ~ 0
 DI
-Text GLabel 24400 7400 0    51   Input ~ 0
+Text GLabel 24400 5900 0    51   Input ~ 0
 CI
 Text GLabel 8000 2350 1    51   Input ~ 0
 DI
