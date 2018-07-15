@@ -6379,18 +6379,8 @@ F 3 "" H 25900 5450 50  0001 C CNN
 	1    25900 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 25650 5600 0    60   Input ~ 0
-GND
-Text GLabel 25650 5400 0    60   Input ~ 0
+Text GLabel 25650 5450 0    60   Input ~ 0
 5V
-Wire Wire Line
-	25700 5300 25700 5450
-Wire Wire Line
-	25700 5400 25650 5400
-Wire Wire Line
-	25700 5550 25700 5700
-Wire Wire Line
-	25700 5600 25650 5600
 Text GLabel 26650 7850 1    51   Input ~ 0
 DI
 Text GLabel 26550 7850 1    51   Input ~ 0
@@ -6399,18 +6389,12 @@ Text GLabel 8000 2350 1    51   Input ~ 0
 DI
 Text GLabel 7900 2350 1    51   Input ~ 0
 CI
-Text GLabel 7750 2350 1    60   Input ~ 0
-5V
 Text GLabel 8150 2350 1    60   Input ~ 0
 GND
 Wire Wire Line
 	7900 2350 7900 2450
 Wire Wire Line
 	8000 2350 8000 2450
-Wire Wire Line
-	7750 2350 7800 2350
-Wire Wire Line
-	7800 2350 7800 2450
 $Comp
 L +5V #PWR01
 U 1 1 5B4D3338
@@ -6422,19 +6406,6 @@ F 3 "" H 25700 5300 50  0001 C CNN
 	1    25700 5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 25700 5400
-$Comp
-L GND #PWR02
-U 1 1 5B4D4134
-P 25700 5700
-F 0 "#PWR02" H 25700 5450 50  0001 C CNN
-F 1 "GND" H 25700 5550 50  0000 C CNN
-F 2 "" H 25700 5700 50  0001 C CNN
-F 3 "" H 25700 5700 50  0001 C CNN
-	1    25700 5700
-	1    0    0    -1  
-$EndComp
-Connection ~ 25700 5600
 Wire Wire Line
 	15150 16750 15150 17200
 Connection ~ 15150 17200
@@ -6612,21 +6583,21 @@ Wire Wire Line
 Wire Wire Line
 	19200 21000 19200 20700
 Text GLabel 9050 21000 2    60   Input ~ 0
-5V
+5V_1
 Text GLabel 10950 21000 2    60   Input ~ 0
-5V
+5V_1
 Text GLabel 12850 21000 2    60   Input ~ 0
-5V
+5V_1
 Text GLabel 14750 21000 2    60   Input ~ 0
-5V
+5V_1
 Text GLabel 16650 21000 2    60   Input ~ 0
-5V
+5V_2
 Text GLabel 18550 21000 2    60   Input ~ 0
-5V
+5V_2
 Text GLabel 20450 21000 2    60   Input ~ 0
-5V
+5V_2
 Text GLabel 22350 21000 2    60   Input ~ 0
-5V
+5V_2
 Wire Wire Line
 	19500 20700 19500 20850
 Wire Wire Line
@@ -6689,4 +6660,39 @@ Text GLabel 18250 2200 0    60   Input ~ 0
 GND
 Text GLabel 20150 2200 0    60   Input ~ 0
 GND
+$Comp
+L Screw_Terminal_01x02 J4
+U 1 1 5B4BCF65
+P 26800 5450
+F 0 "J4" H 26800 5550 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" V 26950 5400 50  0000 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 26800 5450 50  0001 C CNN
+F 3 "" H 26800 5450 50  0001 C CNN
+	1    26800 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 26550 5450 0    60   Input ~ 0
+GND
+$Comp
+L GND #PWR02
+U 1 1 5B4BCF78
+P 26600 5700
+F 0 "#PWR02" H 26600 5450 50  0001 C CNN
+F 1 "GND" H 26600 5550 50  0000 C CNN
+F 2 "" H 26600 5700 50  0001 C CNN
+F 3 "" H 26600 5700 50  0001 C CNN
+	1    26600 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26550 5450 26600 5450
+Wire Wire Line
+	26600 5450 26600 5700
+Connection ~ 26600 5550
+NoConn ~ 7800 2450
+Wire Wire Line
+	25700 5300 25700 5550
+Connection ~ 25700 5450
+Wire Wire Line
+	25700 5450 25650 5450
 $EndSCHEMATC
