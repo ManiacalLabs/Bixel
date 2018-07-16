@@ -6335,12 +6335,6 @@ Wire Wire Line
 Wire Wire Line
 	15500 2300 15500 2450
 Wire Wire Line
-	14750 2450 14750 2350
-Wire Wire Line
-	14750 2350 15400 2350
-Wire Wire Line
-	15400 2350 15400 2450
-Wire Wire Line
 	16350 2450 16350 2200
 Wire Wire Line
 	16350 2200 17600 2200
@@ -6713,4 +6707,6 @@ F 3 "" H 25700 5700 50  0001 C CNN
 	1    25700 5700
 	-1   0    0    1   
 $EndComp
+NoConn ~ 15400 2450
+NoConn ~ 14750 2450
 $EndSCHEMATC
