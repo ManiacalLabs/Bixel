@@ -1,6 +1,9 @@
-import log
 import time
+import traceback
 import numpy as np
+import serial
+import serial.tools.list_ports
+from . import log
 
 
 class CMDTYPE:
@@ -62,8 +65,6 @@ class BixelButtons(object):
 class BixelButtonSerial(object):
     """Main driver for Serial based LED strips"""
     foundDevices = []
-    deviceIDS = {}
-    deviceVers = []
 
     def __init__(self, dev="", hardwareID="16C0:0483"):
 
@@ -73,7 +74,7 @@ class BixelButtonSerial(object):
 
         resp = self._connect()
         if resp != RETURN_CODES.SUCCESS:
-            raise Exception('Error connecting to button controller')
+            raise Exception('Error connecting to button controller: {}'.format(resp))
 
         self.buttons = BixelButtons()
 
@@ -87,31 +88,10 @@ class BixelButtonSerial(object):
         hardwareID = "(?i)" + hardwareID  # forces case insensitive
         if len(BixelButtonSerial.foundDevices) == 0:
             BixelButtonSerial.foundDevices = []
-            BixelButtonSerial.deviceIDS = {}
             for port in serial.tools.list_ports.grep(hardwareID):
-                id = BixelButtonSerial.getDeviceID(port[0])
-                ver = BixelButtonSerial.getDeviceVer(port[0])
-                if id >= 0:
-                    BixelButtonSerial.deviceIDS[id] = port[0]
-                    BixelButtonSerial.foundDevices.append(port[0])
-                    BixelButtonSerial.deviceVers.append(ver)
+                BixelButtonSerial.foundDevices.append(port[0])
 
         return BixelButtonSerial.foundDevices
-
-    @staticmethod
-    def _printError(error):
-        msg = "Unknown error occured."
-        if error == RETURN_CODES.ERROR_SIZE:
-            msg = "Data packet size incorrect."
-        elif error == RETURN_CODES.ERROR_UNSUPPORTED:
-            msg = "Unsupported configuration attempted."
-        elif error == RETURN_CODES.ERROR_PIXEL_COUNT:
-            msg = "Too many pixels specified for device."
-        elif error == RETURN_CODES.ERROR_BAD_CMD:
-            msg = "Unsupported protocol command. Check your device version."
-
-        log.error("%s: %s", error, msg)
-        raise BiblioSerialError(msg)
 
     @staticmethod
     def _comError():
@@ -119,43 +99,21 @@ class BixelButtonSerial(object):
         log.error(error)
         raise IOError(error)
 
+    def send_cmd(self, cmd):
+        packet = bytearray()
+        packet.append(cmd)
+        self._com.write(packet)
+
     def _connect(self):
         try:
             if(self.dev == "" or self.dev is None):
                 BixelButtonSerial.findSerialDevices(self._hardwareID)
-
-                if self.deviceID is not None:
-                    if self.deviceID in BixelButtonSerial.deviceIDS:
-                        self.dev = BixelButtonSerial.deviceIDS[self.deviceID]
-                        self.devVer = 0
-                        try:
-                            i = BixelButtonSerial.foundDevices.index(self.dev)
-                            self.devVer = BixelButtonSerial.deviceVers[i]
-                        except:
-                            pass
-                        log.info("Using COM Port: %s, Device ID: %s, Device Ver: %s",
-                                 self.dev, self.deviceID, self.devVer)
-
-                    if self.dev == "" or self.dev is None:
-                        error = "Unable to find device with ID: {}".format(
-                            self.deviceID)
-                        log.error(error)
-                        raise ValueError(error)
-                elif len(BixelButtonSerial.foundDevices) > 0:
+                if len(BixelButtonSerial.foundDevices) > 0:
                     self.dev = BixelButtonSerial.foundDevices[0]
-                    self.devVer = 0
-                    try:
-                        i = BixelButtonSerial.foundDevices.index(self.dev)
-                        self.devVer = BixelButtonSerial.deviceVers[i]
-                    except:
-                        pass
-                    devID = -1
-                    for id in BixelButtonSerial.deviceIDS:
-                        if BixelButtonSerial.deviceIDS[id] == self.dev:
-                            devID = id
+                else:
+                    raise Exception('No devices found and no port name given')
 
-                    log.info("Using COM Port: %s, Device ID: %s, Device Ver: %s",
-                             self.dev, devID, self.devVer)
+            log.info("Using COM Port: %s", self.dev)
 
             try:
                 self._com = serial.Serial(self.dev, timeout=5)
@@ -166,22 +124,9 @@ class BixelButtonSerial(object):
                     error = "Invalid port specified. Try using one of: \n" + \
                         "\n".join(ports)
                 log.info(error)
-                raise BiblioSerialError(error)
+                raise Exception(error)
 
-            packet = BixelButtonSerial._generateHeader(CMDTYPE.SETUP_DATA, 4)
-            packet.append(self._type)  # set strip type
-            byteCount = self.bufByteCount
-            if self._type in BufferChipsets:
-                if self._type == LEDTYPE.APA102 and self.devVer >= 2:
-                    pass
-                else:
-                    self._bufPad = BufferChipsets[self._type](self.numLEDs) * 3
-                    byteCount += self._bufPad
-
-            packet.append(byteCount & 0xFF)  # set 1st byte of byteCount
-            packet.append(byteCount >> 8)  # set 2nd byte of byteCount
-            packet.append(self._SPISpeed)
-            self._com.write(packet)
+            self.send_cmd(CMDTYPE.CONNECT)
 
             resp = self._com.read(1)
             if len(resp) == 0:
@@ -195,106 +140,15 @@ class BixelButtonSerial(object):
             log.error(error)
             raise e
 
-    @staticmethod
-    def _generateHeader(cmd, size):
-        packet = bytearray()
-        packet.append(cmd)
-        packet.append(size & 0xFF)
-        packet.append(size >> 8)
-        return packet
-
-    @staticmethod
-    def setDeviceID(dev, id):
-        if id < 0 or id > 255:
-            raise ValueError("ID must be an unsigned byte!")
-
+    def get(self):
         try:
-            com = serial.Serial(dev, timeout=5)
-
-            packet = BixelButtonSerial._generateHeader(CMDTYPE.SETID, 1)
-            packet.append(id)
-            com.write(packet)
-
-            resp = com.read(1)
-            if len(resp) == 0:
-                BixelButtonSerial._comError()
-            else:
-                if ord(resp) != RETURN_CODES.SUCCESS:
-                    BixelButtonSerial._printError(ord(resp))
-
-        except serial.SerialException:
-            log.error("Problem connecting to serial device.")
-            raise IOError("Problem connecting to serial device.")
-
-    @staticmethod
-    def getDeviceID(dev):
-        packet = BixelButtonSerial._generateHeader(CMDTYPE.GETID, 0)
-        try:
-            com = serial.Serial(dev, timeout=5)
-            com.write(packet)
-            resp = ord(com.read(1))
-            return resp
-        except serial.SerialException:
-            log.error("Problem connecting to serial device.")
-            return -1
-
-    @staticmethod
-    def getDeviceVer(dev):
-        packet = BixelButtonSerial._generateHeader(CMDTYPE.GETVER, 0)
-        try:
-            com = serial.Serial(dev, timeout=0.5)
-            com.write(packet)
-            ver = 0
-            resp = com.read(1)
-            if len(resp) > 0:
-                resp = ord(resp)
-                if resp == RETURN_CODES.SUCCESS:
-                    ver = ord(com.read(1))
-            return ver
-        except serial.SerialException:
-            log.error("Problem connecting to serial device.")
-            return 0
-
-    def setMasterBrightness(self, brightness):
-        packet = BixelButtonSerial._generateHeader(CMDTYPE.BRIGHTNESS, 1)
-        packet.append(brightness)
-        self._com.write(packet)
-        resp = ord(self._com.read(1))
-        if resp != RETURN_CODES.SUCCESS:
-            BixelButtonSerial._printError(resp)
-            return False
-        else:
-            return True
-
-    # Push new data to strand
-    def _update(self, data):
-        count = self.bufByteCount + self._bufPad
-        packet = BixelButtonSerial._generateHeader(CMDTYPE.PIXEL_DATA, count)
-
-        self._fixData(data)
-
-        packet.extend(self._buf)
-        packet.extend([0] * self._bufPad)
-        self._com.write(packet)
-
-        resp = self._com.read(1)
-        if len(resp) == 0:
-            BixelButtonSerial._comError()
-        if ord(resp) != RETURN_CODES.SUCCESS:
-            BixelButtonSerial._printError(ord(resp))
-
-        self._com.flushInput()
-
-    def getButtons(self):
-        packet = BixelButtonSerial._generateHeader(CMDTYPE.GETBTNS, 0)
-        try:
-            self._com.write(packet)
+            self.send_cmd(CMDTYPE.BTNS)
             resp = ord(self._com.read(1))
             if resp != RETURN_CODES.SUCCESS:
-                BixelButtonSerial._printError(resp)
+                raise Exception('Received {}'.format(resp))
             btns = self._com.read(32)  # read 16 * uint16_t = 32 bytes
-            return self.buttons.update(btns)
+            self.buttons.update(btns)
+            return self.buttons
         except serial.SerialException:
             log.error("Problem connecting to serial device.")
             return -1
-

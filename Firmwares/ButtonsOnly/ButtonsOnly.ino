@@ -107,7 +107,7 @@ void setup() {
 unsigned long m = 0;
 
 #define CMD_CONNECT 1
-#define CMD_BTNS 2 
+#define CMD_BTNS 2
 
 #define RES_SUCCESS 255 // anything else error
 
