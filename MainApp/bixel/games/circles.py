@@ -1,4 +1,4 @@
-import colors
+from .. import colors
 
 color_map = []
 for y in range(16):
