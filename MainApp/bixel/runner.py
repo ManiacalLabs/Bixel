@@ -1,23 +1,34 @@
 from . interval import IntervalRunner
 
 class BixelRunner(object):
-    def __init__(self, buttons, driver, matrix, func, data = {}, args=(), delay=33):
-        if not isinstance(args, tuple):
-            raise ValueError('args must be a tuple')
+    def __init__(self, buttons, driver, matrix, delay=33):
         self.buttons = buttons
         self.driver = driver
         self.matrix = matrix
-        self.func = func
-        self.data = data
-        self.args = (self.matrix, self.buttons.buttons, self.data) + args
         self.delay = delay
+
+        self.games = []
+        self.game_id = 0
 
         self.interval = IntervalRunner(self._run, self.delay)
 
+    def add_game(self, game_class, args = (), kwargs = {}):
+        g = game_class(self.buttons.buttons, self.matrix)
+        g.setup(*args, **kwargs)
+        g.reset
+        self.games.append(g)
+        return len(self.games) - 1
+
+    def select_game(self, index):
+        if index >= 0 and index < len(self.games):
+            self.game_id = index
+            self.games[self.game_id].reset()
+
     def start(self):
-        self.interval.start()
+        if self.games:
+            self.interval.start()
 
     def _run(self):
         self.buttons.get()
-        self.func(*self.args)
+        self.games[self.game_id].frame()
         self.driver.update()
