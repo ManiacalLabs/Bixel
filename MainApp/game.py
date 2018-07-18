@@ -15,7 +15,11 @@ apa = APA102(pixels)
 apa.setMasterBrightness(8)
 btns = BixelButtonSerial()
 
-runner = BixelRunner(btns, apa, matrix, circles.circles)
+runner = BixelRunner(btns, apa, matrix)
+runner.add_game(circles.circles)
+runner.add_game(lightbrite.lightbright)
+
+runner.select_game(1)
 # runner = BixelRunner(btns, apa, matrix, lightbrite.lightbrite)
 
 runner.start()
