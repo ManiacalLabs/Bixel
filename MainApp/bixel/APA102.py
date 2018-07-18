@@ -6,7 +6,7 @@ import spidev
 class APA102(DriverBase):
     """Base driver for controling SPI devices on systems like the Raspberry Pi and BeagleBone"""
 
-    def __init__(self, pixels, c_order=ChannelOrder.GRB, dev="/dev/spidev0.0", SPISpeed=12):
+    def __init__(self, pixels, c_order=ChannelOrder.BGR, dev="/dev/spidev0.0", SPISpeed=12):
 
         super().__init__(pixels, c_order=c_order)
 
@@ -42,7 +42,7 @@ class APA102(DriverBase):
         self._pixel_bytes = self.numLEDs * 4  # 4 byte frames [bright, r, g, b]
         self._pixel_stop = self._start_frame + self._pixel_bytes
         self._reset_frame = 4  # for SK9822 [0, 0, 0, 0]
-        self._end_frame = (num // 2) + 1
+        self._end_frame = (self.numLEDs // 2) + 1
         self._packet_size = (self._start_frame + self._pixel_bytes +  self._reset_frame + self._end_frame)
         self._packet = [0] * self._packet_size
 
