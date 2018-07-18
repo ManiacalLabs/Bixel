@@ -13,21 +13,13 @@ class ChannelOrder:
 class DriverBase(object):
     """Base driver class to build other drivers from"""
 
-    def __init__(self, pixels, num=0, width=0, height=0, c_order=ChannelOrder.RGB, gamma=None):
-        if num == 0:
-            num = width * height
-            if num == 0:
-                raise ValueError(
-                    "Either num or width and height must be provided!")
-
+    def __init__(self, pixels, c_order=ChannelOrder.RGB, gamma=None):
         self.pixels = pixels
         self.numLEDs = self.pixels.numLEDs
         self.gamma = gamma or range(256)
 
         self.c_order = c_order
 
-        self.width = width
-        self.height = height
         self.bufByteCount = int(3 * self.numLEDs)
         self._buf = [0] * self.bufByteCount
 

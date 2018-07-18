@@ -21,7 +21,7 @@ class Matrix(object):
     def set(self, x, y, color):
         if x < 0 or x >= self.width or y < 0 or y >= self.height:
             return
-        i = self.map[x][y]
+        i = self.map[y][x]
         self.pixels.set(i, color)
 
     ##########################################################################
