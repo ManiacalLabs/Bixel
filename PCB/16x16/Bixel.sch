@@ -3049,7 +3049,7 @@ U 1 1 5B4B67A7
 P 25900 5450
 F 0 "J3" H 25900 5550 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" V 26050 5400 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 25900 5450 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 25900 5450 50  0001 C CNN
 F 3 "" H 25900 5450 50  0001 C CNN
 	1    25900 5450
 	1    0    0    -1  
@@ -3174,7 +3174,7 @@ U 1 1 5B4BCF65
 P 26800 5450
 F 0 "J4" H 26800 5550 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" V 26950 5400 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 26800 5450 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 26800 5450 50  0001 C CNN
 F 3 "" H 26800 5450 50  0001 C CNN
 	1    26800 5450
 	1    0    0    -1  
@@ -6697,10 +6697,10 @@ Wire Wire Line
 Wire Wire Line
 	25700 5550 25700 5700
 $Comp
-L +5VL #PWR?
+L +5VL #PWR03
 U 1 1 5B4E592B
 P 25700 5700
-F 0 "#PWR?" H 25700 5550 50  0001 C CNN
+F 0 "#PWR03" H 25700 5550 50  0001 C CNN
 F 1 "+5VL" H 25700 5840 50  0000 C CNN
 F 2 "" H 25700 5700 50  0001 C CNN
 F 3 "" H 25700 5700 50  0001 C CNN
