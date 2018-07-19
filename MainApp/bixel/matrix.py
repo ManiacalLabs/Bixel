@@ -266,25 +266,6 @@ class Matrix(object):
         """Fill the matrix with the given RGB color"""
         self.fillRect(0, 0, self.width, self.height, color)
 
-    def drawRoundRect(self, x, y, w, h, r, color=None, aa=False):
-        """Draw rectangle with top-left corner at x,y, width w, height h, and corner radius r"""
-        self._drawFastHLine(x + r, y, w - 2 * r, color, aa)  # Top
-        self._drawFastHLine(x + r, y + h - 1, w - 2 * r, color, aa)  # Bottom
-        self._drawFastVLine(x, y + r, h - 2 * r, color, aa)  # Left
-        self._drawFastVLine(x + w - 1, y + r, h - 2 * r, color, aa)  # Right
-        # draw four corners
-        self._drawCircleHelper(x + r, y + r, r, 1, color, aa)
-        self._drawCircleHelper(x + w - r - 1, y + r, r, 2, color, aa)
-        self._drawCircleHelper(x + w - r - 1, y + h - r - 1, r, 4, color, aa)
-        self._drawCircleHelper(x + r, y + h - r - 1, r, 8, color, aa)
-
-    def fillRoundRect(self, x, y, w, h, r, color=None, aa=False):
-        """Draw solid rectangle with top-left corner at x,y, width w, height h, and corner radius r"""
-        self.fillRect(x + r, y, w - 2 * r, h, color, aa)
-        self._fillCircleHelper(x + w - r - 1, y + r, r,
-                               1, h - 2 * r - 1, color, aa)
-        self._fillCircleHelper(x + r, y + r, r, 2, h - 2 * r - 1, color, aa)
-
     def drawTriangle(self, x0, y0, x1, y1, x2, y2, color=None, aa=False):
         """Draw triangle with points x0,y0 - x1,y1 - x2,y2"""
         self.drawLine(x0, y0, x1, y1, color, aa)

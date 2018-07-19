@@ -8,6 +8,7 @@ from bixel.serial_btns import BixelButtonSerial
 # games
 from bixel.games import circles
 from bixel.games import lightbrite
+from bixel.games import GameOfLife
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -18,8 +19,8 @@ btns = BixelButtonSerial()
 runner = BixelRunner(btns, apa, matrix)
 runner.add_game(circles.circles)
 runner.add_game(lightbrite.lightbright)
+runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
 
-runner.select_game(1)
-# runner = BixelRunner(btns, apa, matrix, lightbrite.lightbrite)
+runner.select_game(2)
 
 runner.start()
