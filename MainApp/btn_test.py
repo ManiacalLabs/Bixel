@@ -1,7 +1,6 @@
 from bixel import log
 from time import sleep
-from bixel.serial_btns import BixelButtons, BixelButtonSerial
-from bixel import work
+from bixel.serial_btns import BixelButtonSerial
 
 
 bixel_btns = BixelButtonSerial()
