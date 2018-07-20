@@ -34,8 +34,13 @@ class MatrixRainBow(BaseGame):
             for x, y in self.drops:
                 if y < (self.matrix.height + self._tail - 1):
                     self._drawDrop(x, y)
-                    if y < (self.matrix.height - 1) and self.buttons.get(x, y+1):
-                        new_drops.append((x + choice([1,-1]), y+1))
+                    if y < (self.matrix.height - 1):
+                        while True:
+                            if self.buttons.get(x, y+1):
+                                x = x + choice([1,-1])
+                            else:
+                                break
+                        new_drops.append((x, y+1))
                     else:
                         new_drops.append((x, y+1))
 
