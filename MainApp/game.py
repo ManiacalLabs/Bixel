@@ -11,6 +11,7 @@ from bixel.games import circles
 from bixel.games import lightbrite
 from bixel.games import GameOfLife
 from bixel.games import pong
+from bixel.games import MatrixRain
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -23,12 +24,13 @@ runner.add_game(circles.circles)
 runner.add_game(lightbrite.lightbright)
 runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
 runner.add_game(pong.pong)
+runner.add_game(MatrixRain.MatrixRainBow)
 
-runner.select_game(3)
+runner.select_game(4)
 
 try:
     runner.start()
-except:
+except KeyboardInterrupt:
     matrix.clear()
     apa.update()
     sleep(1)
