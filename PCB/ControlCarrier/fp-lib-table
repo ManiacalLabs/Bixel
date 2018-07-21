@@ -3,4 +3,6 @@
   (lib (name LOGOS)(type KiCad)(uri "$(KIPRJMOD)/libs/LOGOS.pretty")(options "")(descr ""))
   (lib (name w_conn_mkds)(type KiCad)(uri "$(KIPRJMOD)/libs/w_conn_mkds.pretty")(options "")(descr ""))
   (lib (name w_conn_mpt)(type KiCad)(uri "$(KIPRJMOD)/libs/w_conn_mpt.pretty")(options "")(descr ""))
+  (lib (name Custom)(type KiCad)(uri "$(KIPRJMOD)/libs/Custom.pretty")(options "")(descr ""))
+  (lib (name teensy)(type KiCad)(uri "$(KIPRJMOD)/libs/teensy.pretty")(options "")(descr ""))
 )
