@@ -49,11 +49,12 @@ inline void setup_btns() {
     }
 }
 
+uint8_t brightness = 31;
 inline void setup_leds() {
   FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
 
   // set master brightness control
-  FastLED.setBrightness(BRIGHTNESS);
+  FastLED.setBrightness(brightness);
 }
 
 void setup() {
@@ -65,18 +66,42 @@ void setup() {
     setup_btns();
 }
 
-
+uint8_t gHue = 0;
+bool changing_brightness = false;
 void loop() {
-    static uint8_t x, y;
-    fill_solid(leds, NUM_LEDS, CRGB(0,0,0));
-    for(y = 0; y < ROWS; y++){
-      for(x = 0; x < COLS; x++){
-        if(btn_val(x, y)){
-          leds[XY(x,y)] = CRGB(255,0,0);
-          Serial.print(x);Serial.print(",");Serial.println(y);
+    // static uint8_t x, y;
+    // fill_solid(leds, NUM_LEDS, CRGB(0,0,0));
+    // for(y = 0; y < ROWS; y++){
+    //   for(x = 0; x < COLS; x++){
+    //     if(btn_val(x, y)){
+    //       leds[XY(x,y)] = CRGB(255,0,0);
+    //       Serial.print(x);Serial.print(",");Serial.println(y);
+    //     }
+    //   }
+    // }
+
+    if(btn_val(1, 0) || btn_val(1, 1)){
+        if(!changing_brightness){
+            changing_brightness = true;
+            brightness += 32;
+            Serial.println(brightness);
+            FastLED.setBrightness(brightness);
         }
-      }
     }
+    else if(btn_val(0, 0) || btn_val(0, 1)){
+        if(!changing_brightness){
+            changing_brightness = true;
+            brightness -= 32;
+            Serial.println(brightness);
+            FastLED.setBrightness(brightness);
+        }
+    }
+    else {
+        changing_brightness = false;
+    }
+
+    fill_rainbow( leds, NUM_LEDS, gHue, 64);
+    gHue++;
 
     FastLED.show();
     FastLED.delay(50);
