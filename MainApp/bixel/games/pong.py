@@ -19,16 +19,30 @@ class pong(BaseGame):
         self.matrix.clear()
         self.matrix.set(self.x, self.y, colors.Green)
 
-        if self._step % self.frames_per_step == 0:
-            if self.x == 0:
-                self.x_dir = 1
-            elif self.x == 15:
-                self.x_dir = -1
+        hit_paddle = False
+        for x, y in self.buttons.pressed():
+            self.matrix.set(x, y - 1, colors.Red)
+            self.matrix.set(x, y, colors.Red)
+            self.matrix.set(x, y + 1, colors.Red)
+            if self.y in [y - 1, y, y + 1]:
+                if self.x_dir == -1 and x == (self.x - 1):
+                    self.x_dir = 1
+                    hit_paddle = True
+                elif self.x_dir == 1 and x == (self.x + 1):
+                    self.x_dir = -1
+                    hit_paddle = True
 
-            if self.y == 0:
-                self.y_dir = 1
-            elif self.y == 15:
-                self.y_dir = -1
+        if self._step % self.frames_per_step == 0:
+            if not hit_paddle:
+                if self.x == 0:
+                    self.x_dir = 1
+                elif self.x == 15:
+                    self.x_dir = -1
+
+                if self.y == 0:
+                    self.y_dir = 1
+                elif self.y == 15:
+                    self.y_dir = -1
 
             self.x += self.x_dir
             self.y += self.y_dir

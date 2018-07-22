@@ -26,7 +26,7 @@ runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
 runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 
-runner.select_game(4)
+runner.select_game(3)
 
 try:
     runner.start()
