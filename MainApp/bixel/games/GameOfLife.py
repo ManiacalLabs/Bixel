@@ -145,12 +145,12 @@ class GameOfLife(BaseGame):
         if self._step % self.frames_per_step == 0:
             self._table.turn()
             self.show_table()
-            if self._table.checkStable():
-                self._finishCount += 1
-                if self._finishCount > 10:
-                    self._table.genNewTable()
-                    self._finishCount = 0
-                    self.animComplete = True
+            # if self._table.checkStable():
+            #     self._finishCount += 1
+            #     if self._finishCount > 10:
+            #         self._table.genNewTable()
+            #         self._finishCount = 0
+            #         self.animComplete = True
         else:
             self.show_table()
         self._step += 1

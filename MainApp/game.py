@@ -16,7 +16,7 @@ from bixel.games import MatrixRain
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
 apa = APA102(pixels)
-apa.setMasterBrightness(8)
+apa.setMasterBrightness(32)
 btns = BixelButtonSerial()
 
 runner = BixelRunner(btns, apa, matrix)
@@ -26,7 +26,7 @@ runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
 runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 
-runner.select_game(3)
+runner.select_game(2)
 
 try:
     runner.start()

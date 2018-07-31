@@ -16,4 +16,4 @@ while True:
     print_btns(btns)
     print('')
     # print(btns.pressed())
-    sleep(0.03)
+    sleep(0.2)
