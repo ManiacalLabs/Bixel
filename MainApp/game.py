@@ -12,6 +12,7 @@ from bixel.games import lightbrite
 from bixel.games import GameOfLife
 from bixel.games import pong
 from bixel.games import MatrixRain
+from bixel.games import LightsOut
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -25,8 +26,9 @@ runner.add_game(lightbrite.lightbright)
 runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
 runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
+runner.add_game(LightsOut.LightsOut)
 
-runner.select_game(2)
+runner.select_game(5)
 
 try:
     runner.start()
