@@ -7,6 +7,11 @@ from . base import BaseGame
 from .. import colors
 
 
+start = time.time()
+color_map = colors.diagonal_matrix(16)
+print(time.time() - start)
+
+
 class LightsOut(BaseGame):
 
     def reset(self):
@@ -24,7 +29,7 @@ class LightsOut(BaseGame):
         for row in self.table:
             for col in row:
                 if col:
-                    self.matrix.set(x, y, colors.Red)
+                    self.matrix.set(x, y, color_map[y][x])
                 else:
                     self.matrix.set(x, y, colors.Off)
                 x = x + 1

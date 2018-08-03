@@ -342,6 +342,11 @@ def wheel_helper(pos, length, cycle_step):
     """Helper for wheel_color that distributes colors over length and allows shifting position"""
     return wheel_color(((pos * WHEEL_MAX // length) + cycle_step) % WHEEL_MAX)
 
+def diagonal_matrix(d):
+    hues = hue_gradient(0, 255, d+d-1)
+    colors = [hue2rgb_spectrum(h) for h in hues]
+    return [[colors[(x+y+(d*y))%d + ((d-1) if x >= (d-y)  else 0)] for x in range(d)] for y in range(d)]
+
 Off = (0, 0, 0)
 Blue = (0, 0, 255)
 Pink = (255, 192, 203)
