@@ -33,6 +33,7 @@
 
 from __future__ import division
 import colorsys
+import math
 
 
 def color_scale(color, level):
@@ -342,10 +343,22 @@ def wheel_helper(pos, length, cycle_step):
     """Helper for wheel_color that distributes colors over length and allows shifting position"""
     return wheel_color(((pos * WHEEL_MAX // length) + cycle_step) % WHEEL_MAX)
 
-def diagonal_matrix(d):
+def genVector(width, height, x_mult=1, y_mult=1):
+    """Generates a map of vector lengths from the center point to each coordinate
+    widht - width of matrix to generate
+    height - height of matrix to generate
+    x_mult - value to scale x-axis by
+    y_mult - value to scale y-axis by
+    """
+    centerX = (width - 1) / 2.0
+    centerY = (height - 1) / 2.0
+
+    return [[int(math.sqrt(math.pow(x - centerX, 2 * x_mult) + math.pow(y - centerY, 2 * y_mult))) for x in range(width)] for y in range(height)]
+
+
+def diagonal_matrix(d, offset=0):
     hues = hue_gradient(0, 255, d+d-1)
-    colors = [hue2rgb_spectrum(h) for h in hues]
-    return [[colors[(x+y+(d*y))%d + ((d-1) if x >= (d-y)  else 0)] for x in range(d)] for y in range(d)]
+    return [[hues[(x+y+(d*y))%d + ((d-1) if x >= (d-y)  else 0)] for x in range(d)] for y in range(d)]
 
 Off = (0, 0, 0)
 Blue = (0, 0, 255)

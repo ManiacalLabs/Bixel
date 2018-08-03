@@ -7,12 +7,11 @@ from . base import BaseGame
 from .. import colors
 
 
-start = time.time()
-color_map = colors.diagonal_matrix(16)
-print(time.time() - start)
-
-
 class LightsOut(BaseGame):
+
+    def setup(self):
+        self.hue_map = colors.diagonal_matrix(16)[::-1]
+        # self.hue_map = colors.genVector(16, 16)
 
     def reset(self):
         self.table = []
@@ -23,13 +22,18 @@ class LightsOut(BaseGame):
             for x in range(0, self.matrix.width):
                 self.table[y].append(random.randint(0, 1))
 
+        self._step = 0
+
     def show_table(self):
+
         x = 0
         y = 0
         for row in self.table:
             for col in row:
                 if col:
-                    self.matrix.set(x, y, color_map[y][x])
+                    c = colors.hue2rgb((self.hue_map[y][x] + self._step) % 255)
+                    # c = colors.hue_helper(self.hue_map[y][x], 16, self._step)
+                    self.matrix.set(x, y, c)
                 else:
                     self.matrix.set(x, y, colors.Off)
                 x = x + 1
@@ -52,3 +56,6 @@ class LightsOut(BaseGame):
         for x, y in self.buttons.int_high():
             self.toggle(x, y)
         self.show_table()
+        self._step += 1
+        if self._step > 255:
+            self._step = 0
