@@ -34,7 +34,7 @@ class BixelButtons(object):
             result[i] = np.concatenate([high, low], axis=0)
 
         # self.btns = np.rot90(result, 1)
-        self.btns = np.fliplr(result)
+        self.btns = np.flipud(np.fliplr(result))
 
         self._btns_pressed = tuple(map(tuple, np.transpose(self.btns.nonzero())))
         self._gen_btn_interrupts()
