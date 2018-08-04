@@ -12,6 +12,7 @@ clist = [
     colors.Fuchsia
 ]
 
+
 class lightbright(BaseGame):
     def reset(self):
         self.pegs = [[0 for y in range(16)] for x in range(16)]

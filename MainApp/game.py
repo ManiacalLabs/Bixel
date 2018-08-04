@@ -17,7 +17,7 @@ from bixel.games import LightsOut
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
 apa = APA102(pixels)
-apa.setMasterBrightness(32)
+# apa.setMasterBrightness(32)
 btns = BixelButtonSerial()
 
 runner = BixelRunner(btns, apa, matrix)
@@ -28,6 +28,8 @@ runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 runner.add_game(LightsOut.LightsOut)
 
+# runner.init_menu()
+
 runner.select_game(5)
 
 try:
@@ -36,3 +38,6 @@ except KeyboardInterrupt:
     matrix.clear()
     apa.update()
     sleep(1)
+finally:
+    # Always cleanup
+    runner.stop()
