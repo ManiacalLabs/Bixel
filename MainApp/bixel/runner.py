@@ -75,7 +75,7 @@ class BixelRunner(object):
             self.menu_game.frame()
             if self.menu_game.selected is not None:
                 self.matrix.clear()
-                self.game_id = self.menu_game.selected
+                self.select_game(self.menu_game.selected)
                 self.in_menu = False
                 print('Switching to game: {}'.format(self.games[self.game_id].__class__.__name__))
         else:
