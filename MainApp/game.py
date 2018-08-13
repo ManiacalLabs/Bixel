@@ -13,14 +13,15 @@ from bixel.games import GameOfLife
 from bixel.games import pong
 from bixel.games import MatrixRain
 from bixel.games import LightsOut
+from bixel.games import MissileCommand
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
 apa = APA102(pixels)
-# apa.setMasterBrightness(32)
 btns = BixelButtonSerial()
 
 runner = BixelRunner(btns, apa, matrix)
+runner.add_game(MissileCommand.MissileCommand)
 runner.add_game(circles.circles)
 runner.add_game(lightbrite.lightbright)
 runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 20})
@@ -28,9 +29,7 @@ runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 runner.add_game(LightsOut.LightsOut)
 
-# runner.init_menu()
-
-runner.select_game(4)
+runner.select_game(0)
 
 try:
     runner.start()
