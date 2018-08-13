@@ -33,7 +33,8 @@ class APA102(DriverBase):
         log.info('py-spidev speed @ %.1f MHz',
                     (float(self.spi.max_speed_hz) / 1000000.0))
 
-        self.gamma = [int(pow(float(i) / 255.0, 2.5) * 255.0 + 0.5) for i in range(256)]
+        # self.gamma = [int(pow(float(i) / 255.0, 2.5) * 255.0 + 0.5) for i in range(256)]
+        self.gamma = [int(pow(float(i) / 255.0, 1.0 / 0.45) * 255.0) for i in range(256)]
 
         # APA102/SK9822 requires latch bytes at the end)
         # Many thanks to this article for combined APA102/SK9822 protocol

@@ -3,7 +3,6 @@ from .. import colors
 
 
 clist = [
-    colors.Off,
     colors.Red,
     colors.Orange,
     colors.Yellow,
@@ -14,8 +13,12 @@ clist = [
 
 
 class GameMenu(BaseGame):
-    def setup(self, count):
-        self.count = count
+    def setup(self, runner):
+        self.runner = runner
+
+    @property
+    def count(self):
+        return len(self.runner.games)
 
     def reset(self):
         self.selected = None

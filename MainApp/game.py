@@ -23,14 +23,14 @@ btns = BixelButtonSerial()
 runner = BixelRunner(btns, apa, matrix)
 runner.add_game(circles.circles)
 runner.add_game(lightbrite.lightbright)
-runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 15})
+runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 20})
 runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 runner.add_game(LightsOut.LightsOut)
 
 # runner.init_menu()
 
-runner.select_game(5)
+runner.select_game(4)
 
 try:
     runner.start()

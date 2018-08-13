@@ -3,11 +3,11 @@ from gpiozero import Button
 from . games.GameMenu import GameMenu
 
 
-BRIGHT_LEVELS = [15, 39, 63, 87] #, 111, 135, 159, 183, 207, 231, 255]
+BRIGHT_LEVELS = [15, 39, 63, 87, 111, 135, 159, 183, 207, 231, 255]
 
 
 class BixelRunner(object):
-    def __init__(self, buttons, driver, matrix, delay=33, default_bright=0):
+    def __init__(self, buttons, driver, matrix, delay=33, default_bright=2):
         self.buttons = buttons
         self.driver = driver
         self.matrix = matrix
@@ -28,17 +28,20 @@ class BixelRunner(object):
         self.btn_menu.when_pressed = self.show_menu
 
         self.in_menu = False
-
-    # def init_menu(self):
-    #     self.add_game(GameMenu, args=(len(self.games),))
+        self.menu_game = GameMenu(self.buttons.buttons, self.matrix)
+        self.menu_game.setup(self)
+        self.menu_game.reset()
 
     def show_menu(self):
-        print('MENU')
+        print('Entering Menu')
+        self.menu_game.reset()
+        self.in_menu = True
 
     def set_brightness(self, val):
         if val >= len(BRIGHT_LEVELS):
             print('Invalid Value')
         else:
+            print('Brightness: {}/{}'.format(val+1, len(BRIGHT_LEVELS)))
             self.driver.setMasterBrightness(BRIGHT_LEVELS[val])
 
     def brightness_pressed(self):
@@ -68,5 +71,13 @@ class BixelRunner(object):
 
     def _run(self):
         self.buttons.get()
-        self.games[self.game_id].frame()
+        if self.in_menu:
+            self.menu_game.frame()
+            if self.menu_game.selected is not None:
+                self.matrix.clear()
+                self.game_id = self.menu_game.selected
+                self.in_menu = False
+                print('Switching to game: {}'.format(self.games[self.game_id].__class__.__name__))
+        else:
+            self.games[self.game_id].frame()
         self.driver.update()

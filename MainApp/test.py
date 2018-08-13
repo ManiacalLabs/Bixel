@@ -24,13 +24,13 @@ hue_map = colors.diagonal_matrix(16)[::-1]
 
 
 try:
-    # for step in range(256):
-    #     for x in range(16):
-    #         for y in range(16):
-    #             c = colors.hue2rgb((hue_map[y][x] + step) % 255)
-    #             matrix.set(x, y, c)
-    #     apa.update()
-    #     sleep(0.01)
+    for step in range(256):
+        for x in range(16):
+            for y in range(16):
+                c = colors.hue2rgb((hue_map[y][x] + step) % 255)
+                matrix.set(x, y, c)
+        apa.update()
+        sleep(0.01)
 
     for s in range(0, 256, 16):
         pixels.clear()
