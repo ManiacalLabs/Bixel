@@ -10,7 +10,7 @@ class MissileCommand(BaseGame):
         self._frames_per_missle_move = 15
 
     def reset(self):
-        self.buildings = [randint(0, 3) for _ in range(16)]
+        self.buildings = [randint(1, 4) for _ in range(16)]
         self.missiles = []
         self.explosions = []
         self._step = 0
@@ -81,7 +81,7 @@ class MissileCommand(BaseGame):
                 self._check_missile_press()
                 self._draw_explosions()
 
-                if randint(0, 40) == 0:
+                if randint(0, int(sum(self.buildings) * 2)) == 0:
                     self.missiles.append((randint(0, 15), -1))
 
                 self._step += 1

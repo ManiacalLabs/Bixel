@@ -5,7 +5,7 @@ from .. import colors
 clist = [
     colors.Off,
     colors.Red,
-    colors.Orange,
+    colors.DarkOrange,
     colors.Yellow,
     colors.Green,
     colors.Blue,
