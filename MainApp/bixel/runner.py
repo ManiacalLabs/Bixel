@@ -41,7 +41,7 @@ class BixelRunner(object):
         if val >= len(BRIGHT_LEVELS):
             print('Invalid Value')
         else:
-            print('Brightness: {}/{}'.format(val+1, len(BRIGHT_LEVELS)))
+            print('Brightness: {}/{}'.format(val + 1, len(BRIGHT_LEVELS)))
             self.driver.setMasterBrightness(BRIGHT_LEVELS[val])
 
     def brightness_pressed(self):
@@ -58,6 +58,7 @@ class BixelRunner(object):
         return len(self.games) - 1
 
     def select_game(self, index):
+        print('select: {}'.format(index))
         if index >= 0 and index < len(self.games):
             self.game_id = index
             self.games[self.game_id].reset()

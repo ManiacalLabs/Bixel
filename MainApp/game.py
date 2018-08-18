@@ -14,6 +14,7 @@ from bixel.games import pong
 from bixel.games import MatrixRain
 from bixel.games import LightsOut
 from bixel.games import MissileCommand
+from bixel.games import dejeweled
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -21,6 +22,7 @@ apa = APA102(pixels)
 btns = BixelButtonSerial()
 
 runner = BixelRunner(btns, apa, matrix)
+runner.add_game(dejeweled.dejeweled)
 runner.add_game(MissileCommand.MissileCommand)
 runner.add_game(circles.circles)
 runner.add_game(lightbrite.lightbright)
