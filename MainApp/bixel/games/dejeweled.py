@@ -4,12 +4,13 @@ from random import randint
 
 
 clist = [
-    colors.Off,
+    colors.Off,  # no jewel
     colors.Red,
     colors.DarkOrange,
     colors.Green,
     colors.Blue,
-    colors.Fuchsia
+    colors.Fuchsia,
+    colors.Off  # highlight
 ]
 
 
@@ -22,7 +23,7 @@ class Jewels:
         self._reset_visited()
 
     def _new_jewel(self):
-        return randint(1, len(clist) - 1)
+        return randint(1, len(clist) - 2)
 
     def _reset_visited(self):
         self.__visited = [[False for x in range(16)] for y in range(16)]
@@ -38,13 +39,20 @@ class Jewels:
         self.matrix[y][x] = v
 
     def delete(self, x, y):
+        if self.get(x, y) == 0:
+            return False
         for i in range(y, 0, -1):
             self.set(x, i, self.get(x, i - 1))
         self.set(x, 0, 0)
+        return True
 
     def delete_group(self, group):
         for x, y in group:
             self.delete(x, y)
+
+    def highlight_group(self, group):
+        for x, y in group:
+            self.set(x, y, len(clist) - 1)
 
     def _find_group(self, x, y):
         if self.__visited[y][x]:
@@ -72,8 +80,13 @@ class Jewels:
             for y in range(16):
                 group = self._find_group(x, y)
                 if len(group) >= 4:
+                    # ensure ordered by y asc so they are deleted correctly
+                    group = sorted(group, key=lambda coords: coords[1])
                     groups.append(group)
         return groups
+
+    def check_empty(self):
+        return sum([sum(row) for row in self.matrix]) == 0
 
 
 class dejeweled(BaseGame):
@@ -82,27 +95,39 @@ class dejeweled(BaseGame):
         self.deleted = False
         self.groups = []
         self.clearing_groups = False
+        self.highlighted = False
 
         self._step = 0
+        self.moves = 0
 
     def frame(self):
-        if self.clearing_groups:
-            if self._step % 15 == 0:
-                group = self.groups[0]
-                self.groups = self.groups[1:]
-                if not self.groups:
-                    self.clearing_groups = False
-                self.jewels.delete_group(group)
+        if self.jewels.check_empty():
+            print('Empty')
+            for i in range(self.moves):
+                if i < 256:
+                    self.matrix.pixels.set(i, colors.Red)
         else:
-            self.groups = self.jewels.find_groups()
             if self.groups:
-                self.clearing_groups = True
+                if self._step % 15 == 0:
+                    group = self.groups[0]
+                    self.groups = self.groups[1:]
+                    if not self.highlighted:
+                        self.highlighted = True
+                        self.jewels.highlight_group(group)
+                    else:
+                        self.highlighted = False
+                        self.jewels.delete_group(group)
             else:
                 for x, y in self.buttons.int_high():
-                    self.jewels.delete(x, y)
+                    if self.jewels.delete(x, y):
+                        self.moves += 1
+                        print(self.moves)
 
-        for y in range(16):
-            for x in range(16):
-                self.matrix.set(x, y, clist[self.jewels.get(x, y)])
+            if self._step % 15 == 0:
+                self.groups = self.jewels.find_groups()
+
+            for y in range(16):
+                for x in range(16):
+                    self.matrix.set(x, y, clist[self.jewels.get(x, y)])
 
         self._step += 1

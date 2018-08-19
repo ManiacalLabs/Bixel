@@ -21,19 +21,19 @@ matrix = Matrix(pixels, coords)
 apa = APA102(pixels)
 btns = BixelButtonSerial()
 
-runner = BixelRunner(btns, apa, matrix)
-runner.add_game(dejeweled.dejeweled)
-runner.add_game(MissileCommand.MissileCommand)
-runner.add_game(circles.circles)
-runner.add_game(lightbrite.lightbright)
-runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 30})
-runner.add_game(pong.pong)
-runner.add_game(MatrixRain.MatrixRainBow)
-runner.add_game(LightsOut.LightsOut)
-
-runner.select_game(0)
-
 try:
+    runner = BixelRunner(btns, apa, matrix)
+    runner.add_game(dejeweled.dejeweled)
+    runner.add_game(MissileCommand.MissileCommand)
+    runner.add_game(circles.circles)
+    runner.add_game(lightbrite.lightbright)
+    runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 30})
+    runner.add_game(pong.pong)
+    runner.add_game(MatrixRain.MatrixRainBow)
+    runner.add_game(LightsOut.LightsOut)
+
+    runner.select_game(0)
+
     runner.start()
 except KeyboardInterrupt:
     matrix.clear()
