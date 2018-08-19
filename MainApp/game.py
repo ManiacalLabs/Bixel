@@ -36,9 +36,10 @@ try:
 
     runner.start()
 except KeyboardInterrupt:
+    pass
+finally:
+    # Always cleanup
     matrix.clear()
     apa.update()
     sleep(1)
-finally:
-    # Always cleanup
     runner.stop()

@@ -10,8 +10,10 @@ clist = [
     colors.Green,
     colors.Blue,
     colors.Fuchsia,
-    colors.Off  # highlight
+    colors.White  # highlight
 ]
+
+HIGHLIGHT = len(clist) - 1
 
 
 class Jewels:
@@ -46,13 +48,26 @@ class Jewels:
         self.set(x, 0, 0)
         return True
 
+    def highlight(self, x, y):
+        if self.get(x, y) == 0:
+            return False
+        self.set(x, y, HIGHLIGHT)
+        return True
+
     def delete_group(self, group):
         for x, y in group:
-            self.delete(x, y)
+            # self.delete(x, y)
+            self.set(x, y, HIGHLIGHT)
+
+    def drop_highlighted(self):
+        for y in range(1, 16, 1):
+            for x in range(16):
+                if self.get(x, y) == HIGHLIGHT:
+                    self.delete(x, y)
 
     def highlight_group(self, group):
         for x, y in group:
-            self.set(x, y, len(clist) - 1)
+            self.set(x, y, HIGHLIGHT)
 
     def _find_group(self, x, y):
         if self.__visited[y][x]:
@@ -102,29 +117,32 @@ class dejeweled(BaseGame):
 
     def frame(self):
         if self.jewels.check_empty():
-            print('Empty')
             for i in range(self.moves):
                 if i < 256:
                     self.matrix.pixels.set(i, colors.Red)
         else:
             if self.groups:
                 if self._step % 15 == 0:
-                    group = self.groups[0]
-                    self.groups = self.groups[1:]
                     if not self.highlighted:
                         self.highlighted = True
-                        self.jewels.highlight_group(group)
+                        for group in self.groups:
+                            self.jewels.highlight_group(group)
                     else:
                         self.highlighted = False
-                        self.jewels.delete_group(group)
+                        self.jewels.drop_highlighted()
+                        self.groups = []
             else:
+                pressed = False
                 for x, y in self.buttons.int_high():
-                    if self.jewels.delete(x, y):
-                        self.moves += 1
-                        print(self.moves)
+                    if self.jewels.highlight(x, y):
+                        pressed = True
+                if pressed:
+                    self.moves += 1
+                    self.jewels.drop_highlighted()
+                    # print(self.moves)
 
-            if self._step % 15 == 0:
-                self.groups = self.jewels.find_groups()
+                if self._step % 15 == 0:
+                    self.groups = self.jewels.find_groups()
 
             for y in range(16):
                 for x in range(16):
