@@ -31,7 +31,7 @@ runner.add_game(pong.pong)
 runner.add_game(MatrixRain.MatrixRainBow)
 runner.add_game(LightsOut.LightsOut)
 
-runner.select_game(1)
+runner.select_game(0)
 
 try:
     runner.start()

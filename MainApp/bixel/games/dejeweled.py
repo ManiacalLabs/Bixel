@@ -55,7 +55,7 @@ class Jewels:
         if val == 0:
             return []
         if x < 15 and self.get(x + 1, y) == val:
-            res.extend(self._find_group(x+1, y))
+            res.extend(self._find_group(x + 1, y))
         if x > 0 and self.get(x - 1, y) == val:
             res.extend(self._find_group(x - 1, y))
         if y < 15 and self.get(x, y + 1) == val:
@@ -68,15 +68,13 @@ class Jewels:
     def find_groups(self):
         self._reset_visited()
         groups = []
-        try:
-            for x in range(16):
-                for y in range(16):
-                    group = self._find_group(x, y)
-                    if len(group) >= 4:
-                        groups.append(group)
-        except:
-            raise
+        for x in range(16):
+            for y in range(16):
+                group = self._find_group(x, y)
+                if len(group) >= 4:
+                    groups.append(group)
         return groups
+
 
 class dejeweled(BaseGame):
     def reset(self):
