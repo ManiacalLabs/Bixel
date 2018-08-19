@@ -14,7 +14,10 @@ class MissileCommand(BaseGame):
         self.missiles = []
         self.explosions = []
         self._step = 0
+        self._exploded_missiles = 0
         self.end_game = False
+
+        # self.missiles.append((randint(0, 15), -5))
 
     def _draw_missile(self, x, y):
         self.matrix.set(x, y, colors.Red)
@@ -39,6 +42,7 @@ class MissileCommand(BaseGame):
         res = []
         for m in self.missiles:
             if self.buttons.get(m[0], m[1]):
+                self._exploded_missiles += 1
                 self._add_explosion(m[0], m[1], colors.Fuchsia)
             else:
                 res.append(m)
@@ -81,7 +85,7 @@ class MissileCommand(BaseGame):
                 self._check_missile_press()
                 self._draw_explosions()
 
-                if randint(0, int(sum(self.buildings) * 2)) == 0:
+                if randint(0, int(sum(self.buildings) * 2)) <= int(0 + (self._exploded_missiles / 8)):
                     self.missiles.append((randint(0, 15), -1))
 
                 self._step += 1
