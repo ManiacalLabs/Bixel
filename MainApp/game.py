@@ -15,6 +15,7 @@ from bixel.games import MatrixRain
 from bixel.games import LightsOut
 from bixel.games import MissileCommand
 from bixel.games import dejeweled
+from bixel.games import JezzBall
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -23,6 +24,7 @@ btns = BixelButtonSerial()
 
 try:
     runner = BixelRunner(btns, apa, matrix)
+    runner.add_game(JezzBall.JezzBall)
     runner.add_game(dejeweled.dejeweled)
     runner.add_game(MissileCommand.MissileCommand)
     runner.add_game(circles.circles)

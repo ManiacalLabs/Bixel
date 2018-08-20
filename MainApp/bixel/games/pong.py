@@ -5,14 +5,13 @@ from random import randint, choice
 
 class pong(BaseGame):
     def setup(self, frames_per_step=4):
-        self.circles = []
         self.frames_per_step = frames_per_step
 
     def reset(self):
         self.x = randint(0, 15)
         self.y = randint(0, 15)
-        self.x_dir = choice([-1,1])
-        self.y_dir = choice([-1,1])
+        self.x_dir = choice([-1, 1])
+        self.y_dir = choice([-1, 1])
         self._step = 0
 
     def frame(self):
