@@ -7,6 +7,7 @@ from bixel.coords import coords
 from bixel.serial_btns import BixelButtonSerial
 
 # games
+from bixel.games import pixel_test
 from bixel.games import circles
 from bixel.games import lightbrite
 from bixel.games import GameOfLife
@@ -24,6 +25,7 @@ btns = BixelButtonSerial()
 
 try:
     runner = BixelRunner(btns, apa, matrix)
+    runner.add_game(pixel_test.pixel_test)
     runner.add_game(JezzBall.JezzBall)
     runner.add_game(dejeweled.dejeweled)
     runner.add_game(MissileCommand.MissileCommand)
