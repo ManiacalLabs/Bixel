@@ -36,7 +36,7 @@ try:
     runner.add_game(MatrixRain.MatrixRainBow)
     runner.add_game(LightsOut.LightsOut)
 
-    runner.select_game(0)
+    runner.select_game(1)
 
     runner.start()
 except KeyboardInterrupt:
