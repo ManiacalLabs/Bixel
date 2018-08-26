@@ -1,5 +1,6 @@
 from . base import BaseGame
 from .. import colors
+from .. import font
 from random import randint
 
 
@@ -145,9 +146,13 @@ class dejeweled(BaseGame):
 
     def frame(self):
         if self.jewels.check_empty():
-            for i in range(self.moves):
-                if i < 256:
-                    self.matrix.pixels.set(i, colors.Red)
+            score = '{}'.format(self.moves)
+            w, h = font.str_dim(score)
+            x = (16 - w) // 2
+            self.matrix.drawText(score, x=(x - 1), y=4, color=colors.Blue)
+
+            if self.buttons.int_high():
+                self.reset()
         else:
             if self.groups:
                 if self._step % 15 == 0:
@@ -162,7 +167,6 @@ class dejeweled(BaseGame):
             elif self.empty_cols:
                 if self._step % 15 == 0:
                     if not self.highlighted:
-                        print(self.empty_cols)
                         self.highlighted = True
                         for col in self.empty_cols:
                             self.jewels.highlight_col(col)
