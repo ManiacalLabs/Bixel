@@ -103,12 +103,40 @@ class Jewels:
     def check_empty(self):
         return sum([sum(row) for row in self.matrix]) == 0
 
+    def find_empty_cols(self):
+        res = []
+        for x in range(16):
+            if sum([self.get(x, y) for y in range(16)]) == 0:
+                res.append(x)
+
+        cont = []
+        for i in range(15, -1, -1):
+            if i not in res:
+                break
+            else:
+                cont.append(i)
+
+        return list(set(res) - set(cont))
+
+    def highlight_col(self, col):
+        for y in range(16):
+            self.set(col, y, HIGHLIGHT)
+
+    def delete_col(self, col):
+        for x in range(col, 15, 1):
+            for y in range(16):
+                self.set(x, y, self.get(x + 1, y))
+
+        for y in range(16):
+            self.set(15, y, 0)
+
 
 class dejeweled(BaseGame):
     def reset(self):
         self.jewels = Jewels()
         self.deleted = False
         self.groups = []
+        self.empty_cols = []
         self.clearing_groups = False
         self.highlighted = False
 
@@ -131,6 +159,18 @@ class dejeweled(BaseGame):
                         self.highlighted = False
                         self.jewels.drop_highlighted()
                         self.groups = []
+            elif self.empty_cols:
+                if self._step % 15 == 0:
+                    if not self.highlighted:
+                        print(self.empty_cols)
+                        self.highlighted = True
+                        for col in self.empty_cols:
+                            self.jewels.highlight_col(col)
+                    else:
+                        self.highlighted = False
+                        for col in reversed(self.empty_cols):
+                            self.jewels.delete_col(col)
+                        self.empty_cols = []
             else:
                 pressed = False
                 for x, y in self.buttons.int_high():
@@ -143,6 +183,7 @@ class dejeweled(BaseGame):
 
                 if self._step % 15 == 0:
                     self.groups = self.jewels.find_groups()
+                    self.empty_cols = self.jewels.find_empty_cols()
 
             for y in range(16):
                 for x in range(16):
