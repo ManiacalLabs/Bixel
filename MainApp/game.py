@@ -32,8 +32,8 @@ try:
     runner.add_game(circles.circles)
     runner.add_game(lightbrite.lightbright)
     runner.add_game(GameOfLife.GameOfLife, kwargs={'frames_per_step': 30})
-    runner.add_game(pong.pong)
-    runner.add_game(MatrixRain.MatrixRainBow)
+    # runner.add_game(pong.pong)
+    # runner.add_game(MatrixRain.MatrixRainBow)
     runner.add_game(LightsOut.LightsOut)
 
     runner.select_game(1)
