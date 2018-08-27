@@ -3,7 +3,6 @@ from .. import colors
 from random import randint
 
 
-
 class MissileCommand(BaseGame):
     def setup(self):
         self._tail = 4

@@ -17,6 +17,7 @@ from bixel.games import LightsOut
 from bixel.games import MissileCommand
 from bixel.games import dejeweled
 from bixel.games import JezzBall
+from bixel.games import Tanks
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -25,7 +26,7 @@ btns = BixelButtonSerial()
 
 try:
     runner = BixelRunner(btns, apa, matrix)
-    runner.add_game(pixel_test.pixel_test)
+    runner.add_game(Tanks.Tanks)
     runner.add_game(JezzBall.JezzBall)
     runner.add_game(dejeweled.dejeweled)
     runner.add_game(MissileCommand.MissileCommand)
@@ -35,8 +36,9 @@ try:
     # runner.add_game(pong.pong)
     # runner.add_game(MatrixRain.MatrixRainBow)
     runner.add_game(LightsOut.LightsOut)
+    runner.add_game(pixel_test.pixel_test)
 
-    runner.select_game(1)
+    runner.select_game(0)
 
     runner.start()
 except KeyboardInterrupt:
