@@ -26,9 +26,9 @@ btns = BixelButtonSerial()
 
 try:
     runner = BixelRunner(btns, apa, matrix)
-    runner.add_game(Tanks.Tanks)
-    runner.add_game(JezzBall.JezzBall)
     runner.add_game(dejeweled.dejeweled)
+    # runner.add_game(Tanks.Tanks)
+    runner.add_game(JezzBall.JezzBall)
     runner.add_game(MissileCommand.MissileCommand)
     runner.add_game(circles.circles)
     runner.add_game(lightbrite.lightbright)
