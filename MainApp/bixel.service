@@ -1,0 +1,11 @@
+[Unit]
+Description=Bixel Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/.virtualenvs/bixel/bin/python /home/pi/Bixel/MainApp/game.py
+ExecStop=/usr/bin/sudo /usr/bin/pkill -2 -f game.py
+
+[Install]
+WantedBy=multi-user.target
