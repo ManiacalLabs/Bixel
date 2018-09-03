@@ -70,8 +70,7 @@ class gravity(BaseGame):
         self.matrix.clear()
 
         for x, y in self.buttons.int_high():
-            if y == 0:
-                self.drops.append((x, y))
+            self.drops.append((x, 0))
 
         for i in range(len(self.targets)):
             t = self.targets[i]
@@ -84,7 +83,7 @@ class gravity(BaseGame):
             x, y, d = self.blocks[i]
             self._drawBlock(x, y)
 
-            if self._step % 3 == 0:
+            if self._step % 4 == 0:
                 if d == 1 and x == 14:
                     d = -1
                 elif d == -1 and x == 1:
