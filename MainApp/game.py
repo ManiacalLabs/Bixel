@@ -19,6 +19,7 @@ from bixel.games import dejeweled
 from bixel.games import JezzBall
 from bixel.games import Tanks
 from bixel.games import gravity
+from bixel.games import demo
 
 pixels = Pixels(256)
 matrix = Matrix(pixels, coords)
@@ -27,6 +28,7 @@ btns = BixelButtonSerial()
 
 try:
     runner = BixelRunner(btns, apa, matrix)
+    runner.add_game(demo.demo)
     runner.add_game(gravity.gravity)
     runner.add_game(dejeweled.dejeweled)
     # runner.add_game(Tanks.Tanks)
